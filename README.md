@@ -7,4 +7,23 @@ Se evaluo utilizar el Wineframe de las siguientes URLs:
 
 * MercadoLibre Argentina 
 
-* Naldo.com 
+* Naldo.com
+
+
+
+
+
+
+
+
+
+
+
+# Aldana Nuñez 
+04/12/23
+Podemos usar los wireframes de:
+* www.compumundo.com.ar
+
+* www.kavak.com/ar/usados
+
+* www.grid.com.ar
