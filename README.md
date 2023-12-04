@@ -9,7 +9,16 @@ Se evaluo utilizar el Wineframe de las siguientes URLs:
 
 * Naldo.com
 
+# Ivan Delgadillo
+04/12/23
 
+Se Evaluo utilizar el Winframe de las siguientes URLs:
+
+* www.sodimac.com.ar
+
+* www.musimundo.com
+
+* www.clubgrido.com.ar
 
 
 
