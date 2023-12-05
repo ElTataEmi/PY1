@@ -20,7 +20,16 @@ Se Evaluo utilizar el Winframe de las siguientes URLs:
 
 * www.clubgrido.com.ar
 
+# Jose Rodriguez
+04/12/23
 
+sugiero  utilizar los Wineframes de las siguientes páginas
+
+* www.Bringeri.com.ar 
+
+* www.pardo.com.ar
+
+* www.Cetrogar.com.ar
 
 
 
