@@ -31,6 +31,7 @@ Podemos usar los wireframes de:
 
 # Andres Flores 
 
-Podemos usar los wirefram7es de :
+Podemos usar los wireframes de :
 * www.tiendamia.com
 * www.alibaba.com
+*www.ebay.com7
