@@ -43,4 +43,4 @@ Podemos usar los wireframes de:
 Podemos usar los wireframes de :
 * www.tiendamia.com
 * www.alibaba.com
-* www.ebay.com7
+*  www.ebay.com
