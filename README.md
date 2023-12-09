@@ -20,7 +20,16 @@ Se Evaluo utilizar el Winframe de las siguientes URLs:
 
 * www.clubgrido.com.ar
 
+# José Rodriguez
+04/12/23
 
+sugiero  utilizar los Wineframes de las siguientes páginas
+
+* www.Bringeri.com.ar 
+
+* www.pardo.com.ar
+
+* www.Cetrogar.com.ar
 
 
 
@@ -30,12 +39,8 @@ Se Evaluo utilizar el Winframe de las siguientes URLs:
 
 # Aldana Nuñez 
 04/12/23
-Podemos usar los wireframes de:
-* www.compumundo.com.ar
-
-* www.kavak.com/ar/usados
-
-* www.grid.com.ar
+https://www.almacendepizzas.com
+Yo elegí esta página por el diseño estético y la organización del carrito.
 
 
 # Andres Flores 
