@@ -23,7 +23,14 @@ Se evaluo utilizar el Wineframe de las siguientes URLs:
 
 * MercadoLibre Argentina 
 
-* Naldo.com
+* pizzasya.com.ar
+
+Se tomo la dea de ua pizzeria, por la matices de colores y mecanismos de pago y envios.
+
+
+
+
+
 
 # Ivan Delgadillo
 04/12/23
