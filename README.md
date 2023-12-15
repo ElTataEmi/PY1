@@ -1,3 +1,19 @@
+Tema del Sitio - Pizzería:
+
+Estilo Visual: Colores cálidos, fotos de pizzas frescas.
+Diseño Navegacional: Interfaz fácil para explorar menú y hacer pedidos.
+Contenido Descriptivo: Detalles de pizzas
+
+Funcionalidades Especiales:  reseñas de clientes.
+
+Público Objetivo:
+
+Amantes de la buena comida, jóvenes profesionales, familias.
+Busca atraer a quienes aprecian la autenticidad italiana.
+Adaptable a diversas ocasiones y tendencias actuales.
+
+
+
 # Emiliano Luis Barrios 
 04/12/23
 
