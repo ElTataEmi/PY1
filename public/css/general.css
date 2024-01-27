@@ -1,0 +1,16 @@
+:root {
+    --frijole: 'Frijole', sans-serif;
+
+    --rojo: #A60D0D;    
+    --gris: #D9D9D9;
+
+    
+};
+
+*{
+    font-family: var(--Frijole);
+    margin: 0px;
+}
+body{
+    margin: auto;
+}

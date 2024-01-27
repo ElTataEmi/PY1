@@ -1,0 +1,43 @@
+.headerPrincipal{
+background: var(--rojo);
+height: 198px;
+}
+
+.headerPrincipal div.logoPrincipal {
+
+}
+
+.headerPrincipal img{
+
+height: 100px;
+}
+
+.headerPrincipal div.conteiner{display: flex;flex-direction: row-reverse;}
+
+.headerPrincipal h1{
+
+text-align: center;
+
+font-family: var(--frijole);
+
+color: var(--gris);
+
+font-size: -webkit-xxx-large;
+}
+
+.headerPrincipal nav.opcionPrincipal{
+
+}
+
+.headerPrincipal .opcionPrincipal ul{
+
+}
+
+.headerPrincipal .opcionPrincipal ul li{
+
+}
+
+.headerPrincipal .opcionPrincipal ul li a{
+
+}
+
