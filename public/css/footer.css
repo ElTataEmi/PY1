@@ -1,0 +1,77 @@
+/*Celular*/
+@media screen and (max-width: 360px) {
+.footer{
+
+background: var(--rojo);
+
+height: 198px;
+}
+
+.footer .info-footer{
+
+}
+
+.footer .info-footer ul{
+
+}
+
+.footer .info-footer ul li{
+    
+}
+
+.footer .info-footer ul li a{
+    
+}
+}
+
+/*Tablet*/
+@media screen and (min-width: 361px) {
+    .footer{
+    
+    background: var(--rojo);
+    
+    height: 198px;
+    }
+    
+    .footer .info-footer{
+    
+    }
+    
+    .footer .info-footer ul{
+    
+    }
+    
+    .footer .info-footer ul li{
+        
+    }
+    
+    .footer .info-footer ul li a{
+        
+    }
+    }
+    
+/*Laptop*/
+@media screen and (min-width: 769px) {
+    .footer{
+    
+    background: var(--rojo);
+    
+    height: 198px;
+    }
+    
+    .footer .info-footer{
+    
+    }
+    
+    .footer .info-footer ul{
+    
+    }
+    
+    .footer .info-footer ul li{
+        
+    }
+    
+    .footer .info-footer ul li a{
+        
+    }
+    }

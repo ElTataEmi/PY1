@@ -1,6 +1,10 @@
+/*Celular*/
+@media screen and (max-width: 360px) {
 .headerPrincipal{
-background: var(--rojo);
-height: 198px;
+
+background: var(--rojo);
+
+height: 110px;
 }
 
 .headerPrincipal div.logoPrincipal {
@@ -9,12 +13,12 @@
 
 .headerPrincipal img{
 
-height: 100px;
+height: 25px;
 }
 
 .headerPrincipal div.conteiner{display: flex;flex-direction: row-reverse;}
 
-.headerPrincipal h1{
+.headerPrincipal h5{
 
 text-align: center;
 
@@ -22,7 +26,7 @@ font-family: var(--frijole);
 
 color: var(--gris);
 
-font-size: -webkit-xxx-large;
+/* font-size: smaller; */
 }
 
 .headerPrincipal nav.opcionPrincipal{
@@ -40,4 +44,100 @@ font-size: -webkit-xxx-large;
 .headerPrincipal .opcionPrincipal ul li a{
 
 }
+}
 
+/*Tablet*/
+@media screen and (min-width: 361px) {
+    .headerPrincipal{
+    
+    background: var(--rojo);
+    
+    height: 198px;
+    }
+    
+    .headerPrincipal div.logoPrincipal {
+    
+    }
+    
+    .headerPrincipal img{
+    
+    height: 100px;
+    }
+    
+    .headerPrincipal div.conteiner{display: flex;flex-direction: row-reverse;}
+    
+    .headerPrincipal h1{
+    
+    text-align: center;
+    
+    font-family: var(--frijole);
+    
+    color: var(--gris);
+    
+    font-size: -webkit-xxx-large;
+    }
+    
+    .headerPrincipal nav.opcionPrincipal{
+    
+    }
+    
+    .headerPrincipal .opcionPrincipal ul{
+    
+    }
+    
+    .headerPrincipal .opcionPrincipal ul li{
+    
+    }
+    
+    .headerPrincipal .opcionPrincipal ul li a{
+    
+    }
+    }
+
+/*Celular*/
+@media screen and (min-width: 769px) {
+    .headerPrincipal{
+    
+    background: var(--rojo);
+    
+    height: 198px;
+    }
+    
+    .headerPrincipal div.logoPrincipal {
+    
+    }
+    
+    .headerPrincipal img{
+    
+    height: 100px;
+    }
+    
+    .headerPrincipal div.conteiner{display: flex;flex-direction: row-reverse;}
+    
+    .headerPrincipal h1{
+    
+    text-align: center;
+    
+    font-family: var(--frijole);
+    
+    color: var(--gris);
+    
+    font-size: -webkit-xxx-large;
+    }
+    
+    .headerPrincipal nav.opcionPrincipal{
+    
+    }
+    
+    .headerPrincipal .opcionPrincipal ul{
+    
+    }
+    
+    .headerPrincipal .opcionPrincipal ul li{
+    
+    }
+    
+    .headerPrincipal .opcionPrincipal ul li a{
+    
+    }
+    }
