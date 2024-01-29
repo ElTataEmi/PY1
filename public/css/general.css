@@ -17,6 +17,18 @@
 
     
 };
+/* Colores carrito y login*/
+:root{
+    --crudo: #B2A394;
+    --green: #0B6909;
+    --barro: #2D2924;
+    --frío: #364F5E;
+    --login-google: #695DF8;
+    --login-facebook: #152086;
+    --login-ig: #0B6909;
+    --login-wp: #333560;
+
+}
 
 *{
     font-family: var(--Frijole);
