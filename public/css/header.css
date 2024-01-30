@@ -1,3 +1,61 @@
+
+
+/*Celular andres*/
+@media screen and (max-width: 360px) {
+
+    .headerPrincipal {
+
+        background: var(--rojo);
+        
+        height: 93px;
+        
+        display: flex;
+        
+        justify-content: space-around;
+        }
+        
+        .headerPrincipal img {
+        
+            height: 88px;
+        }
+        
+        .headerPrincipal div.conteiner {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        
+        .headerPrincipal h1 {
+        text-align: center;
+        font-family: var(--frijole);
+        color: var(--gris);
+        font-size: medium;
+        /* display: none; */
+        width: 68px;
+        }
+        .headerPrincipal .burger-menu {
+            /* border: solid; */
+            margin-left: 32%;
+            padding-top: 35px;
+        }
+        .headerPrincipal .burger-menu i {
+            font-size: 51px;
+        }
+        
+        
+        .headerPrincipal nav.opcionPrincipal {
+        
+            display: none;
+        }
+        
+        .headerPrincipal .opcionPrincipal ul {}
+        
+        .headerPrincipal .opcionPrincipal ul li {}
+        
+        .headerPrincipal .opcionPrincipal ul li a {}
+
+}
+
+
 /*Celular*/
 @media screen and (max-width: 360px) {
 .headerPrincipal{
@@ -12,20 +70,19 @@ height: 128px;
 }
 
 .headerPrincipal img{
-
-height: 61px;
+height: 88px;
+margin: auto;
+margin-top: 18px;
 }
 
-.headerPrincipal div.conteiner{display: flex;flex-direction: column-reverse;}
+.headerPrincipal div.conteiner{display: flex;flex-direction: column-reverse;font-family: var(--frijole);color: var();}
 
 .headerPrincipal h5{
-
-text-align: ce
-font-family: var(--frijole)
-
-color: var(--gris);
-
-/* font-size: smaller; */
+text-align: center;
+/* font-size: smaller; */
+font-family: var(--frijole);
+color: var(--gris);
+display: none;
 }
 
 .headerPrincipal nav.opcionPrincipal{
@@ -93,7 +150,7 @@ color: var(--gris);
     }
     }
 
-/*Celular*/
+/*laptop*/
 @media screen and (min-width: 769px) {
     .headerPrincipal{
     
@@ -140,3 +197,5 @@ color: var(--gris);
     
     }
     }
+
+

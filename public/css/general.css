@@ -33,6 +33,9 @@
 *{
     font-family: var(--Frijole);
     margin: 0px;
+    color: var(--negro);
+    font-size: 17px;
+    /* display: flex; */
 }
 body{
     margin: auto;
