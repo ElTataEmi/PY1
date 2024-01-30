@@ -1,8 +1,10 @@
 /*Celular*/
 @media screen and (max-width: 360px) {
 .headerPrincipal{
-background: var(--rojo);
-height: 128px;
+
+background: var(--rojo);
+
+height: 128px;
 }
 
 .headerPrincipal div.logoPrincipal {
@@ -10,16 +12,20 @@
 }
 
 .headerPrincipal img{
-height: 61px;
+
+height: 61px;
 }
 
 .headerPrincipal div.conteiner{display: flex;flex-direction: column-reverse;}
 
 .headerPrincipal h5{
-text-align: center;
-font-family: var(--frijole);
-color: var(--gris);
-/* font-size: smaller; */
+
+text-align: ce
+font-family: var(--frijole)
+
+color: var(--gris);
+
+/* font-size: smaller; */
 }
 
 .headerPrincipal nav.opcionPrincipal{
