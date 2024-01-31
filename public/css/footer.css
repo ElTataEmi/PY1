@@ -2,90 +2,86 @@
 @media screen and (max-width: 360px) {
 
     .footer {
-
-background: var(--rojo);
-
-height: 233px;
-
-display: flex;
-
-flex-direction: column;
-
-justify-content: center;
-
-align-items: center;
-
-}
+background: var(--rojo);
+height: 189px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
 
     .footer .info-footer {}
 
     .footer .info-footer ul {}
 
     .footer .info-footer .conteiner-phone {
-    display: flex;
-    justify-content: center;
-}
+        display: flex;
+        justify-content: center;
+    }
 
     .conteiner-phone i {
-    display: flex;
-    justify-content: center;
-    font-size: 41px;
-}
+        display: flex;
+        justify-content: center;
+        font-size: 41px;
+    }
 
-    .direction-f {display: none;}
+    .conteiner-phone a {
+       padding-top: 21px;
+       margin-right: 52px;
+    }
+
+
+    .direction-f {
+        display: none;
+    }
 
     .conteiner-location {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 22px;
-}
+        display: flex;
+        justify-content: center;
+        padding-bottom: 22px;
+    }
 
-    .conteiner-location i {}
+    .conteiner-location i {
+        font-size: 37px;
+    }
 
+    
     .conteiner-location h3 {
-    display: flex;
-    display: inline-block;
-}
+        display: flex;
+        display: inline-block;
+        padding-top: 21px;
+        margin-right: 48px;
+    }
 
     .conteiner-location h2 {}
 
     .Redes {
-    display: none;
-}
+        display: none;
+    }
 
     .conteiner-iconos {
-    padding-bottom: 71px;
-}
+        padding-bottom: 11px;
+    }
 
     .conteiner-iconos a {}
 
-    .conteiner-iconos a .face {}
-
-    .conteiner-iconos a .insta {}
-
-    .conteiner-iconos a .pint {}
-
-    .conteiner-iconos a .yutub {}
-
-    .conteiner-iconos a .whats {}
 
 
     .contenedor-copy h2 {
-    display: none;
-}
+        display: none;
+    }
 
     .contenedor-copy p {
-    display: flex;
-    font-size: 10px;
-    margin-left: -40px;
-}
+        display: flex;
+        font-size: 10px;
+        margin-left: -40px;
+    }
 
 
 
     /*Tablet*/
     @media screen and (min-width: 361px) {}
-      
+
 
     /*Laptop*/
     @media screen and (min-width: 769px) {}
-        
