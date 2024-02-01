@@ -12,6 +12,8 @@
     --grisBoton: #D9D9D9;
     --blanco:#FFFFFF;
     --rojo: #A60D0D;
+    --color-producto:#DFCEB6;
+    
     
 
     
@@ -38,6 +40,7 @@
     color: var(--negro);
     font-size: 17px;
     /* display: flex; */
+    text-decoration: none;
 }
 body{
     margin: auto;
