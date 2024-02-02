@@ -1,0 +1,107 @@
+/* CELULAR */
+@media (max-width:360){
+    main{
+
+    }
+
+    /* MAIN NAV */
+    main nav.nav-bar{
+
+    }
+    main nav.nav-bar ul.list-bar{
+
+    }
+    main nav.nav-bar ul.list-bar li{
+
+    }
+    main nav.nav-bar ul.list-bar li a{
+
+    }
+
+    main h2{
+
+    }
+    main p.caption{
+
+    }
+
+    /* PRIMER DIV*/
+    main div.first-div{
+
+    }
+
+    main div.first-div img{
+        
+    }
+    main div.first-div p.name-pizza{
+        
+    }
+    main div.first-div p.description{
+        
+    }
+    main div.first-div p.price{
+        
+    }
+    
+    /* SEGUNDO DIV */
+
+    main div.second-div{
+
+    }
+    
+    main div.second-div img{
+        
+    }
+    main div.second-div p.name-pizza{
+        
+    }
+    main div.second-div p.description{
+        
+    }
+    main div.second-div p.price{
+        
+    }
+
+    /* TERCER DIV */
+
+    main div.third-div{
+
+    }
+    
+    main div.third-div img{
+        
+    }
+    main div.third-div p.name-pizza{
+        
+    }
+    main div.third-div p.description{
+        
+    }
+    main div.third-div p.price{
+        
+    }
+
+    /* ÍCONOS */
+
+    main div.icons-div{
+
+    }
+    main div.icons-div i.fa-solid.fa-arrow-left{
+
+    }
+    main div.icons-div p.out{
+
+    }
+    main div.icons-div i.fa-solid.fa-basket-shopping{
+
+    }
+    main div.icons-div p.order{
+
+    }
+
+    
+}
+/* TABLET */
+@media (min-width:361){}
+/* DESKTOP */
+@media (min-width:769){}
