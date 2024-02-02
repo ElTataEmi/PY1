@@ -1,0 +1,25 @@
+.main-login {
+    /* display: flex; */
+    position: absolute;
+}
+.main-login img{
+    width: 50%;}
+
+.main-login .conteiner-red {
+    position: absolute;
+    top: -1px;
+    list-style: none;
+    right: 14px;
+}    
+
+.main-login .conteiner-red{display: flex;flex-direction: column;align-items: center;}    
+.main-login .conteiner-red li{
+    margin-bottom: 18px;
+}    
+.main-login .conteiner-red li img{}
+.main-login .conteiner-red li a{
+    text-decoration: none;
+    border: solid;
+    padding: 2px 30px;
+    border-radius: 16px;
+}
