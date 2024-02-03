@@ -56,7 +56,7 @@
 
 
 
-    .main-register .form-register .form-register div {}
+    .main-register .form-register  div {}
 
     .main-register .form-register .form-register div h4 {
         color: #dfceb6;
@@ -172,15 +172,27 @@ background-color: #dfceb6;
     .conteiner-t-r h4 {
         color: white;
     }
-
+.conteiner-form{
+    
+}
+.conteiner-form div{/* flex: 0 0 50%; *//* box-sizing: border-box; *//* padding: 10px; */}
     .main-register .form-register div {
 
-        margin: 10px;
+margin: 10px;
 
-        padding-bottom: 13px;
-    }
+padding-bottom: 13px;
 
-    div {}
+/* display: flex; */
+
+/* flex-wrap: wrap; */
+
+}
+.main-register .conteiner-form{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+    
+}
 
 
 
@@ -194,10 +206,7 @@ background-color: #dfceb6;
 
 
 
-    .main-register .form-register label {
-
-        display: inline-block;
-    }
+   
 
 
 
@@ -223,22 +232,7 @@ background-color: #dfceb6;
         color: black;
     }
 
-    .main-register .form-register .conteiner-p-f {
 
-        /* display: inline-flex; */
-
-        flex-direction: column;
-    }
-
-    .form-register .conteiner-p-f label {
-
-        /* display: inline; */
-    }
-
-    .form-register .conteiner-p-f input {
-
-        /* display: inline-block; */
-    }
 
     .container-butons {
         display: flex;
