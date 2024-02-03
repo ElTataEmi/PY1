@@ -1,25 +1,58 @@
 .main-login {
-    /* display: flex; */
-    position: absolute;
+    background-image: url("/design/imgHome/Publicidad-para-pizzas2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 13%;
 }
-.main-login img{
-    width: 50%;}
+.main-login form{
+    justify-content: center;
+    align-items: center;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gri);
+    border-radius: 18px;
+    }
+    .main-login form input{
+    border: solid;
+    border-radius: 18px;
+    padding: 6px 2px;
+    margin-top: 13px;
+    border: none;
+}
+.main-login form button {
+    margin: 18px auto;
+    border-radius: 18px;
+    background-color: var(--verde);
+}
+    .main-login form label{}
+
 
 .main-login .conteiner-red {
-    position: absolute;
-    top: -1px;
-    list-style: none;
-    right: 14px;
+    
 }    
 
-.main-login .conteiner-red{display: flex;flex-direction: column;align-items: center;}    
+.main-login .conteiner-red{list-style: none;padding: 0px;display: inline-flex;flex-direction: column;}
 .main-login .conteiner-red li{
-    margin-bottom: 18px;
+  border: 0.5px black solid;
+  display: inline-flex;
+  border-radius: 18px;
+  padding: 2px;
+  margin-bottom: 9px;
 }    
-.main-login .conteiner-red li img{}
+.main-login .conteiner-red li img{
+ width: 37px;
+ height: 38px;
+}
 .main-login .conteiner-red li a{
-    text-decoration: none;
-    border: solid;
-    padding: 2px 30px;
-    border-radius: 16px;
+ padding-top: 8px;
+}
+.conteiner-red .google-login{background-color: #695df8;}
+.conteiner-red .face-login{background-color: #1877f2;}
+.conteiner-red .insta-login{
+    
+background-color: green;
+}
+.conteiner-red .whats-login{
+    background-color: var(--gri));
 }

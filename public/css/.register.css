@@ -117,3 +117,47 @@ div {
     border-radius: 35px;
     padding: 5px 10px;
 }
+
+
+
+
+/*Tablet*/
+@media screen and (min-width: 361px) {
+    .body-register .main-register{}
+    .main-register .form-register{}
+    .conteiner-t-r{}
+    .conteiner-t-r h4{}
+    .main-register .form-register div{}
+    .main-register .form-register .form-register div {}
+    .main-register .form-register label {}
+    .main-register .form-register input{}
+    .form-register .conteiner-x{
+       
+    }
+    .form-register .conteiner-x i{
+        
+    }
+    
+    .main-register .form-register .conteiner-p-f {
+    
+     
+    }
+    
+    .form-register .conteiner-p-f label {
+    
+    
+    }
+    
+    .form-register .conteiner-p-f input {
+    
+        
+    }
+    
+    .main-register .container-butons {}
+    
+    .container-butons button {
+      
+    }
+    
+    
+}
