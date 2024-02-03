@@ -1,111 +1,121 @@
-
-@media screen and (max-width: 360px){
-     .main-register {
+@media screen and (max-width: 360px) {
+    .main-register {
 
         display: flex;
-    
+
         padding: 39%;
-    
+
         justify-content: center;
-    
+
         align-items: center;
-    
+
         background-color: #dfceb6;
     }
-    
-    
+
+
     .main-register .form-register {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: solid 5px #364f5d;
-    border-radius: 10px;
-    /* border-right: inset; */
-    background-color: #364f5d;
-    margin: 0 auto;
-    padding: 13%;
-    position: relative;
+
+        justify-content: center;
+
+        align-items: center;
+
+        flex-direction: column;
+
+        border: solid 5px #364f5d;
+
+        border-radius: 10px;
+
+        /* border-right: inset; */
+
+        background-color: #364f5d;
+
+        margin: 0 auto;
+
+        padding: 13%;
+
+        position: relative;
     }
-    
+
     .conteiner-t-r {
         /* padding-bottom: 0px; */
     }
-    
+
     .conteiner-t-r h4 {
         color: white;
     }
-    
+
     .main-register .form-register div {
-    
-margin: 10px;
-    
-padding-bottom: 13px;
+
+        margin: 10px;
+
+        padding-bottom: 13px;
     }
-    
-    div {
-    }
-    
-    
-    
-    
+
+    div {}
+
+
+
+
     .main-register .form-register .form-register div {}
-    
+
     .main-register .form-register .form-register div h4 {
         color: #dfceb6;
-    
+
     }
-    
-    
-    
+
+
+
     .main-register .form-register label {
-    
+
         display: inline-block;
     }
-    
-    
-    
-    
-    
+
+
+
+
+
     .main-register .form-register input {
-    
+
         border-radius: 10px;
-    
+
         border: none;
-    
+
         padding: 10px;
     }
-    .form-register .conteiner-x{
+
+    .form-register .conteiner-x {
         right: 7px;
         display: inline-block;
         position: absolute;
         top: 0px;
     }
-    .form-register .conteiner-x i{
+
+    .form-register .conteiner-x i {
         color: black;
     }
-    
+
     .main-register .form-register .conteiner-p-f {
-    
+
         /* display: inline-flex; */
-    
+
         flex-direction: column;
     }
-    
+
     .form-register .conteiner-p-f label {
-    
+
         /* display: inline; */
     }
-    
+
     .form-register .conteiner-p-f input {
-    
+
         /* display: inline-block; */
     }
-    
+
     .container-butons {
-    display: flex;
-    flex-direction: column;
-}
-    
+        display: flex;
+        flex-direction: column;
+    }
+
     .container-butons button {
         background-color: var(--verde);
         border-radius: 35px;
@@ -114,8 +124,134 @@ padding-bottom: 13px;
         display: block;
         margin-top: 13px;
     }
+}
+
+@media screen and (min-width: 361px){
+    .main-register {
+
+display: flex;
+
+padding: 5%;
+
+justify-content: center;
+
+align-items: center;
+
+background-color: #dfceb6;
+
+}
+
+
+    .main-register .form-register {
+
+        justify-content: center;
+
+        align-items: center;
+
+        flex-direction: column;
+
+        border: solid 5px #364f5d;
+
+        border-radius: 10px;
+
+        /* border-right: inset; */
+
+        background-color: #364f5d;
+
+        margin: 0 auto;
+
+        padding: 13%;
+
+        position: relative;
     }
-    
-   
-    
-            
+
+    .conteiner-t-r {
+        /* padding-bottom: 0px; */
+    }
+
+    .conteiner-t-r h4 {
+        color: white;
+    }
+
+    .main-register .form-register div {
+
+        margin: 10px;
+
+        padding-bottom: 13px;
+    }
+
+    div {}
+
+
+
+
+    .main-register .form-register .form-register div {}
+
+    .main-register .form-register .form-register div h4 {
+        color: #dfceb6;
+
+    }
+
+
+
+    .main-register .form-register label {
+
+        display: inline-block;
+    }
+
+
+
+
+
+    .main-register .form-register input {
+
+        border-radius: 10px;
+
+        border: none;
+
+        padding: 10px;
+    }
+
+    .form-register .conteiner-x {
+        right: 7px;
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+    }
+
+    .form-register .conteiner-x i {
+        color: black;
+    }
+
+    .main-register .form-register .conteiner-p-f {
+
+        /* display: inline-flex; */
+
+        flex-direction: column;
+    }
+
+    .form-register .conteiner-p-f label {
+
+        /* display: inline; */
+    }
+
+    .form-register .conteiner-p-f input {
+
+        /* display: inline-block; */
+    }
+
+    .container-butons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-butons button {
+        background-color: var(--verde);
+        border-radius: 35px;
+        /* border: dashed; */
+        padding: 5px 10px;
+        display: block;
+        margin-top: 13px;
+    }
+}
+
