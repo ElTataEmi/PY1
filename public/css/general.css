@@ -14,8 +14,9 @@
     --grisBoton: #D9D9D9;
     --blanco:#FFFFFF;
     --rojo: #A60D0D;
-    --color-producto:#DFCEB6;
-  
+    --colorproducto:#DFCEB6;
+    --cajaproduct:#3E4E57;
+
 
     
     
@@ -44,7 +45,7 @@
     font-family: var(--Frijole);
     margin: 0px;
     color: var(--negro);
-    font-size: 12px;
+    font-size: 14px;
     /* display: flex; */
     text-decoration: none;
 }

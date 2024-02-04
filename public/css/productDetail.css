@@ -6,6 +6,7 @@
 
     .main-product .article .articulo-producto {
         text-align: center;
+        background-color: var(--colorproducto);
     }
 
     .main-product .article .articulo-producto img {
@@ -76,7 +77,9 @@
 
     .main-product .article {}
 
-    .main-product .article .articulo-producto {}
+    .main-product .article .articulo-producto {
+        background-color: var(--colorproducto);
+    }
 
     .main-product .article .articulo-producto img {
         width: 70%;
@@ -99,49 +102,125 @@
     }
 
     .main-product .article .articulo-producto hr {
-    display: none;
-}
+        display: none;
+    }
 
     .main-product .article .articulo-producto .subtotal {
         display: none;
     }
 
     .main-product .article .articulo-producto .total {
-    font-family: var(--antiqua);
-    font-size: 40px;
-    text-align: center;
-    color: var(--azul);
-}
+        font-family: var(--antiqua);
+        font-size: 40px;
+        text-align: center;
+        color: var(--azul);
+    }
 
     .confirmacion {}
 
     .confirmacion .botonok {
-    font-family: var(--antiqua);
-    border-radius: 35px;
-    padding: 7px 6px;
-    border: none;
-    background-color: var(--verde);
-    font-weight: 336px;
-    width: 202px;
-}
+        font-family: var(--antiqua);
+        border-radius: 35px;
+        padding: 7px 6px;
+        border: none;
+        background-color: var(--verde);
+        font-weight: 336px;
+        width: 202px;
+    }
+
+
 
     .confirmacion .botonok p {}
 
     .confirmacion .botonok p i {}
+}
 
+@media screen and (min-width: 769px) {
 
-    @media screen and (min-width: 769px) {
-
-        .main-product {}
-
-        .main-product .article {}
-
-        .main-product .article .articulo-producto {}
-
-        .main-product .article .articulo-producto img {}
-
-        .main-product .article .articulo-producto h3 {}
-
-        .main-product .article .articulo-producto p {}
-
+    .main-product {
+        background-color: var(--colorproducto);
     }
+
+    .main-product .caja {
+        margin: 32px 222px 97px 267px;
+        box-sizing: content-box;
+        background-color: var(--cajaproduct);
+    }
+
+    .main-product .article {}
+
+    .main-product .article .articulo-producto {
+        background-color: var(--cajaproduct);
+    }
+
+    .main-product .article .articulo-producto img {
+        width: 100%;
+        border-radius: 103px;
+        margin: 26px 0px 5px 0;
+    }
+
+    .main-product .article .articulo-producto h3 {
+        font-family: var(--ingrid);
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .main-product .article .articulo-producto h3 {}
+
+    .main-product .article .articulo-producto .ingredientes {
+        text-align: center;
+        font-family: var(--antiqua);
+        font-size: 10px;
+    }
+
+    .main-product .article .articulo-producto hr {
+        color: var(--negro);
+    }
+
+    .main-product .article .articulo-producto .subtotal {
+        display: none;
+    }
+
+    .main-product .article .articulo-producto .total {
+        font-family: var(--antiqua);
+        font-size: 40px;
+        text-align: center;
+        color: var(--azul);
+    }
+
+    .confirmacion {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .confirmacion .botonno {
+        font-family: var(--antiqua);
+        border-radius: 35px;
+        padding: 7px 6px;
+        border: none;
+        background-color: var(--rojo);
+        width: 202px;
+    }
+
+
+    .confirmacion .botonno p {}
+
+    .confirmacion .botonno p i {
+    padding: 12px;
+}
+
+    .confirmacion .botonok {
+        font-family: var(--antiqua);
+        border-radius: 35px;
+        padding: 7px 6px;
+        border: none;
+        background-color: var(--verde);
+        width: 202px;
+    }
+
+    .confirmacion .botonok p {}
+
+    .confirmacion .botonok p i {
+    padding: 12px;
+}
+}
