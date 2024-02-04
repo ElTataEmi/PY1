@@ -56,7 +56,7 @@
 
 
 
-    .main-register .form-register  div {}
+    .main-register .form-register div {}
 
     .main-register .form-register .form-register div h4 {
         color: #dfceb6;
@@ -123,47 +123,44 @@
         padding: 5px 10px;
         display: block;
         margin-top: 13px;
+        transition: border-color 0.3s ease;
     }
 }
+    .container-butons button :hover {
+        border-color: #e74c3c;
+        transform: rotate(360deg);
+    }
 
-@media screen and (min-width: 361px){
+
+@media screen and (min-width: 361px) {
     .main-register {
 
-display: flex;
+        display: flex;
 
-padding: 5%;
-
-justify-content: center;
-
-align-items: center;
-
-background-color: #dfceb6;
-
-}
-
-
-    .main-register .form-register {
+        padding: 5%;
 
         justify-content: center;
 
         align-items: center;
 
-        flex-direction: column;
+        background-color: #dfceb6;
 
-        border: solid 5px #364f5d;
-
-        border-radius: 10px;
-
-        /* border-right: inset; */
-
-        background-color: #364f5d;
-
-        margin: 0 auto;
-
-        padding: 13%;
-
-        position: relative;
     }
+
+
+    .main-register .form-register {
+align-items: center;
+flex-direction: column;
+display: flex;
+border: solid 5px #364f5d;
+border-radius: 10px;
+/* border-right: inset; */
+background-color: #364f5d;
+margin: 0 auto;
+padding: 10px;
+position: relative;
+/* width: 725px; */
+}
 
     .conteiner-t-r {
         /* padding-bottom: 0px; */
@@ -172,80 +169,86 @@ background-color: #dfceb6;
     .conteiner-t-r h4 {
         color: white;
     }
-.conteiner-form{
-    
-}
-.conteiner-form div{/* flex: 0 0 50%; *//* box-sizing: border-box; *//* padding: 10px; */}
+
+    .conteiner-form {}
+
+    .conteiner-form div {
+        /* flex: 0 0 50%; */
+        /* box-sizing: border-box; */
+        /* padding: 10px; */
+    }
+
     .main-register .form-register div {
-
-margin: 10px;
-
-padding-bottom: 13px;
-
-/* display: flex; */
-
-/* flex-wrap: wrap; */
-
-}
-.main-register .conteiner-form{
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-}
-    
+margin: 10px;
+padding-bottom: 13px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
 }
 
-
-
-
-    .main-register .form-register .form-register div {}
-
-    .main-register .form-register .form-register div h4 {
-        color: #dfceb6;
-
+    .main-register .conteiner-form {
+        /* display: flex; */
+        /* flex-wrap: wrap; */
     }
 
 
 
-   
 
 
 
+.main-register .form-register .form-register div {}
 
+.main-register .form-register .form-register div h4 {
+    color: #dfceb6;
 
-    .main-register .form-register input {
-
-        border-radius: 10px;
-
-        border: none;
-
-        padding: 10px;
-    }
-
-    .form-register .conteiner-x {
-        right: 7px;
-        display: inline-block;
-        position: absolute;
-        top: 0px;
-    }
-
-    .form-register .conteiner-x i {
-        color: black;
-    }
-
-
-
-    .container-butons {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .container-butons button {
-        background-color: var(--verde);
-        border-radius: 35px;
-        /* border: dashed; */
-        padding: 5px 10px;
-        display: block;
-        margin-top: 13px;
-    }
 }
 
+
+
+
+
+
+
+
+
+.main-register .form-register input {
+
+    border-radius: 10px;
+
+    border: none;
+
+    padding: 10px;
+}
+
+.form-register .conteiner-x {
+    right: 7px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+}
+
+.form-register .conteiner-x i {
+    color: black;
+}
+
+
+
+.container-butons {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-butons button {
+    background-color: var(--verde);
+    border-radius: 35px;
+    /* border: dashed; */
+    padding: 5px 10px;
+    display: block;
+    margin-top: 13px;
+    transition: border-color 0.3s ease;
+}
+    .container-butons button :hover {
+        border-color: #e74c3c;
+        transform: rotate(360deg);
+    }
+}
