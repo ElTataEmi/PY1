@@ -106,7 +106,7 @@ background-color: green;
     
 }    
 
-.main-login .conteiner-red{list-style: none;padding: 0px;display: inline-flex;flex-direction: column;}
+.main-login .conteiner-red{list-style: none;margin-top: 14px;padding: 0px;display: inline-flex;flex-direction: column;}
 .main-login .conteiner-red li{
   
 border: 0.5px black solid;
