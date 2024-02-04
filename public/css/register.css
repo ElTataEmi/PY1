@@ -123,13 +123,10 @@
         padding: 5px 10px;
         display: block;
         margin-top: 13px;
-        transition: border-color 0.3s ease;
+        
     }
 }
-    .container-butons button :hover {
-        border-color: #e74c3c;
-        transform: rotate(360deg);
-    }
+    
 
 
 @media screen and (min-width: 361px) {
@@ -149,17 +146,28 @@
 
 
     .main-register .form-register {
-align-items: center;
-flex-direction: column;
-display: flex;
-border: solid 5px #364f5d;
-border-radius: 10px;
-/* border-right: inset; */
-background-color: #364f5d;
-margin: 0 auto;
-padding: 10px;
-position: relative;
-/* width: 725px; */
+
+align-items: center;
+
+flex-direction: column;
+
+display: flex;
+
+border: solid 5px #364f5d;
+
+border-radius: 10px;
+
+/* border-right: inset; */
+
+background-color: #364f5d;
+
+margin: 0 auto;
+
+padding: 10px;
+
+position: relative;
+
+/* width: 725px; */
 }
 
     .conteiner-t-r {
@@ -179,11 +187,16 @@
     }
 
     .main-register .form-register div {
-margin: 10px;
-padding-bottom: 13px;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
+
+margin: 10px;
+
+padding-bottom: 13px;
+
+display: flex;
+
+flex-wrap: wrap;
+
+justify-content: space-evenly;
 }
 
     .main-register .conteiner-form {
@@ -245,10 +258,6 @@
     padding: 5px 10px;
     display: block;
     margin-top: 13px;
-    transition: border-color 0.3s ease;
+    
 }
-    .container-butons button :hover {
-        border-color: #e74c3c;
-        transform: rotate(360deg);
-    }
 }
