@@ -116,7 +116,26 @@
         color: var(--azul);
     }
 
-    .confirmacion {}
+    .confirmacion {
+    display: flex;
+    justify-content: space-around;
+}
+
+    .confirmacion .botonno {
+        font-family: var(--antiqua);
+        border-radius: 35px;
+        padding: 7px 6px;
+        border: none;
+        background-color: var(--rojo);
+        width: 202px;
+    }
+
+
+    .confirmacion .botonno p {}
+
+    .confirmacion .botonno p i {
+    padding: 12px;
+}
 
     .confirmacion .botonok {
         font-family: var(--antiqua);
@@ -124,15 +143,14 @@
         padding: 7px 6px;
         border: none;
         background-color: var(--verde);
-        font-weight: 336px;
         width: 202px;
     }
 
-
-
     .confirmacion .botonok p {}
 
-    .confirmacion .botonok p i {}
+    .confirmacion .botonok p i {
+    padding: 12px;
+}
 }
 
 @media screen and (min-width: 769px) {
