@@ -167,7 +167,7 @@ padding: 10px;
 
 position: relative;
 
-/* width: 725px; */
+width: 691.22px;
 }
 
     .conteiner-t-r {
@@ -259,5 +259,10 @@ justify-content: space-evenly;
     display: block;
     margin-top: 13px;
     
+}
+.main-register .c-register {}
+.main-register .c-register  h3{}
+.main-register .c-register a {
+    color: var(--blanco);
 }
 }
