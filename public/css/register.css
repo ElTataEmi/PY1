@@ -125,6 +125,13 @@
         margin-top: 13px;
         
     }
+    .main-register .c-register {
+    display: flex;
+}
+.main-register .c-register  h3{}
+.main-register .c-register a {
+    color: var(--blanco);
+}
 }
     
 
