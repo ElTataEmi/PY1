@@ -1,0 +1,57 @@
+:root {
+    --frijole: 'Frijole', sans-serif;
+    --antiqua:  'Inknut Antiqua'; 
+    --ingrid: 'Ingrid Darling';
+    
+
+    --rojo: #A60D0D;    
+    --gris: #D9D9D9;
+    --gri: #364F5E;
+    --azul: #5F9FFE;
+    --negro:#000000;
+    --negrocla:#323030;
+    --verde: #36CF58;
+    --grisBoton: #D9D9D9;
+    --blanco:#FFFFFF;
+    --rojo: #A60D0D;
+    --colorproducto:#DFCEB6;
+    --cajaproduct:#3E4E57;
+
+
+    
+    
+
+    
+
+
+    
+};
+/* Colores carrito y login*/
+:root{
+    --crudo: #B2A394;
+    --green: #0B6909;
+    --barro: #2D2924;
+    --frío: #364F5E;
+    --login-google: #695DF8;
+    --login-facebook: #152086;
+    --login-ig: #0B6909;
+    --login-wp: #333560;
+    --registro-bar: #364F5D;
+    --background-reg: #DFCEB6;
+
+}
+
+*{
+    font-family: var(--Frijole);
+    margin: 0px;
+    color: var(--negro);
+    font-size: 12px;
+    /* display: flex; */
+    text-decoration: none;
+}
+body{
+    /* margin: auto; */
+    width: 100%;
+    background: var(--color-producto);
+    height: 100%;
+}

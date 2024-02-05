@@ -1,0 +1,281 @@
+@media screen and (max-width: 360px) {
+
+    .main-product {}
+
+    .main-product .article {}
+
+    .main-product .article .articulo-producto {
+        text-align: center;
+        background-color: var(--colorproducto);
+    }
+
+    .main-product .article .articulo-producto img {
+        width: 100%;
+        margin: 54px 0 0px 0px;
+    }
+
+    .main-product .article .articulo-producto h3 {
+        font-family: var(--ingrid);
+        font-size: 41px;
+    }
+
+    .main-product .article .articulo-producto .ingredientes {
+        font-family: var(--antiqua);
+        color: var(--negro);
+        font-size: 9px;
+        margin: 6px;
+    }
+
+    .main-product .article .articulo-producto .subtotal {
+        font-size: 31px;
+        font-family: var(--antiqua);
+    }
+
+
+    .main-product .article .articulo-producto .total {
+        color: var(--azul);
+        font-size: 33px;
+        font-family: var(--antiqua);
+    }
+
+
+    .confirmacion {}
+
+    .confirmacion .botonno {
+        font-family: var(--antiqua);
+        border-radius: 35px;
+        padding: 7px 6px;
+        border: none;
+        background-color: var(--rojo);
+        width: 202px;
+        display: none;
+    }
+
+
+    .confirmacion .botonno p {}
+
+    .confirmacion .botonno p i {
+    padding: 12px;
+}
+
+    .confirmacion .botonok {
+        font-family: var(--antiqua);
+        border-radius: 35px;
+        padding: 7px 6px;
+        border: none;
+        background-color: var(--verde);
+        width: 202px;
+    }
+
+    .confirmacion .botonok p {}
+
+    .confirmacion .botonok p i {
+    padding: 12px;
+}
+
+
+    .confirmacion .botonok {
+
+        font-family: var(--antiqua);
+
+        margin: 0 0px 5px 85px;
+
+        border-radius: 35px;
+
+        padding: 7px 6px;
+
+        border: none;
+
+        background-color: var(--verde);
+
+        font-weight: 336px;
+
+        width: 202px;
+    }
+
+    .confirmacion .botonok p {
+        font-size: 18px;
+        margin: 0 0px 0px -21px;
+    }
+
+    .confirmacion .botonok p i {
+        padding: 13px;
+    }
+
+}
+
+@media screen and (min-width: 361px) {
+
+    .main-product {}
+
+    .main-product .article {}
+
+    .main-product .article .articulo-producto {
+        background-color: var(--colorproducto);
+    }
+
+    .main-product .article .articulo-producto img {
+        width: 70%;
+        border-radius: 103px;
+        margin: 26px 0px 5px 117px;
+    }
+
+    .main-product .article .articulo-producto h3 {
+        font-family: var(--ingrid);
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .main-product .article .articulo-producto h3 {}
+
+    .main-product .article .articulo-producto .ingredientes {
+        text-align: center;
+        font-family: var(--antiqua);
+        font-size: 10px;
+    }
+
+    .main-product .article .articulo-producto hr {
+        display: none;
+    }
+
+    .main-product .article .articulo-producto .subtotal {
+        display: none;
+    }
+
+    .main-product .article .articulo-producto .total {
+        font-family: var(--antiqua);
+        font-size: 40px;
+        text-align: center;
+        color: var(--azul);
+    }
+
+    .confirmacion {
+    display: flex;
+    justify-content: space-around;
+}
+
+    .confirmacion .botonno {
+        font-family: var(--antiqua);
+        border-radius: 35px;
+        padding: 7px 6px;
+        border: none;
+        background-color: var(--rojo);
+        width: 202px;
+    }
+
+
+    .confirmacion .botonno p {}
+
+    .confirmacion .botonno p i {
+    padding: 12px;
+}
+
+    .confirmacion .botonok {
+        font-family: var(--antiqua);
+        border-radius: 35px;
+        padding: 7px 6px;
+        border: none;
+        background-color: var(--verde);
+        width: 202px;
+    }
+
+    .confirmacion .botonok p {}
+
+    .confirmacion .botonok p i {
+    padding: 12px;
+}
+}
+
+@media screen and (min-width: 769px) {
+
+    .main-product {
+        background-color: var(--colorproducto);
+        padding-top: 33px;
+        padding-bottom: 33px;
+    }
+
+    .main-product .caja {
+        border: 1px solid black;
+        width: 34%;
+        margin-left: 35%;
+        box-sizing: content-box;
+        background-color: var(--cajaproduct);
+    }
+
+    .main-product .article {}
+
+    .main-product .article .articulo-producto {
+        background-color: var(--cajaproduct);
+    }
+
+    .main-product .article .articulo-producto img {
+        width: 100%;
+        border-radius: 103px;
+        margin: 26px 0px 5px 0;
+    }
+
+    .main-product .article .articulo-producto h3 {
+        font-family: var(--ingrid);
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .main-product .article .articulo-producto h3 {}
+
+    .main-product .article .articulo-producto .ingredientes {
+        text-align: center;
+        font-family: var(--antiqua);
+        font-size: 10px;
+    }
+
+    .main-product .article .articulo-producto hr {
+        color: var(--negro);
+    }
+
+    .main-product .article .articulo-producto .subtotal {
+        display: none;
+    }
+
+    .main-product .article .articulo-producto .total {
+        font-family: var(--antiqua);
+        font-size: 40px;
+        text-align: center;
+        color: var(--azul);
+    }
+
+    .confirmacion {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .confirmacion .botonno {
+        font-family: var(--antiqua);
+        border-radius: 35px;
+        padding: 7px 6px;
+        border: none;
+        background-color: var(--rojo);
+        width: 202px;
+    }
+
+
+    .confirmacion .botonno p {}
+
+    .confirmacion .botonno p i {
+    padding: 12px;
+}
+
+    .confirmacion .botonok {
+        font-family: var(--antiqua);
+        border-radius: 35px;
+        padding: 7px 6px;
+        border: none;
+        background-color: var(--verde);
+        width: 202px;
+    }
+
+    .confirmacion .botonok p {}
+
+    .confirmacion .botonok p i {
+    padding: 12px;
+}
+}
