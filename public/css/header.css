@@ -109,11 +109,13 @@
 
 
 .headerPrincipal .opcionPrincipal .opcion{
-padding: 9px;
+
+padding: 9px;
 }
 
 .headerPrincipal .opcionPrincipal .opcion1{
-    padding: 9px;
+    
+padding: 9px;
 }
 
 .headerPrincipal .opcionPrincipal .opcion2{
@@ -132,16 +134,24 @@
 @media screen and (min-width: 769px) {
 
     .headerPrincipal {
-height: 124px;
-display: flex;
-/* justify-content: space-around; */
-background-color: var(--rojo);
-}
+
+height: 124px;
+
+display: flex;
+
+/* justify-content: space-around; */
+
+background-color: var(--rojo);
+
+}
 
     .headerPrincipal img {
-height: 77px;
-padding-top: 8px;
-}
+
+height: 77px;
+
+padding-top: 8px;
+
+}
 
     .headerPrincipal div.conteiner {
         display: flex;
@@ -177,7 +187,8 @@
 
 
     .headerPrincipal nav.opcionPrincipal {
-}
+
+}
 
     .headerPrincipal .opcionPrincipal ul {}
 
