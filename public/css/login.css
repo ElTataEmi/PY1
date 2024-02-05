@@ -34,7 +34,12 @@
         
     }    
     
-    .main-login .conteiner-red{list-style: none;padding: 0px;display: inline-flex;flex-direction: column;}
+    .main-login .conteiner-red{
+    list-style: none;
+    padding: 0px;
+    display: inline-flex;
+    flex-direction: column;
+    }
     .main-login .conteiner-red li{
       
     border: 0.5px black solid;
@@ -71,7 +76,8 @@
     
     
         /TABLET/
-    @media screen and (min-width: 361px){.main-login {
+    @media screen and (min-width: 361px){
+    .main-login {
         background-image: url("/design/imgHome/Publicidad-para-pizzas2.jpg");
         background-size: 50% 100%;
         background-repeat: no-repeat;
@@ -106,7 +112,13 @@
         
     }    
     
-    .main-login .conteiner-red{list-style: none;margin-top: 14px;padding: 0px;display: inline-flex;flex-direction: column;}
+    .main-login .conteiner-red{
+    list-style: none;
+    margin-top: 14px;
+    padding: 0px;
+    display: inline-flex;
+    flex-direction: column;
+    }
     .main-login .conteiner-red li{
       
     border: 0.5px black solid;
@@ -131,12 +143,16 @@
      
     padding-top: 8px;
     }
-    .conteiner-red .google-login{background-color: #695df8;}
-    .conteiner-red .face-login{background-color: #1877f2;}
+    .conteiner-red .google-login{
+    background-color: #695df8;
+    }
+    .conteiner-red .face-login{
+    background-color: #1877f2;
+    }
     .conteiner-red .insta-login{
         
     background-color: green;
     }
     .conteiner-red .whats-login{
-        background-color: var(--gri);
+        background-color: var(--gri);
     }}
