@@ -41,6 +41,39 @@
 
     .confirmacion {}
 
+    .confirmacion .botonno {
+        font-family: var(--antiqua);
+        border-radius: 35px;
+        padding: 7px 6px;
+        border: none;
+        background-color: var(--rojo);
+        width: 202px;
+        display: none;
+    }
+
+
+    .confirmacion .botonno p {}
+
+    .confirmacion .botonno p i {
+    padding: 12px;
+}
+
+    .confirmacion .botonok {
+        font-family: var(--antiqua);
+        border-radius: 35px;
+        padding: 7px 6px;
+        border: none;
+        background-color: var(--verde);
+        width: 202px;
+    }
+
+    .confirmacion .botonok p {}
+
+    .confirmacion .botonok p i {
+    padding: 12px;
+}
+
+
     .confirmacion .botonok {
 
         font-family: var(--antiqua);
@@ -157,10 +190,14 @@
 
     .main-product {
         background-color: var(--colorproducto);
+        padding-top: 33px;
+        padding-bottom: 33px;
     }
 
     .main-product .caja {
-        margin: 32px 222px 97px 267px;
+        border: 1px solid black;
+        width: 34%;
+        margin-left: 35%;
         box-sizing: content-box;
         background-color: var(--cajaproduct);
     }

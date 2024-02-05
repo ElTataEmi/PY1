@@ -45,12 +45,13 @@
     font-family: var(--Frijole);
     margin: 0px;
     color: var(--negro);
-    font-size: 14px;
+    font-size: 12px;
     /* display: flex; */
     text-decoration: none;
 }
 body{
-    margin: auto;
-    width: 100%;
+    /* margin: auto; */
+    /* width: 100%; */
     background: var(--color-producto);
+    /* height: 100%; */
 }
