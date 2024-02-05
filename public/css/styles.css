@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Inknut Antiqua');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
 
 @import "./general.css";
 @import "./main.css";
@@ -7,5 +12,6 @@
 @import "./product.css";
 @import "./header.css";
 @import "./cart.css";
+@import "./headerCart.css";
 
 
