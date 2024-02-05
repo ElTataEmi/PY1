@@ -5,11 +5,26 @@
 
 
 
+
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap');
+
+
+
+
 @import "./general.css";
 @import "./main.css";
 @import "./footer.css";
 @import "./productDetail.css";
 @import "./header.css";
 @import "./cart.css";
+@import "./register.css";
+@import "./login.css";
+@import "./cart.css";
+@import "./headerCart.css";
 
 

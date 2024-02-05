@@ -7,7 +7,7 @@ const port = 3030;
 
 app.use(express.static('public'))
 
-app.use(express.static('desing'))
+app.use(express.static('design'))
 
 
 app.get("/", (req, res) => {
