@@ -1,23 +1,11 @@
 /*Celular*/
 @media screen and (max-width: 360px) {
 
-    .footer {
+    .footer {background: var(--rojo);height: 24vh;justify-content: center;align-items: center;flex-direction: row;margin-bottom: -39px;}
 
-background: var(--rojo);
-
-/* height: 100vh; */
-
-justify-content: center;
-
-align-items: center;
-
-flex-direction: row;
-
-margin-bottom: -37px;
-
-}
-
-    .footer .info-footer {margin: 27px;}
+    .footer .info-footer {
+        margin: 27px;
+    }
 
     .footer .info-footer ul {}
 
@@ -92,10 +80,10 @@ margin-bottom: -37px;
 @media screen and (min-width: 361px) {
 
     .footer {
-    display: flex;
-    background: var(--rojo);
-    height: 180px;
-}
+        display: flex;
+        background: var(--rojo);
+        height: 175px;
+    }
 
     .footer .info-footer {}
 
@@ -109,11 +97,11 @@ margin-bottom: -37px;
 
 
     .direction-f {
-    position: relative;
-    left: 50%;
-    display: inline;
-    top: -34%;
-}
+        position: relative;
+        left: 50%;
+        display: inline;
+        top: -34%;
+    }
 
     .conteiner-location {}
 
@@ -124,13 +112,17 @@ margin-bottom: -37px;
 
     .conteiner-location h2 {}
 
-    .Redes {position: relative;left: 98%;margin-bottom: 32px;}
+    .Redes {
+        position: relative;
+        left: 98%;
+        margin-bottom: 32px;
+    }
 
     .conteiner-iconos {
-    position: relative;
-    display: inline;
-    left: 90%;
-}
+        position: relative;
+        display: inline;
+        left: 90%;
+    }
 
     .conteiner-iconos a {}
 

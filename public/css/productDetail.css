@@ -1,4 +1,5 @@
 @media screen and (max-width: 360px) {
+    .body-product {}
 
     .main-product {}
 
@@ -39,7 +40,10 @@
     }
 
 
-    .confirmacion {}
+    .confirmacion {
+        display: flex;
+        justify-content: space-around;
+    }
 
     .confirmacion .botonno {
         font-family: var(--antiqua);
@@ -48,30 +52,16 @@
         border: none;
         background-color: var(--rojo);
         width: 202px;
-        display: none;
+        /* display: none; */
     }
 
 
     .confirmacion .botonno p {}
 
     .confirmacion .botonno p i {
-    padding: 12px;
-}
-
-    .confirmacion .botonok {
-        font-family: var(--antiqua);
-        border-radius: 35px;
-        padding: 7px 6px;
-        border: none;
-        background-color: var(--verde);
-        width: 202px;
+        padding: 12px;
     }
 
-    .confirmacion .botonok p {}
-
-    .confirmacion .botonok p i {
-    padding: 12px;
-}
 
 
     .confirmacion .botonok {
@@ -106,7 +96,10 @@
 
 @media screen and (min-width: 361px) {
 
-    .main-product {}
+    .main-product {
+        height: 659px;
+    }
+
 
     .main-product .article {}
 
@@ -150,9 +143,9 @@
     }
 
     .confirmacion {
-    display: flex;
-    justify-content: space-around;
-}
+        display: flex;
+        justify-content: space-around;
+    }
 
     .confirmacion .botonno {
         font-family: var(--antiqua);
@@ -167,8 +160,8 @@
     .confirmacion .botonno p {}
 
     .confirmacion .botonno p i {
-    padding: 12px;
-}
+        padding: 12px;
+    }
 
     .confirmacion .botonok {
         font-family: var(--antiqua);
@@ -182,8 +175,8 @@
     .confirmacion .botonok p {}
 
     .confirmacion .botonok p i {
-    padding: 12px;
-}
+        padding: 12px;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -191,7 +184,7 @@
     .main-product {
         background-color: var(--colorproducto);
         padding-top: 33px;
-        padding-bottom: 33px;
+        /* padding-bottom: 95px; */
     }
 
     .main-product .caja {
@@ -261,8 +254,8 @@
     .confirmacion .botonno p {}
 
     .confirmacion .botonno p i {
-    padding: 12px;
-}
+        padding: 12px;
+    }
 
     .confirmacion .botonok {
         font-family: var(--antiqua);
@@ -276,6 +269,6 @@
     .confirmacion .botonok p {}
 
     .confirmacion .botonok p i {
-    padding: 12px;
-}
+        padding: 12px;
+    }
 }
