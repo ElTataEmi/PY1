@@ -25,7 +25,7 @@
 
 
     
-};
+}
 /* Colores carrito y login*/
 :root{
     --crudo: #B2A394;
@@ -40,7 +40,16 @@
     --background-reg: #DFCEB6;
 
 }
+/* Tipografía carrito */
+:root{
+    --damion: 'Damion', cursive;
+    --inria: 'Inria Serif', serif;
+    --fahkwang: 'Fahkwang', sans-serif;
+    --corporant: 'Cormorant Garamond', serif;
+    --comic: 'Comic Neue', cursive;
 
+    
+}
 *{
     font-family: var(--Frijole);
     margin: 0px;
@@ -48,7 +57,13 @@
     font-size: 12px;
     /* display: flex; */
     text-decoration: none;
+    /* padding: 10px; */
+    /* padding-bottom: 10px; */
+    /* width: 103px; */
+    /* display: none; */
 }
+
+
 body{
     /* margin: auto; */
     /* width: 100%; */
