@@ -104,6 +104,7 @@
     .headerPrincipal .opcionPrincipal ul li a {
     padding: 1px;
     color: var(--gris);
+    font-family: var(--antiqua);
 }
 
 
@@ -131,24 +132,16 @@
 @media screen and (min-width: 769px) {
 
     .headerPrincipal {
-
-        height: 93px;
-
-        display: flex;
-
-        justify-content: space-around;
-
-        background-color: var(--rojo);
-
-    }
+height: 124px;
+display: flex;
+/* justify-content: space-around; */
+background-color: var(--rojo);
+}
 
     .headerPrincipal img {
-
-        height: 77px;
-
-        padding-top: 7px;
-
-    }
+height: 77px;
+padding-top: 8px;
+}
 
     .headerPrincipal div.conteiner {
         display: flex;
@@ -174,6 +167,7 @@
         /* border: solid; */
         margin-left: 31%;
         padding-top: 17px;
+        display: none;
     }
 
     .headerPrincipal .burger-menu i {
@@ -183,9 +177,7 @@
 
 
     .headerPrincipal nav.opcionPrincipal {
-
-        display: none;
-    }
+}
 
     .headerPrincipal .opcionPrincipal ul {}
 

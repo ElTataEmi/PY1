@@ -1,6 +1,8 @@
 :root {
     --frijole: 'Frijole', sans-serif;
-    --antiqua:  
+    --antiqua:  'Inknut Antiqua'; 
+    --ingrid: 'Ingrid Darling';
+    
 
     --rojo: #A60D0D;    
     --gris: #D9D9D9;
@@ -12,7 +14,10 @@
     --grisBoton: #D9D9D9;
     --blanco:#FFFFFF;
     --rojo: #A60D0D;
-    --color-producto:#DFCEB6;
+    --colorproducto:#DFCEB6;
+    --cajaproduct:#3E4E57;
+
+
     
     
 
@@ -40,10 +45,13 @@
     font-family: var(--Frijole);
     margin: 0px;
     color: var(--negro);
-    font-size: 17px;
+    font-size: 12px;
     /* display: flex; */
     text-decoration: none;
 }
 body{
-    margin: auto;
+    /* margin: auto; */
+    /* width: 100%; */
+    background: var(--color-producto);
+    /* height: 100%; */
 }

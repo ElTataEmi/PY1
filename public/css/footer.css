@@ -2,22 +2,15 @@
 @media screen and (max-width: 360px) {
 
     .footer {
+background: var(--rojo);
+/* height: 100vh; */
+justify-content: center;
+align-items: center;
+flex-direction: row;
+margin-bottom: -37px;
+}
 
-        background: var(--rojo);
-
-        height: 189px;
-
-        display: flex;
-
-        flex-direction: column;
-
-        justify-content: center;
-
-        align-items: center;
-
-    }
-
-    .footer .info-footer {}
+    .footer .info-footer {margin: 27px;}
 
     .footer .info-footer ul {}
 
