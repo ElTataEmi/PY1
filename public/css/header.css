@@ -73,6 +73,7 @@
     background: var(--rojo);
     height: 124px;
     position: relative;
+    /* width: auto; */
 }
 
     .headerPrincipal img {height: 100px;/* border: solid; */padding-top: 7px;}
