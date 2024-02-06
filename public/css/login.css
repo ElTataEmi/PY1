@@ -89,7 +89,7 @@
 }
 
 
-/TABLET/ @media screen and (min-width: 361px) {
+@media screen and (min-width: 361px) {
     .main-login {
         background-image: url("/design/imgHome/Publicidad-para-pizzas2.jpg");
         background-size: 50% 100%;
