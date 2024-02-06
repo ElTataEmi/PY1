@@ -10,7 +10,7 @@ app.use(express.static('public'))
 app.use(express.static('design'))
 
 
-app.get("/", (req, res) => {
+app.get("/home", (req, res) => {
     res.sendFile(path.join(__dirname,'./views/home.html'))
 })
 

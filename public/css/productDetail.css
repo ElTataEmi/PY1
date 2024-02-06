@@ -1,4 +1,5 @@
 @media screen and (max-width: 360px) {
+    
 
     .main-product {}
 
@@ -39,63 +40,53 @@
     }
 
 
-    .confirmacion {}
+    .confirmacion {
+        display: flex;
+        justify-content: space-around;
+    }
 
     .confirmacion .botonno {
         font-family: var(--antiqua);
         border-radius: 35px;
-        padding: 7px 6px;
+        padding: 4px 5px;
         border: none;
         background-color: var(--rojo);
-        width: 202px;
-        display: none;
+        width: 166px;
+        /* display: none; */
     }
 
 
     .confirmacion .botonno p {}
 
     .confirmacion .botonno p i {
-    padding: 12px;
-}
-
-    .confirmacion .botonok {
-        font-family: var(--antiqua);
-        border-radius: 35px;
-        padding: 7px 6px;
-        border: none;
-        background-color: var(--verde);
-        width: 202px;
+        padding: 12px;
     }
 
-    .confirmacion .botonok p {}
-
-    .confirmacion .botonok p i {
-    padding: 12px;
-}
 
 
     .confirmacion .botonok {
 
-        font-family: var(--antiqua);
+font-family: var(--antiqua);
 
-        margin: 0 0px 5px 85px;
+margin: 0 0px 5px 85px;
 
-        border-radius: 35px;
+border-radius: 35px;
 
-        padding: 7px 6px;
+padding: 7px 6px;
 
-        border: none;
+border: none;
 
-        background-color: var(--verde);
+background-color: var(--verde);
 
-        font-weight: 336px;
+font-weight: 336px;
 
-        width: 202px;
-    }
+width: 166px;
+
+}
 
     .confirmacion .botonok p {
-        font-size: 18px;
-        margin: 0 0px 0px -21px;
+        font-size: 13px;
+        margin: 0 0px 0px -10px;
     }
 
     .confirmacion .botonok p i {
@@ -106,7 +97,10 @@
 
 @media screen and (min-width: 361px) {
 
-    .main-product {}
+    .main-product {
+        /* height: 659px; */
+    }
+
 
     .main-product .article {}
 
@@ -150,9 +144,9 @@
     }
 
     .confirmacion {
-    display: flex;
-    justify-content: space-around;
-}
+        display: flex;
+        justify-content: space-around;
+    }
 
     .confirmacion .botonno {
         font-family: var(--antiqua);
@@ -167,8 +161,8 @@
     .confirmacion .botonno p {}
 
     .confirmacion .botonno p i {
-    padding: 12px;
-}
+        padding: 12px;
+    }
 
     .confirmacion .botonok {
         font-family: var(--antiqua);
@@ -182,8 +176,8 @@
     .confirmacion .botonok p {}
 
     .confirmacion .botonok p i {
-    padding: 12px;
-}
+        padding: 12px;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -191,7 +185,7 @@
     .main-product {
         background-color: var(--colorproducto);
         padding-top: 33px;
-        padding-bottom: 33px;
+        /* padding-bottom: 95px; */
     }
 
     .main-product .caja {
@@ -211,7 +205,7 @@
     .main-product .article .articulo-producto img {
         width: 100%;
         border-radius: 103px;
-        margin: 26px 0px 5px 0;
+        margin: 25px 0px 5px 0px;
     }
 
     .main-product .article .articulo-producto h3 {
@@ -261,8 +255,8 @@
     .confirmacion .botonno p {}
 
     .confirmacion .botonno p i {
-    padding: 12px;
-}
+        padding: 12px;
+    }
 
     .confirmacion .botonok {
         font-family: var(--antiqua);
@@ -276,6 +270,6 @@
     .confirmacion .botonok p {}
 
     .confirmacion .botonok p i {
-    padding: 12px;
-}
+        padding: 12px;
+    }
 }

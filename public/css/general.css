@@ -54,7 +54,7 @@
     font-family: var(--Frijole);
     margin: 0px;
     color: var(--negro);
-    font-size: 12px;
+    font-size: 11px;
     /* display: flex; */
     text-decoration: none;
     /* padding: 10px; */
@@ -65,8 +65,7 @@
 
 
 body{
-    /* margin: auto; */
-    /* width: 100%; */
-    background: var(--color-producto);
-    /* height: 100%; */
+    margin:0;
+    padding:0;
+    background-color: var(--background-reg);
 }
