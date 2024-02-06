@@ -9,11 +9,13 @@
         height: 36%;
     }
 
-    .mainhome section {
+    .mainhome .pizzasbaner {
         display: none;
     }
 
-    .mainhome section h1 {}
+    .mainhome .pizzasbaner h1 {}
+
+    
 
     .mainhome section .bannerhome {}
 
@@ -35,16 +37,20 @@
         display: flex;
         justify-content: flex-start;
         padding-top: 32px;
+        display: inline-flex;
     }
 
     .pizzas1 .pizzacala {
         width: 50%;
     }
 
-    .pizzas1 h3 {}
+    .pizzas1 h3 {height: 0px;position: relative;left: 58px;font-family: var(--poppins);font-size: 15px;}
 
     .pizzas1 ul {
         padding-top: 26px;
+        position: relative;
+        right: 47px;
+        font-family: var(--poppins);
     }
 
     .pizzas1 ul li {}
@@ -65,11 +71,18 @@
     }
 
     .pizzas2 h3 {
-        /* position: absolute; */
+    height: 0px;
+    position: absolute;
+    left: 28px;
+    font-family: var(--poppins);
+    font-size: 13px;
     }
 
     .pizzas2 ul {
         padding-top: 26px;
+        position: relative;
+        right: 25px;
+        font-family: var(--poppins);
     }
 
     .pizzas2 ul li {}
@@ -113,23 +126,21 @@
         background-color: var(--background-reg);
     }
 
-
-
     .mainhome .pizzasbaner h1 {
-    font-family: var(--poppins);
-    /* left: 41px; */
-    margin-left: 55px;
-    padding-top: 5px;
-    font-size: 24px;
-}
+        font-family: var(--poppins);
+        /* left: 41px; */
+        margin-left: 55px;
+        padding-top: 5px;
+        font-size: 24px;
+    }
 
     .bannerhome {}
 
     .bannerhome ul {
-    font-family: var(--poppins);
-    padding-top: 22px;
-    padding-bottom: 13px;
-}
+        font-family: var(--poppins);
+        padding-top: 22px;
+        padding-bottom: 13px;
+    }
 
     .bannerhome ul li {}
 
@@ -219,9 +230,9 @@
     }
 
     .pizzas3 h3 {
-    font-size: 20px;
-    font-family: var(--poppins);
-}
+        font-size: 20px;
+        font-family: var(--poppins);
+    }
 
     .pizzas3 ul {
         font-family: var(--poppins);
