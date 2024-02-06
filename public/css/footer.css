@@ -164,6 +164,7 @@
     .footer .info-footer .conteiner-phone {
         display: flex;
         justify-content: center;
+        display: none;
     }
 
     .conteiner-phone i {
@@ -173,21 +174,21 @@
     }
 
     .conteiner-phone a {
-
-        padding-top: 21px;
-
-        margin-right: 52px;
-    }
+padding-top: 21px;
+margin-right: 52px;
+position: absolute;
+}
 
 
     .direction-f {
-        display: none;
+    position: absolute;
     }
 
     .conteiner-location {
         display: flex;
         justify-content: center;
         padding-bottom: 22px;
+        position: absolute;
     }
 
     .conteiner-location i {
@@ -205,11 +206,21 @@
     .conteiner-location h2 {}
 
     .Redes {
-        display: none;
+    position: absolute;
+    left: 83%;
+    padding: 13px;
+    border: solid var(--blanco);
+    border-radius: 13px;
+    font-size: 15px;
+    color: var(--blanco);
     }
 
     .conteiner-iconos {
         padding-bottom: 11px;
+        display: flex;
+        position: absolute;
+        left: 80%;
+        margin-top: 54px;
     }
 
     .conteiner-iconos a {}
@@ -217,7 +228,7 @@
 
 
     .contenedor-copy h2 {
-        display: none;
+    position: absolute;
     }
 
     .contenedor-copy p {
