@@ -1,7 +1,7 @@
 /*Celular*/
 @media screen and (max-width: 360px) {
 
-    .footer {background: var(--rojo);height: 24vh;justify-content: center;align-items: center;flex-direction: row;margin-bottom: -39px;}
+    .footer {background: var(--rojo);height: 22vh;justify-content: center;align-items: center;flex-direction: row;margin-bottom: -23px;}
 
     .footer .info-footer {
         margin: 27px;
@@ -12,12 +12,13 @@
     .footer .info-footer .conteiner-phone {
         display: flex;
         justify-content: center;
+        padding-top: 16px;
     }
 
     .conteiner-phone i {
         display: flex;
         justify-content: center;
-        font-size: 41px;
+        font-size: 33px;
     }
 
     .conteiner-phone a {
@@ -39,7 +40,7 @@
     }
 
     .conteiner-location i {
-        font-size: 37px;
+        font-size: 32px;
     }
 
 

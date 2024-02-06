@@ -65,5 +65,7 @@
 
 
 body{
-    /* margin: auto; */
+    margin:0;
+    padding:0;
+    background-color: var(--background-reg);
 }
