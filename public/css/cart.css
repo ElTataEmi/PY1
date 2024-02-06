@@ -43,6 +43,13 @@ padding-right: 28px;
 /* font-size: 114px; */
 
 }
+
+li.drinks {
+    display: none;
+}
+
+
+
     main nav.nav-bar ul.list-bar li.list-none{
 
 display: none;
@@ -62,7 +69,7 @@ left: -3px;
 
 font-family: var(--inria);
 
-font-weight: 35px;
+
 
 /* font-weight: lighter; */
 
@@ -96,6 +103,8 @@ color: var(--blanco);
 letter-spacing: 18px;
 
 padding-bottom: 10px;
+
+/* display: none; */
 }
     main p.caption{
 
@@ -135,6 +144,16 @@ left: 290px;
 
 color: var(--blanco);
 
+}
+
+/* CONTENEDOR DIVS */
+
+main div.contenedor-primero{}
+
+/* CONTENEDOR SEGUNDO */
+
+main div.contenedor-segundo{
+    display: none;
 }
 
     /* PRIMER DIV*/
@@ -336,31 +355,296 @@ position: relative;
                
 top: 17px;
     }
-    /* CUARTO-DIV */
+    /* TÍTULO-DOS */
     
-    main div.head{
-    display: none;
-}
-    main div.fourth-div{
-    display: none;
-}
-    main div.fourth-div p.horary{}
-    main div.fourth-div p.open{}
-    main div.fourth-div p.text{}
-    main div.fourth-div i.fa-solid.fa-arrow-pointer{}
-    main div.fourth-div a.adress{}
-    main div.head img{}
-    main div.foot{
-    display: none;
-}
-    main div.foot i.fa-solid.fa-basket-shopping{}
-    main div.foot a{}
-    main div.fourth-div i.fa-solid.fa-bag-shopping{}
+    main h2.second-h2{
 
+background-color: var(--rojo);
+
+height: 54px;
+
+position: relative;
+
+/* left: 30px; */
+
+text-align: center;
+
+/* padding-top: 0px; */
+
+font-family: var(--damion);
+
+font-size: 50px;
+
+font-weight: lighter;
+
+color: var(--blanco);
+
+/* align-items: stretch; */
+
+letter-spacing: 18px;
+
+padding-bottom: 10px;
+
+display: none;
+
+}
+          main p.caption-dos{
+      
+background-color: var(--registro-bar);
+      
+/* color: #364f5e; */
+      
+height: 30px;
+      
+text-align: center;
+      
+padding-top: 6px;
+      
+font-family: var(--comic);
+      
+font-weight: bold;
+      
+color: var(--blanco);
+      
+letter-spacing: 11px;
+      
+font-size: 21px;
+      
+margin-bottom: 0px;
+    
+      
+display: none;
+      
+}
+      /* CUARTO-DIV */
+main div.contenedor-div-cuarto{
+    /* display: none; */}
+      
+main div.head{
+    display: none;
+}
+      
+main div.fourth-div{
+    display: none;
+}
+      
+main div.fourth-div p.horary{}
+      
+main div.fourth-div p.open{}
+      
+main div.fourth-div p.text{}
+      
+main div.fourth-div i.fa-solid.fa-arrow-pointer{}
+      
+main div.fourth-div a.adress{}
+      
+main div.head img{}
+      
+main div.foot{
+    display: none;
+}
+      
+main div.foot i.fa-solid.fa-basket-shopping{}
+      
+main div.foot a{}
+      
+main div.fourth-div i.fa-solid.fa-bag-shopping{}
+      /* QUINTO-DIV */
+      
+main div.fifth-div{
+
+        /* display: flex; */
+        
+        flex-direction: row-reverse;
+      
+background-color: var(--crudo);
+      
+padding: 10px;
+      
+/* position: relative; */
+      
+left: -203px;
+      
+height: 188px;
+      
+width: 155px;
+      
+/* border: solid; */
+      
+/* position: relative; */
+      
+bottom: -109px;
+      
+border-radius: 24px;
+        }
+      
+main div.contenedor-img-fifth{
+                    /* width: 79px; */}
+      
+main div.contenedor-img-fifth img{
+                    width: 175px;
+      
+/* border-radius: 22px; */
+      
+height: 103px;
+      
+/* margin-left: 0px; */
+      
+border-top-left-radius: 23px;
+      
+border-top-right-radius: 23px;
+      
+left: -10px;
+      
+position: relative;
+      
+top: -10px;
+                }
+      
+main div.contenedor-descrip-fifth{}
+      
+main div.fifth-div p.name-pizza-fifth{
+                               
+        padding-bottom: 10px;
+      
+font-size: 15px;
+      
+font-family: var(--comic);
+      
+font-weight: bold;
+      
+position: relative;
+      
+top: -13px;
+                    }
+      
+main div.fifth-div p.description-fifth{
+                        font-size: 12px;
+      
+font-weight: bold;
+      
+font-family: var(--comic);
+      
+position: relative;
+      
+top: -17px;
+                    }
+      
+main div.fifth-div p.price-fifth{
+                               
+        background-color: var(--registro-bar);
+      
+width: 60px;
+      
+font-size: 14px;
+      
+padding-left: 6px;
+      
+padding-top: 3px;
+      
+padding-bottom: 2px;
+      
+position: relative;
+      
+top: -11px;
+                    }
+                    /* SEXTO-DIV */
+      
+main div.sixth-div{
+        
+        /* display: flex; */
+        
+        flex-direction: row-reverse;
+      
+background-color: var(--crudo);
+      
+padding: 10px;
+      
+/* position: relative; */
+      
+left: -213px;
+      
+top: -210px;
+      
+height: 188px;
+      
+width: 156px;
+      
+border-radius: 23px;
+        }
+      
+main div.contenedor-img-sixth{
+                    /* width: 95px; */}
+      
+main div.contenedor-img-sixth img{
+                    width: 177px;
+      
+/* border-radius: 22px; */
+      
+height: 103px;
+      
+margin-left: -10px;
+      
+position: relative;
+      
+top: -10px;
+      
+border-top-right-radius: 22px;
+      
+border-top-left-radius: 22px;
+                }
+      
+main div.contenedor-descrip-sixth{}
+      
+main div.sixth-div p.name-pizza-sixth{
+                               
+        padding-bottom: 10px;
+      
+font-size: 15px;
+      
+font-family: var(--comic);
+      
+font-weight: bold;
+      
+position: relative;
+      
+top: -13px;
+                    }
+      
+main div.fifth-div p.description-sixth{
+                        font-size: 12px;
+      
+font-weight: bold;
+      
+font-family: var(--comic);
+      
+position: relative;
+      
+top: -17px;
+                    }
+      
+main div.fifth-div p.price-sixth{
+                               
+        background-color: var(--registro-bar);
+      
+width: 60px;
+      
+font-size: 14px;
+      
+padding-left: 6px;
+      
+padding-top: 3px;
+      
+padding-bottom: 2px;
+      
+position: relative;
+      
+top: -10px;
+                    }
 
     /* ÍCONOS */
-
-    main div.icons-div{
+      
+main div.icons-div{
 
 display: flex;
 
@@ -380,224 +664,238 @@ position: relative;
 
 top: -20px;
 }
-    main div.icons-div i.fa-solid.fa-right-from-bracket{
+      
+main div.icons-div i.fa-solid.fa-right-from-bracket{
 
 position: relative;
-
+      
 top: -18px;
-
+      
 left: 9px;
-
+      
 color: var(--green);
+      
 
-rotate: revert;
-
+      
 transform: rotateY(170deg);
-
+      
 /* transform: rotateY(170deg); No encontré este ícono a la izquierda en font icons,
  pero sí estaba disponible el mismo, pero a la derecha.
  Lo importé y se me ocurrió que podría girarlo, 
  investigué para saber si existía alguna propiedad en CSS, que me permitiera hacerlo. */
-
-
-
+      
 /* border: solid; */
-
+      
 /* -webkit-text-stroke: wheat; */
-
+      
 /* -webkit-text-stroke: beige; */
 }
-    main div.icons-div p.out{
+      
+main div.icons-div p.out{
 
 position: relative;
-
+      
 right: 60px;
-
+      
 /* border: var(--blanco) solid; */
-
+      
 /* box-shadow: 0px 0px 10px; */
-
+      
 /* text-shadow: 0px 0px 24px white; */
 
 }
-    main div.icons-div i.fa-solid.fa-basket-shopping{
+      
+main div.icons-div i.fa-solid.fa-basket-shopping{
 
 position: relative;
-
+      
 top: -19px;
-
+      
 left: 90px;
-
+      
 color: var(--green);
 }
-    main div.icons-div p.order{
-
-    }
+      
+main div.icons-div p.order{}
 
     /* Footer */
-    footer{
+      
+footer{
         
 background-color: var(--rojo);
-        
+      
 display: flex;
-        
+      
 height: 80px;
-        
+      
 flex-direction: column;
-        
+      
 align-items: center;
-        
+      
 /* width: 123px; */
-        
+      
 /* padding: 40px; */
-        
+      
 position: relative;
-        
+      
 /* top: -21px; */
-        
+      
 /* padding-bottom: 35px; */
     }
-    footer p.conditions{
+      
+footer p.conditions{
         
-/* font-size: 11px; */
-    }
-    footer p.conditions a{
+/* font-size: 11px; */}
+      
+footer p.conditions a{
        
 color: var(--blanco);
-       
+      
 text-decoration: underline;
-       
+      
 font-size: 15px;
     }
        /* QUINTO-DIV */
-       main div.fifth-div{
+      
+main div.fifth-div{
 
 display: flex;
-
+      
 flex-direction: row-reverse;
-
+      
 background-color: var(--crudo);
-
+      
 padding: 10px;
-
+      
 display: none;
 
 }
-            
-            main div.contenedor-img-fifth{
-            /* width: 79px; */
-        }
-            main div.contenedor-img-fifth img{
+      
+main div.contenedor-img-fifth{
+            /* width: 79px; */}
+      
+main div.contenedor-img-fifth img{
             width: 126px;
-            border-radius: 22px;
-            height: 103px;
-            margin-left: 0px;
+      
+border-radius: 22px;
+      
+height: 103px;
+      
+margin-left: 0px;
         }
-        
-            main div.contenedor-descrip-fifth{
-            }
-            main div.fifth-div p.name-pizza{
+      
+main div.contenedor-descrip-fifth{}
+      
+main div.fifth-div p.name-pizza{
                        
         padding-bottom: 10px;
-                
-        font-size: 15px;
-                
-        font-family: var(--comic);
-                
-        font-weight: bold;
+      
+font-size: 15px;
+      
+font-family: var(--comic);
+      
+font-weight: bold;
                 
             }
-            main div.fifth-div p.description{
+      
+main div.fifth-div p.description{
                 font-size: 12px;
-                
-        font-weight: bold;
-                
-        font-family: var(--comic);
+      
+font-weight: bold;
+      
+font-family: var(--comic);
                 
             }
-            main div.fifth-div p.price-fifth{
+      
+main div.fifth-div p.price-fifth{
                        
         background-color: var(--registro-bar);
-                       
-        width: 60px;
-                       
-        font-size: 14px;
-                       
-        padding-left: 6px;
-                       
-        padding-top: 3px;
-                       
-        padding-bottom: 2px;
-                       
-        position: relative;
-                       
-        top: 17px;
+      
+width: 60px;
+      
+font-size: 14px;
+      
+padding-left: 6px;
+      
+padding-top: 3px;
+      
+padding-bottom: 2px;
+      
+position: relative;
+      
+top: 17px;
             }
             /* SEXTO-DIV */
-            
-    main div.sixth-div{
+      
+main div.sixth-div{
 
         display: flex;
-        
-        flex-direction: row-reverse;
-        
-        background-color: var(--crudo);
-        
-        padding: 10px;
+      
+flex-direction: row-reverse;
+      
+background-color: var(--crudo);
+      
+padding: 10px;
         
         }
-            
-            main div.contenedor-img-sixth{
-            /* width: 79px; */
-        }
-            main div.contenedor-img-sixth img{
+      
+main div.contenedor-img-sixth{
+            /* width: 79px; */}
+      
+main div.contenedor-img-sixth img{
             width: 126px;
-            border-radius: 22px;
-            height: 103px;
-            margin-left: 0px;
+      
+border-radius: 22px;
+      
+height: 103px;
+      
+margin-left: 0px;
         }
-        
-            main div.contenedor-descrip-sixth{
-            }
-            main div.sixth-div p.name-pizza{
+      
+main div.contenedor-descrip-sixth{}
+      
+main div.sixth-div p.name-pizza{
                        
         padding-bottom: 10px;
-                
-        font-size: 15px;
-                
-        font-family: var(--comic);
-                
-        font-weight: bold;
+      
+font-size: 15px;
+      
+font-family: var(--comic);
+      
+font-weight: bold;
                 
             }
-            main div.fifth-div p.description{
+      
+main div.fifth-div p.description{
                 font-size: 12px;
-                
-        font-weight: bold;
-                
-        font-family: var(--comic);
+      
+font-weight: bold;
+      
+font-family: var(--comic);
                 
             }
-            main div.fifth-div p.price-sixth{
+      
+main div.fifth-div p.price-sixth{
                        
         background-color: var(--registro-bar);
-                       
-        width: 60px;
-                       
-        font-size: 14px;
-                       
-        padding-left: 6px;
-                       
-        padding-top: 3px;
-                       
-        padding-bottom: 2px;
-                       
-        position: relative;
-                       
-        top: 17px;
+      
+width: 60px;
+      
+font-size: 14px;
+      
+padding-left: 6px;
+      
+padding-top: 3px;
+      
+padding-bottom: 2px;
+      
+position: relative;
+      
+top: 17px;
             }
 
     
+
 }
 /* TABLET */
 @media (min-width:361px){
@@ -606,7 +904,7 @@ display: none;
     /* MAIN NAV- */
     main nav.nav-bar{
 
-/* display: flex; */
+display: flex;
 
 /* width: 563px; */
 
@@ -646,7 +944,7 @@ padding-right: 28px;
 
 /* font-size: 16px; */
 
-width: -25px;
+
 }
     main nav.nav-bar ul.list-bar li.list-none{
 
@@ -671,7 +969,7 @@ left: -3px;
 
 font-family: var(--inria);
 
-font-weight: 35px;
+
 
 /* font-weight: lighter; */
 
@@ -686,7 +984,7 @@ width: 10px;
 
 background-color: var(--rojo);
 
-height: 36px;
+height: 54px;
 
 position: relative;
 
@@ -710,7 +1008,7 @@ letter-spacing: 18px;
 
 padding-bottom: 16px;
 
-width: 565px;
+width: 670px;
 }
     main p.caption{
 
@@ -720,7 +1018,7 @@ background-color: var(--registro-bar);
 
 height: 20px;
 
-text-align: center;
+/* text-align: center; */
 
 padding-top: 2px;
 
@@ -734,7 +1032,67 @@ letter-spacing: 11px;
 
 font-size: 16px;
 
-width: 565px;
+width: 670px;
+}
+/* TÍTULO DOS */
+main h2.second-h2{
+
+background-color: var(--rojo);
+
+height: 54px;
+
+/* position: relative; */
+
+/* left: 30px; */
+
+text-align: center;
+
+/* padding-top: 0px; */
+
+font-family: var(--damion);
+
+font-size: 50px;
+
+font-weight: lighter;
+
+color: var(--blanco);
+
+/* align-items: stretch; */
+
+letter-spacing: 18px;
+
+padding-bottom: 10px;
+
+/* display: none; */
+
+margin-top: 14px;
+
+}
+      main p.caption-dos{
+  
+background-color: var(--registro-bar);
+  
+/* color: #364f5e; */
+  
+height: 30px;
+  
+/* text-align: left; */
+  
+padding-top: 6px;
+  
+font-family: var(--comic);
+  
+font-weight: bold;
+  
+color: var(--blanco);
+  
+letter-spacing: 11px;
+  
+font-size: 21px;
+  
+margin-bottom: 0px;
+  
+width: 670px;
 }
 main a.arrow-right{
     
@@ -752,13 +1110,25 @@ color: var(--blanco);
 
 }
 /* CONTENEDOR DIVS */
-main div.contenedor-divs{
+main div.contenedor-primero{
     display: flex;
-    justify-content: space-around;
     /* width: 570px; */
-    position: relative;
+    /* position: relative; */
     top: -10px;
+    justify-content: flex-start;
 }
+
+
+
+/* CONTENEDOR SEGUNDO */
+
+main div.contenedor-segundo{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: -286px;
+}
+
 
     /* PRIMER DIV*/
     main div.first-div{
@@ -771,17 +1141,19 @@ background-color: var(--crudo);
 
 padding: 10px;
 
-width: 155px;
+width: 170px;
 
 border-radius: 23px;
 
-position: relative;
+/* position: relative; */
 
 left: -35px;
 
 top: -8px;
 
-height: 188px;
+height: 200px;
+
+margin-right: 36px;
 }
     main div.contenedor-img{}
     main div.contenedor-img img{}
@@ -831,7 +1203,7 @@ padding-bottom: 1px;
         
 position: relative;
         
-top: 0px;
+top: 7px;
     }
     
     /* SEGUNDO DIV */
@@ -854,17 +1226,19 @@ background-color: var(--crudo);
 
 padding: 10px;
 
-width: 155px;
+width: 170px;
 
 border-radius: 23px;
 
-position: relative;
+/* position: relative; */
 
 left: -88px;
 
 top: -8px;
 
-height: 188px;
+height: 200px;
+
+margin-right: 36px;
 }
     
     main div.contenedor-img{}
@@ -908,7 +1282,7 @@ padding-top: 2px;
                
 padding-bottom: 1px;
                
-position: relative;
+/* position: relative; */
                
 top: -9px;
     }
@@ -925,24 +1299,24 @@ background-color: var(--crudo);
 
 padding: 10px;
 
-width: 155px;
+width: 170px;
 
 border-radius: 22px;
 
-position: relative;
+/* position: relative; */
 
 top: -8px;
 
 left: -151px;
 
-height: 198px;
+height: 200px;
 }
     
     main div.contenedor-img{
     /* width: 79px; */
 }
     main div.contenedor-img img{
-    width: 177px;
+    width: 191px;
     /* border-radius: 22px; */
     height: 102px;
     margin-left: 0px;
@@ -958,22 +1332,24 @@ height: 198px;
     }
     main div.third-div p.name-pizza{
                
-padding-bottom: 10px;
-        
+padding-bottom: 8px;
+               
 font-size: 15px;
-        
+               
 font-family: var(--comic);
-        
+               
 font-weight: bold;
-        
+               
+position: relative;
+               
+top: -13px;
     }
     main div.third-div p.description{
         font-size: 12px;
-        
-font-weight: bold;
-        
-font-family: var(--comic);
-        
+        font-weight: bold;
+        font-family: var(--comic);
+        position: relative;
+        top: -16px;
     }
     main div.third-div p.price{
                
@@ -989,24 +1365,30 @@ padding-top: 2px;
                
 padding-bottom: 1px;
                
-position: relative;
+/* position: relative; */
                
-top: 6px;
+top: 2px;
     }
       /* CUARTO-DIV */
-
-      main div.head{
+      main div.contenedor-div-cuarto{
     position: relative;
+    top: -357px;
+    left: 784px;
+    width: 191px;
+    /* display: inline; */
+}
+      main div.head{
+    /* position: relative; */
     /* top: -239px; */
     background-color: var(--rojo);
     top: -240px;
     left: 176px;
-    width: 175px;
+    width: 209px;
     /* border-radius: 10px; */
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
-      main div.fourth-div{/* background-color: navajowhite; */background-color: var();background-color: var(--crudo);width: 175px;height: 116px;position: relative;top: -240px;left: 176px;}
+      main div.fourth-div{/* background-color: navajowhite; /background-color: var(--crudo);width: 208px;height: 233px;/ position: relative; */top: -240px;left: 176px;}
       main div.fourth-div i.fa-solid.fa-bag-shopping{
     color: var(--green);
     position: relative;
@@ -1030,10 +1412,11 @@ main div.fourth-div p.horary{
     border-radius: 4px;
 }
       main div.fourth-div p.text{
-    font-size: 7px;
+    font-size: 13px;
     font-family: var(--inria);
     color: var(--blanco);
     padding: 10px;
+    /* text-align: center; */
 }
 main div.fourth-div i.fa-solid.fa-arrow-pointer{
     color: var(--blanco);
@@ -1058,13 +1441,13 @@ main div.fourth-div i.fa-solid.fa-arrow-pointer{
 }
 main div.foot{
     background-color: var(--rojo);
-    position: relative;
+    /* position: relative; */
     top: -240px;
     left: 176px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    width: 175px;
-    height: 40px;
+    width: 209px;
+    height: 45px;
 }
 main div.foot i.fa-solid.fa-basket-shopping{
     color: var(--green);
@@ -1092,28 +1475,30 @@ background-color: var(--crudo);
 
 padding: 10px;
 
-position: relative;
+/* position: relative; */
 
 left: -203px;
 
-height: 188px;
+height: 200px;
 
-width: 155px;
+width: 170px;
 
 /* border: solid; */
 
-position: relative;
+/* position: relative; */
 
 bottom: -109px;
 
 border-radius: 24px;
+
+margin-right: 36px;
 }
             
             main div.contenedor-img-fifth{
             /* width: 79px; */
         }
             main div.contenedor-img-fifth img{
-            width: 175px;
+            width: 190px;
             /* border-radius: 22px; */
             height: 103px;
             /* margin-left: 0px; */
@@ -1163,7 +1548,7 @@ padding-bottom: 2px;
                        
 position: relative;
                        
-top: -11px;
+top: 7px;
             }
             /* SEXTO-DIV */
             
@@ -1177,15 +1562,15 @@ background-color: var(--crudo);
 
 padding: 10px;
 
-position: relative;
+/* position: relative; */
 
 left: -213px;
 
 top: -210px;
 
-height: 188px;
+height: 198px;
 
-width: 156px;
+width: 170px;
 
 border-radius: 23px;
 }
@@ -1194,7 +1579,7 @@ border-radius: 23px;
             /* width: 95px; */
         }
             main div.contenedor-img-sixth img{
-            width: 177px;
+            width: 190px;
             /* border-radius: 22px; */
             height: 103px;
             margin-left: -10px;
@@ -1220,14 +1605,14 @@ position: relative;
                        
 top: -13px;
             }
-            main div.fifth-div p.description-sixth{
+            main div.sixth-div p.description-sixth{
                 font-size: 12px;
                 font-weight: bold;
                 font-family: var(--comic);
                 position: relative;
                 top: -17px;
             }
-            main div.fifth-div p.price-sixth{
+            main div.sixth-div p.price-sixth{
                        
 background-color: var(--registro-bar);
                        
@@ -1274,7 +1659,7 @@ left: 9px;
 
 color: var(--green);
 
-rotate: revert;
+
 
 transform: rotateY(170deg);
 
@@ -1283,7 +1668,7 @@ transform: rotateY(170deg);
  Lo importé y se me ocurrió que podría girarlo, 
  investigué para saber si existía alguna propiedad en CSS, que me permitiera hacerlo. */
 
-border-image: white;
+
 
 /* border: solid; */
 
@@ -1312,7 +1697,6 @@ top: -19px;
 
 left: 90px;
 
-color: 90px;
 
 color: var(--green);
 }
@@ -1352,10 +1736,13 @@ text-decoration: underline;
 font-size: 10px;
        
 /* font-weight: lighter; */
-    }
+    
 
     
 }
+}
+
+
 /* DESKTOP */
 @media (min-width:769px){
     main{/* background-color: black; */}
@@ -1372,9 +1759,9 @@ list-style: none;
 
 display: flex;
 
-padding: 5px;
+padding: 4px;
 
-width: 280px;
+width: 640px;
 
 background-color: var(--frío);
 
@@ -1386,9 +1773,9 @@ border-top-left-radius: 0px;
 
 border-bottom-left-radius: 0px;
 
-margin-top: 10px;
+margin-top: 12px;
 
-height: 25px;
+height: 20px;
 
 justify-content: space-around;
 
@@ -1403,12 +1790,11 @@ padding-right: 28px;
 }
     main nav.nav-bar ul.list-bar li.list-none{
 
-display: none;
-
+/* display: none; */
 }
     main nav.nav-bar ul.list-bar li a{
 
-font-size: 18px;
+font-size: 16px;
 
 color: var(--blanco);
 
@@ -1419,8 +1805,6 @@ position: relative;
 left: -3px;
 
 font-family: var(--inria);
-
-font-weight: 35px;
 
 /* font-weight: lighter; */
 
@@ -1477,6 +1861,63 @@ letter-spacing: 11px;
 
 font-size: 21px;
 }
+
+/* TÍTULO DOS */
+main h2.second-h2{
+
+  background-color: var(--rojo);
+  
+  height: 54px;
+  
+  position: relative;
+  
+  /* left: 30px; */
+  
+  text-align: center;
+  
+  /* padding-top: 0px; */
+  
+  font-family: var(--damion);
+  
+  font-size: 50px;
+  
+  font-weight: lighter;
+  
+  color: var(--blanco);
+  
+  /* align-items: stretch; */
+  
+  letter-spacing: 18px;
+  
+  padding-bottom: 10px;
+  
+  /* display: none; */
+  }
+      main p.caption-dos{
+  
+  background-color: var(--registro-bar);
+  
+  /* color: #364f5e; */
+  
+  height: 30px;
+  
+  text-align: center;
+  
+  padding-top: 6px;
+  
+  font-family: var(--comic);
+  
+  font-weight: bold;
+  
+  color: var(--blanco);
+  
+  letter-spacing: 11px;
+  
+  font-size: 21px;
+  
+  margin-bottom: 0px;
+      }
+
 main a.arrow-right{
     
 position: relative;
@@ -1491,18 +1932,38 @@ left: 290px;
 
 color: var(--blanco);
 
+position: relative;
+
+left: 367px;
+
+top: -4px;
 }
+/* CONTENEDOR DIVS */
+
+main div.contenedor-primero{}
+
+/* CONTENEDOR SEGUNDO */
+
+main div.contenedor-segundo{
+    position: relative;
+    top: -285px;
+}
+
 
     /* PRIMER DIV*/
     main div.first-div{
 
-display: flex;
+/* display: flex; */
 
 flex-direction: row-reverse;
 
 background-color: var(--crudo);
 
 padding: 10px;
+
+height: 210px;
+
+width: 200px;
 }
     main div.contenedor-img{}
     main div.contenedor-img img{}
@@ -1544,7 +2005,9 @@ padding-top: 3px;
         
 padding-bottom: 2px;
         
-position: relative;
+/* position: relative; */
+        
+ve; */
         
 top: 27px;
     }
@@ -1553,7 +2016,7 @@ top: 27px;
 
     main div.second-div{
 
-display: flex;
+/* display: flex; */
 
 flex-direction: row-reverse;
 
@@ -1561,14 +2024,17 @@ background-color: var(--crudo);
 
 /* border-style: solid; */
 
-border-top-style: solid;
+/* border-top-style: solid; */
 
-border-bottom-style: solid;
+/* border-bottom-style: solid; */
 
-border-width: 1px;
+/* border-width: 1px; */
 
 padding: 10px;
 
+height: 210px;
+
+width: 199px;
 }
     
     main div.contenedor-img{}
@@ -1612,28 +2078,32 @@ padding-bottom: 2px;
                
 position: relative;
                
-top: 8px;
+top: -6px;
     }
    /* TERCER-DIV */
   
     main div.third-div{
 
-        display: flex;
-        
-        flex-direction: row-reverse;
-        
-        background-color: var(--crudo);
-        
-        padding: 10px;
-        
-        }
+/* display: flex; */
+
+flex-direction: row-reverse;
+
+background-color: var(--crudo);
+
+padding: 10px;
+
+width: 200px;
+
+height: 212px;
+
+}
             
             main div.contenedor-img{
             /* width: 79px; */
         }
             main div.contenedor-img img{
-            width: 126px;
-            border-radius: 22px;
+            width: 220px;
+            /* border-radius: 22px; */
             height: 103px;
             margin-left: 0px;
         }
@@ -1661,34 +2131,47 @@ top: 8px;
             }
             main div.third-div p.price{
                        
-        background-color: var(--registro-bar);
+background-color: var(--registro-bar);
                        
-        width: 60px;
+width: 60px;
                        
-        font-size: 14px;
+font-size: 14px;
                        
-        padding-left: 6px;
+padding-left: 6px;
                        
-        padding-top: 3px;
+padding-top: 3px;
                        
-        padding-bottom: 2px;
+padding-bottom: 2px;
                        
-        position: relative;
+position: relative;
                        
-        top: 17px;
+top: -9px;
             }
       /* CUARTO-DIV */
-     
+      main div.contenedor-div-cuarto{
+    position: relative;
+    top: -371px;
+}
       main div.head{}
       main div.fourth-div{}
-      main div.fourth-div p.horary{}
-      main div.fourth-div p.open{}
+      main div.fourth-div p.horary{
+    width: 115px;
+}
+      main div.fourth-div p.open{
+    width: 47px;
+    position: relative;
+    top: -15px;
+    left: 161px;
+}
       main div.fourth-div p.text{}
       main div.fourth-div i.fa-solid.fa-bag-shopping{}
       main div.fourth-div i.fa-solid.fa-arrow-pointer{}
             
       main div.fourth-div a.adress{}
-      main div.head img{}
+      main div.head img{
+    position: relative;
+    left: 68px;
+}
       main div.foot{}
       main div.foot i.fa-solid.fa-basket-shopping{}
       main div.foot a{}
@@ -1696,22 +2179,26 @@ top: 8px;
           /* QUINTO-DIV */
       main div.fifth-div{
 
-        display: flex;
-        
-        flex-direction: row-reverse;
-        
-        background-color: var(--crudo);
-        
-        padding: 10px;
-        
-        }
+/* display: flex; */
+
+flex-direction: row-reverse;
+
+background-color: var(--crudo);
+
+padding: 10px;
+
+width: 201px;
+
+height: 210px;
+
+}
             
             main div.contenedor-img-fifth{
             /* width: 79px; */
         }
             main div.contenedor-img-fifth img{
-            width: 126px;
-            border-radius: 22px;
+            width: 221px;
+            /* border-radius: 22px; */
             height: 103px;
             margin-left: 0px;
         }
@@ -1739,44 +2226,48 @@ top: 8px;
             }
             main div.fifth-div p.price-fifth{
                        
-        background-color: var(--registro-bar);
+background-color: var(--registro-bar);
                        
-        width: 60px;
+width: 60px;
                        
-        font-size: 14px;
+font-size: 14px;
                        
-        padding-left: 6px;
+padding-left: 6px;
                        
-        padding-top: 3px;
+padding-top: 3px;
                        
-        padding-bottom: 2px;
+padding-bottom: 2px;
                        
-        position: relative;
+/* position: relative; */
                        
-        top: 17px;
+/* top: 17px; */
             }
             /* SEXTO-DIV */
             
     main div.sixth-div{
 
-        display: flex;
-        
-        flex-direction: row-reverse;
-        
-        background-color: var(--crudo);
-        
-        padding: 10px;
-        
-        }
+/* display: flex; */
+
+flex-direction: row-reverse;
+
+background-color: var(--crudo);
+
+padding: 10px;
+
+width: 200px;
+
+height: 210px;
+
+}
             
             main div.contenedor-img-sixth{
             /* width: 79px; */
         }
             main div.contenedor-img-sixth img{
-            width: 126px;
-            border-radius: 22px;
+            width: 220px;
+            /* border-radius: 22px; */
             height: 103px;
-            margin-left: 0px;
+            /* margin-left: 0px; */
         }
         
             main div.contenedor-descrip-sixth{
@@ -1834,6 +2325,7 @@ height: 70px;
 
 align-items: center;
 
+display: none;
 }
     main div.icons-div i.fa-solid.fa-right-from-bracket{
 
@@ -1845,7 +2337,7 @@ left: 9px;
 
 color: var(--green);
 
-rotate: revert;
+
 
 transform: rotateY(170deg);
 
@@ -1854,7 +2346,7 @@ transform: rotateY(170deg);
  Lo importé y se me ocurrió que podría girarlo, 
  investigué para saber si existía alguna propiedad en CSS, que me permitiera hacerlo. */
 
-border-image: white;
+
 
 /* border: solid; */
 
@@ -1914,8 +2406,7 @@ color: var(--blanco);
        
 text-decoration: underline;
        
-font-size: 15px;
-    }
+font-size: 15px;
+    }
 
-    
 }
