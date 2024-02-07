@@ -142,20 +142,13 @@
 @media screen and (min-width: 769px) {
 
     .footer {
-
-        background: var(--rojo);
-
-        height: 189px;
-
-        display: flex;
-
-        flex-direction: column;
-
-        justify-content: center;
-
-        align-items: center;
-
-    }
+background: var(--rojo);
+height: 120px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
 
     .footer .info-footer {}
 
@@ -181,14 +174,25 @@
 
 
     .direction-f {
+    /* position: relative; */
+    /* margin-block-start: 0px; */
     position: absolute;
+    left: 8%;
+    padding: 13px;
+    border: solid var(--blanco);
+    border-radius: 13px;
+    font-size: 15px;
+    color: var(--blanco);
+    top: 9px;
     }
 
     .conteiner-location {
         display: flex;
-        justify-content: center;
-        padding-bottom: 22px;
+        padding-bottom: 21px;
         position: absolute;
+        left: 24px;
+        top: 55px;
+        font-size: 17px;
     }
 
     .conteiner-location i {
@@ -201,6 +205,8 @@
         display: inline-block;
         padding-top: 21px;
         margin-right: 48px;
+        font-size: 17px;
+        font-family: var(--poppins);
     }
 
     .conteiner-location h2 {}
@@ -213,6 +219,7 @@
     border-radius: 13px;
     font-size: 15px;
     color: var(--blanco);
+    top: 9px;
     }
 
     .conteiner-iconos {
@@ -220,7 +227,7 @@
         display: flex;
         position: absolute;
         left: 80%;
-        margin-top: 54px;
+        margin-top: 17px;
     }
 
     .conteiner-iconos a {}
@@ -229,12 +236,26 @@
 
     .contenedor-copy h2 {
     position: absolute;
+    /* justify-content: center; */
+    display: flex;
+    /* top: 25px; */
+    position: absolute;
+    left: 46%;
+    padding: 13px;
+    border: solid var(--blanco);
+    border-radius: 13px;
+    font-size: 15px;
+    color: var(--blanco);
+    top: 9px;
     }
 
     .contenedor-copy p {
-        display: flex;
         font-size: 10px;
-        margin-left: -40px;
+        position: absolute;
+        top: 95px;
+        left: 36%;
+        font-family: var(--poppins);
+        font-size: 9px;
     }
 
 }
