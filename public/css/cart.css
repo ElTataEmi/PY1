@@ -1,2412 +1,2535 @@
 /* CELULAR */
-@media (max-width:360px){
-    main{/* background-color: black; */}
+@media (max-width:360px) {
+    main {
+        /* background-color: black; */
+    }
 
     /* MAIN NAV- */
-    main nav.nav-bar{
-
-/* display: flex; */
-
-}
-    main nav.nav-bar ul.list-bar{
-
-list-style: none;
-
-display: flex;
-
-padding: 5px;
-
-width: 280px;
-
-background-color: var(--frío);
-
-/* font-size: 54px; */
-
-border-radius: 18px;
-
-border-top-left-radius: 0px;
-
-border-bottom-left-radius: 0px;
-
-margin-top: 10px;
-
-height: 25px;
-
-justify-content: space-around;
-
-/* border-bottom: solid; */
-
-padding-right: 28px;
-}
-    main nav.nav-bar ul.list-bar li{
-
-/* font-size: 114px; */
-
-}
-
-li.drinks {
-    display: none;
-}
-
-
-
-    main nav.nav-bar ul.list-bar li.list-none{
-
-display: none;
-
-}
-    main nav.nav-bar ul.list-bar li a{
-
-font-size: 18px;
-
-color: var(--blanco);
-
-/* display: flex; */
-
-position: relative;
-
-left: -3px;
-
-font-family: var(--inria);
-
-
-
-/* font-weight: lighter; */
-
-letter-spacing: 3px;
-}
-
-    main h2{
-
-background-color: var(--rojo);
-
-height: 54px;
-
-position: relative;
-
-/* left: 30px; */
-
-text-align: center;
-
-/* padding-top: 0px; */
-
-font-family: var(--damion);
-
-font-size: 50px;
-
-font-weight: lighter;
-
-color: var(--blanco);
-
-/* align-items: stretch; */
-
-letter-spacing: 18px;
-
-padding-bottom: 10px;
-
-/* display: none; */
-}
-    main p.caption{
-
-background-color: var(--registro-bar);
-
-/* color: #364f5e; */
-
-height: 30px;
-
-text-align: center;
-
-padding-top: 6px;
-
-font-family: var(--comic);
-
-font-weight: bold;
-
-color: var(--blanco);
-
-letter-spacing: 11px;
-
-font-size: 21px;
-
-margin-bottom: 0px;
-}
-main a.arrow-right{
-    
-position: relative;
-    
-top: -126px;
-    
-left: 290px;
-    
-/* color: var(--blanco); */
-}
-    main i.fa-solid.fa-angle-right{
-
-color: var(--blanco);
-
-}
-
-/* CONTENEDOR DIVS */
-
-main div.contenedor-primero{}
-
-/* CONTENEDOR SEGUNDO */
-
-main div.contenedor-segundo{
-    display: none;
-}
-
-    /* PRIMER DIV*/
-    main div.first-div{
-
-display: flex;
-
-flex-direction: row-reverse;
-
-background-color: var(--crudo);
-
-padding: 15px;
-
-/* padding-top: 29px; */
-
-position: relative;
-
-top: -20px;
-}
-    main div.contenedor-img{}
-    main div.contenedor-img img{}
-
-    main div.contenedor-descrip{
-        
-    }
-    main div.first-div p.name-pizza{
-        
-padding-bottom: 10px;
-        
-font-size: 15px;
-        
-font-family: var(--comic);
-        
-font-weight: bold;
-    }
-    main div.first-div p.description{
-        
-font-size: 12px;
-        
-font-weight: bold;
-        
-font-family: var(--comic);
-        
-
-    }
-    main div.first-div p.price{
-        
-background-color: var(--registro-bar);
-        
-width: 60px;
-        
-font-size: 14px;
-        
-padding-left: 6px;
-        
-padding-top: 3px;
-        
-padding-bottom: 2px;
-        
-position: relative;
-        
-top: 27px;
-    }
-    
-    /* SEGUNDO DIV */
-
-    main div.second-div{
-
-display: flex;
-
-flex-direction: row-reverse;
-
-background-color: var(--crudo);
-
-/* border-style: solid; */
-
-border-top-style: solid;
-
-border-bottom-style: solid;
-
-border-width: 1px;
-
-padding: 15px;
-
-position: relative;
-
-top: -20px;
-}
-    
-    main div.contenedor-img{}
-    main div.contenedor-img img{}
-
-    main div.contenedor-descrip{
-        
-    }
-    main div.second-div p.name-pizza{
-        
-               
-padding-bottom: 10px;
-        
-font-size: 15px;
-        
-font-family: var(--comic);
-        
-font-weight: bold;
-    }
-    main div.second-div p.description{
-        font-size: 12px;
-        
-font-weight: bold;
-        
-font-family: var(--comic);
-        
-    }
-    main div.second-div p.price{
-               
-background-color: var(--registro-bar);
-               
-width: 60px;
-               
-font-size: 14px;
-               
-padding-left: 6px;
-               
-padding-top: 3px;
-               
-padding-bottom: 2px;
-               
-position: relative;
-               
-top: 8px;
-    }
-
-    /* TERCER DIV */
-
-    main div.third-div{
-
-display: flex;
-
-flex-direction: row-reverse;
-
-background-color: var(--crudo);
-
-padding: 10px;
-
-position: relative;
-
-top: -20px;
-
-padding: 15px;
-}
-    
-    main div.contenedor-img{
-    /* width: 79px; */
-}
-    main div.contenedor-img img{
-    width: 126px;
-    border-radius: 22px;
-    height: 103px;
-    margin-left: 0px;
-}
-
-    main div.contenedor-descrip{
-    }
-    main div.third-div p.name-pizza{
-               
-padding-bottom: 10px;
-        
-font-size: 15px;
-        
-font-family: var(--comic);
-        
-font-weight: bold;
-        
-    }
-    main div.third-div p.description{
-        font-size: 12px;
-        
-font-weight: bold;
-        
-font-family: var(--comic);
-        
-    }
-    main div.third-div p.price{
-               
-background-color: var(--registro-bar);
-               
-width: 60px;
-               
-font-size: 14px;
-               
-padding-left: 6px;
-               
-padding-top: 3px;
-               
-padding-bottom: 2px;
-               
-position: relative;
-               
-top: 17px;
-    }
-    /* TÍTULO-DOS */
-    
-    main h2.second-h2{
-
-background-color: var(--rojo);
-
-height: 54px;
-
-position: relative;
-
-/* left: 30px; */
-
-text-align: center;
-
-/* padding-top: 0px; */
-
-font-family: var(--damion);
-
-font-size: 50px;
-
-font-weight: lighter;
-
-color: var(--blanco);
-
-/* align-items: stretch; */
-
-letter-spacing: 18px;
-
-padding-bottom: 10px;
-
-display: none;
-
-}
-          main p.caption-dos{
-      
-background-color: var(--registro-bar);
-      
-/* color: #364f5e; */
-      
-height: 30px;
-      
-text-align: center;
-      
-padding-top: 6px;
-      
-font-family: var(--comic);
-      
-font-weight: bold;
-      
-color: var(--blanco);
-      
-letter-spacing: 11px;
-      
-font-size: 21px;
-      
-margin-bottom: 0px;
-    
-      
-display: none;
-      
-}
-      /* CUARTO-DIV */
-main div.contenedor-div-cuarto{
-    /* display: none; */}
-      
-main div.head{
-    display: none;
-}
-      
-main div.fourth-div{
-    display: none;
-}
-      
-main div.fourth-div p.horary{}
-      
-main div.fourth-div p.open{}
-      
-main div.fourth-div p.text{}
-      
-main div.fourth-div i.fa-solid.fa-arrow-pointer{}
-      
-main div.fourth-div a.adress{}
-      
-main div.head img{}
-      
-main div.foot{
-    display: none;
-}
-      
-main div.foot i.fa-solid.fa-basket-shopping{}
-      
-main div.foot a{}
-      
-main div.fourth-div i.fa-solid.fa-bag-shopping{}
-      /* QUINTO-DIV */
-      
-main div.fifth-div{
+    main nav.nav-bar {
 
         /* display: flex; */
-        
-        flex-direction: row-reverse;
-      
-background-color: var(--crudo);
-      
-padding: 10px;
-      
-/* position: relative; */
-      
-left: -203px;
-      
-height: 188px;
-      
-width: 155px;
-      
-/* border: solid; */
-      
-/* position: relative; */
-      
-bottom: -109px;
-      
-border-radius: 24px;
-        }
-      
-main div.contenedor-img-fifth{
-                    /* width: 79px; */}
-      
-main div.contenedor-img-fifth img{
-                    width: 175px;
-      
-/* border-radius: 22px; */
-      
-height: 103px;
-      
-/* margin-left: 0px; */
-      
-border-top-left-radius: 23px;
-      
-border-top-right-radius: 23px;
-      
-left: -10px;
-      
-position: relative;
-      
-top: -10px;
-                }
-      
-main div.contenedor-descrip-fifth{}
-      
-main div.fifth-div p.name-pizza-fifth{
-                               
-        padding-bottom: 10px;
-      
-font-size: 15px;
-      
-font-family: var(--comic);
-      
-font-weight: bold;
-      
-position: relative;
-      
-top: -13px;
-                    }
-      
-main div.fifth-div p.description-fifth{
-                        font-size: 12px;
-      
-font-weight: bold;
-      
-font-family: var(--comic);
-      
-position: relative;
-      
-top: -17px;
-                    }
-      
-main div.fifth-div p.price-fifth{
-                               
-        background-color: var(--registro-bar);
-      
-width: 60px;
-      
-font-size: 14px;
-      
-padding-left: 6px;
-      
-padding-top: 3px;
-      
-padding-bottom: 2px;
-      
-position: relative;
-      
-top: -11px;
-                    }
-                    /* SEXTO-DIV */
-      
-main div.sixth-div{
-        
-        /* display: flex; */
-        
-        flex-direction: row-reverse;
-      
-background-color: var(--crudo);
-      
-padding: 10px;
-      
-/* position: relative; */
-      
-left: -213px;
-      
-top: -210px;
-      
-height: 188px;
-      
-width: 156px;
-      
-border-radius: 23px;
-        }
-      
-main div.contenedor-img-sixth{
-                    /* width: 95px; */}
-      
-main div.contenedor-img-sixth img{
-                    width: 177px;
-      
-/* border-radius: 22px; */
-      
-height: 103px;
-      
-margin-left: -10px;
-      
-position: relative;
-      
-top: -10px;
-      
-border-top-right-radius: 22px;
-      
-border-top-left-radius: 22px;
-                }
-      
-main div.contenedor-descrip-sixth{}
-      
-main div.sixth-div p.name-pizza-sixth{
-                               
-        padding-bottom: 10px;
-      
-font-size: 15px;
-      
-font-family: var(--comic);
-      
-font-weight: bold;
-      
-position: relative;
-      
-top: -13px;
-                    }
-      
-main div.fifth-div p.description-sixth{
-                        font-size: 12px;
-      
-font-weight: bold;
-      
-font-family: var(--comic);
-      
-position: relative;
-      
-top: -17px;
-                    }
-      
-main div.fifth-div p.price-sixth{
-                               
-        background-color: var(--registro-bar);
-      
-width: 60px;
-      
-font-size: 14px;
-      
-padding-left: 6px;
-      
-padding-top: 3px;
-      
-padding-bottom: 2px;
-      
-position: relative;
-      
-top: -10px;
-                    }
 
-    /* ÍCONOS */
-      
-main div.icons-div{
-
-display: flex;
-
-justify-content: space-around;
-
-/* color: var(--negrocla); */
-
-background-color: var(--barro);
-
-height: 70px;
-
-align-items: center;
-
-padding: 10px;
-
-position: relative;
-
-top: -20px;
-}
-      
-main div.icons-div i.fa-solid.fa-right-from-bracket{
-
-position: relative;
-      
-top: -18px;
-      
-left: 9px;
-      
-color: var(--green);
-      
-
-      
-transform: rotateY(170deg);
-      
-/* transform: rotateY(170deg); No encontré este ícono a la izquierda en font icons,
- pero sí estaba disponible el mismo, pero a la derecha.
- Lo importé y se me ocurrió que podría girarlo, 
- investigué para saber si existía alguna propiedad en CSS, que me permitiera hacerlo. */
-      
-/* border: solid; */
-      
-/* -webkit-text-stroke: wheat; */
-      
-/* -webkit-text-stroke: beige; */
-}
-      
-main div.icons-div p.out{
-
-position: relative;
-      
-right: 60px;
-      
-/* border: var(--blanco) solid; */
-      
-/* box-shadow: 0px 0px 10px; */
-      
-/* text-shadow: 0px 0px 24px white; */
-
-}
-      
-main div.icons-div i.fa-solid.fa-basket-shopping{
-
-position: relative;
-      
-top: -19px;
-      
-left: 90px;
-      
-color: var(--green);
-}
-      
-main div.icons-div p.order{}
-
-    /* Footer */
-      
-footer{
-        
-background-color: var(--rojo);
-      
-display: flex;
-      
-height: 80px;
-      
-flex-direction: column;
-      
-align-items: center;
-      
-/* width: 123px; */
-      
-/* padding: 40px; */
-      
-position: relative;
-      
-/* top: -21px; */
-      
-/* padding-bottom: 35px; */
     }
-      
-footer p.conditions{
-        
-/* font-size: 11px; */}
-      
-footer p.conditions a{
-       
-color: var(--blanco);
-      
-text-decoration: underline;
-      
-font-size: 15px;
-    }
-       /* QUINTO-DIV */
-      
-main div.fifth-div{
 
-display: flex;
-      
-flex-direction: row-reverse;
-      
-background-color: var(--crudo);
-      
-padding: 10px;
-      
-display: none;
+    main nav.nav-bar ul.list-bar {
 
-}
-      
-main div.contenedor-img-fifth{
-            /* width: 79px; */}
-      
-main div.contenedor-img-fifth img{
-            width: 126px;
-      
-border-radius: 22px;
-      
-height: 103px;
-      
-margin-left: 0px;
-        }
-      
-main div.contenedor-descrip-fifth{}
-      
-main div.fifth-div p.name-pizza{
-                       
-        padding-bottom: 10px;
-      
-font-size: 15px;
-      
-font-family: var(--comic);
-      
-font-weight: bold;
-                
-            }
-      
-main div.fifth-div p.description{
-                font-size: 12px;
-      
-font-weight: bold;
-      
-font-family: var(--comic);
-                
-            }
-      
-main div.fifth-div p.price-fifth{
-                       
-        background-color: var(--registro-bar);
-      
-width: 60px;
-      
-font-size: 14px;
-      
-padding-left: 6px;
-      
-padding-top: 3px;
-      
-padding-bottom: 2px;
-      
-position: relative;
-      
-top: 17px;
-            }
-            /* SEXTO-DIV */
-      
-main div.sixth-div{
+        list-style: none;
 
         display: flex;
-      
-flex-direction: row-reverse;
-      
-background-color: var(--crudo);
-      
-padding: 10px;
-        
-        }
-      
-main div.contenedor-img-sixth{
-            /* width: 79px; */}
-      
-main div.contenedor-img-sixth img{
-            width: 126px;
-      
-border-radius: 22px;
-      
-height: 103px;
-      
-margin-left: 0px;
-        }
-      
-main div.contenedor-descrip-sixth{}
-      
-main div.sixth-div p.name-pizza{
-                       
+
+        padding: 5px;
+
+        width: 280px;
+
+        background-color: var(--frío);
+
+        /* font-size: 54px; */
+
+        border-radius: 18px;
+
+        border-top-left-radius: 0px;
+
+        border-bottom-left-radius: 0px;
+
+        margin-top: 10px;
+
+        height: 25px;
+
+        justify-content: space-around;
+
+        /* border-bottom: solid; */
+
+        padding-right: 28px;
+    }
+
+    main nav.nav-bar ul.list-bar li {
+
+        /* font-size: 114px; */
+
+    }
+
+    li.drinks {
+        display: none;
+    }
+
+
+
+    main nav.nav-bar ul.list-bar li.list-none {
+
+        display: none;
+
+    }
+
+    main nav.nav-bar ul.list-bar li a {
+
+        font-size: 18px;
+
+        color: var(--blanco);
+
+        /* display: flex; */
+
+        position: relative;
+
+        left: -3px;
+
+        font-family: var(--inria);
+
+
+
+        /* font-weight: lighter; */
+
+        letter-spacing: 3px;
+    }
+
+    main h2 {
+
+        background-color: var(--rojo);
+
+        height: 54px;
+
+        position: relative;
+
+        /* left: 30px; */
+
+        text-align: center;
+
+        /* padding-top: 0px; */
+
+        font-family: var(--damion);
+
+        font-size: 50px;
+
+        font-weight: lighter;
+
+        color: var(--blanco);
+
+        /* align-items: stretch; */
+
+        letter-spacing: 18px;
+
         padding-bottom: 10px;
-      
-font-size: 15px;
-      
-font-family: var(--comic);
-      
-font-weight: bold;
-                
-            }
-      
-main div.fifth-div p.description{
-                font-size: 12px;
-      
-font-weight: bold;
-      
-font-family: var(--comic);
-                
-            }
-      
-main div.fifth-div p.price-sixth{
-                       
+
+        /* display: none; */
+    }
+
+    main p.caption {
+
         background-color: var(--registro-bar);
-      
-width: 60px;
-      
-font-size: 14px;
-      
-padding-left: 6px;
-      
-padding-top: 3px;
-      
-padding-bottom: 2px;
-      
-position: relative;
-      
-top: 17px;
-            }
 
-    
+        /* color: #364f5e; */
 
-}
-/* TABLET */
-@media (min-width:361px){
-    main{/* background-color: black; */}
+        height: 30px;
 
-    /* MAIN NAV- */
-    main nav.nav-bar{
+        text-align: center;
 
-display: flex;
+        padding-top: 6px;
 
-/* width: 563px; */
+        font-family: var(--comic);
 
-margin-bottom: 10px;
-}
-    main nav.nav-bar ul.list-bar{
+        font-weight: bold;
 
-list-style: none;
+        color: var(--blanco);
 
-display: flex;
+        letter-spacing: 11px;
 
-padding: 5px;
+        font-size: 21px;
 
-width: 537px;
+        margin-bottom: 0px;
+    }
 
-background-color: var(--frío);
+    main a.arrow-right {
 
-/* font-size: 54px; */
+        position: relative;
 
-border-radius: 18px;
+        top: -126px;
 
-border-top-left-radius: 0px;
+        left: 290px;
 
-border-bottom-left-radius: 0px;
+        /* color: var(--blanco); */
+    }
 
-/* margin-top: 8px; */
+    main i.fa-solid.fa-angle-right {
 
-height: 18px;
+        color: var(--blanco);
 
-justify-content: space-around;
+    }
 
-/* border-bottom: solid; */
+    /* CONTENEDOR DIVS */
 
-padding-right: 28px;
-}
-    main nav.nav-bar ul.list-bar li{
+    main div.contenedor-primero {}
 
-/* font-size: 16px; */
+    /* CONTENEDOR SEGUNDO */
 
-
-}
-    main nav.nav-bar ul.list-bar li.list-none{
-
-/* display: none; */
-
-/* width: 8px; */
-}
-main nav.nav-bar ul.list-bar li.drinks{
-    display: none;
-}
-    main nav.nav-bar ul.list-bar li a{
-
-font-size: 13px;
-
-color: var(--blanco);
-
-/* display: flex; */
-
-position: relative;
-
-left: -3px;
-
-font-family: var(--inria);
-
-
-
-/* font-weight: lighter; */
-
-letter-spacing: 1px;
-
-/* display: block; */
-
-width: 10px;
-}
-
-    main h2{
-
-background-color: var(--rojo);
-
-height: 54px;
-
-position: relative;
-
-/* left: 30px; */
-
-text-align: center;
-
-/* padding-top: 0px; */
-
-font-family: var(--damion);
-
-font-size: 45px;
-
-font-weight: lighter;
-
-color: var(--blanco);
-
-/* align-items: stretch; */
-
-letter-spacing: 18px;
-
-padding-bottom: 16px;
-
-width: 670px;
-}
-    main p.caption{
-
-background-color: var(--registro-bar);
-
-/* color: #364f5e; */
-
-height: 20px;
-
-/* text-align: center; */
-
-padding-top: 2px;
-
-font-family: var(--comic);
-
-font-weight: bold;
-
-color: var(--blanco);
-
-letter-spacing: 11px;
-
-font-size: 16px;
-
-width: 670px;
-}
-/* TÍTULO DOS */
-main h2.second-h2{
-
-background-color: var(--rojo);
-
-height: 54px;
-
-/* position: relative; */
-
-/* left: 30px; */
-
-text-align: center;
-
-/* padding-top: 0px; */
-
-font-family: var(--damion);
-
-font-size: 50px;
-
-font-weight: lighter;
-
-color: var(--blanco);
-
-/* align-items: stretch; */
-
-letter-spacing: 18px;
-
-padding-bottom: 10px;
-
-/* display: none; */
-
-margin-top: 14px;
-
-}
-      main p.caption-dos{
-  
-background-color: var(--registro-bar);
-  
-/* color: #364f5e; */
-  
-height: 30px;
-  
-/* text-align: left; */
-  
-padding-top: 6px;
-  
-font-family: var(--comic);
-  
-font-weight: bold;
-  
-color: var(--blanco);
-  
-letter-spacing: 11px;
-  
-font-size: 21px;
-  
-margin-bottom: 0px;
-  
-width: 670px;
-}
-main a.arrow-right{
-    
-position: relative;
-    
-top: -122px;
-    
-/* color: var(--blanco); */
-    
-left: 550px;
-}
-    main i.fa-solid.fa-angle-right{
-
-color: var(--blanco);
-
-}
-/* CONTENEDOR DIVS */
-main div.contenedor-primero{
-    display: flex;
-    /* width: 570px; */
-    /* position: relative; */
-    top: -10px;
-    justify-content: flex-start;
-}
-
-
-
-/* CONTENEDOR SEGUNDO */
-
-main div.contenedor-segundo{
-    display: flex;
-    justify-content: flex-start;
-    position: relative;
-    top: -286px;
-}
-
+    main div.contenedor-segundo {
+        display: none;
+    }
 
     /* PRIMER DIV*/
-    main div.first-div{
+    main div.first-div {
 
-/* display: flex; */
+        display: flex;
 
-flex-direction: row-reverse;
+        flex-direction: row-reverse;
 
-background-color: var(--crudo);
+        background-color: var(--crudo);
 
-padding: 10px;
+        padding: 15px;
 
-width: 170px;
+        /* padding-top: 29px; */
 
-border-radius: 23px;
+        position: relative;
 
-/* position: relative; */
-
-left: -35px;
-
-top: -8px;
-
-height: 200px;
-
-margin-right: 36px;
-}
-    main div.contenedor-img{}
-    main div.contenedor-img img{}
-
-    main div.contenedor-descrip{
-        
+        top: -20px;
     }
-    main div.first-div p.name-pizza{
-        
-/* padding-bottom: 0px; */
-        
-font-size: 15px;
-        
-font-family: var(--comic);
-        
-font-weight: bold;
-        
-position: relative;
-        
-top: -13px;
+
+    main div.contenedor-img {}
+
+    main div.contenedor-img img {}
+
+    main div.contenedor-descrip {}
+
+    main div.first-div p.name-pizza {
+
+        padding-bottom: 10px;
+
+        font-size: 15px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
     }
-    main div.first-div p.description{
-        
-font-size: 12px;
-        
-font-weight: bold;
-        
-font-family: var(--comic);
-        
-position: relative;
-        
-top: -8px;
+
+    main div.first-div p.description {
+
+        font-size: 12px;
+
+        font-weight: bold;
+
+        font-family: var(--comic);
+
+
     }
-    main div.first-div p.price{
-        
-background-color: var(--registro-bar);
-        
-width: 57px;
-        
-font-size: 13px;
-        
-padding-left: 6px;
-        
-padding-top: 2px;
-        
-padding-bottom: 1px;
-        
-position: relative;
-        
-top: 7px;
+
+    main div.first-div p.price {
+
+        background-color: var(--registro-bar);
+
+        width: 60px;
+
+        font-size: 14px;
+
+        padding-left: 6px;
+
+        padding-top: 3px;
+
+        padding-bottom: 2px;
+
+        position: relative;
+
+        top: 27px;
     }
-    
+
     /* SEGUNDO DIV */
 
-    main div.second-div{
+    main div.second-div {
 
-/* display: flex; */
+        display: flex;
 
-flex-direction: row-reverse;
+        flex-direction: row-reverse;
 
-background-color: var(--crudo);
+        background-color: var(--crudo);
 
-/* border-style: solid; */
+        /* border-style: solid; */
 
-/* border-top-style: solid; */
+        border-top-style: solid;
 
-/* border-bottom-style: solid; */
+        border-bottom-style: solid;
 
-/* border-width: 1px; */
+        border-width: 1px;
 
-padding: 10px;
+        padding: 15px;
 
-width: 170px;
-
-border-radius: 23px;
-
-/* position: relative; */
-
-left: -88px;
-
-top: -8px;
-
-height: 200px;
-
-margin-right: 36px;
-}
-    
-    main div.contenedor-img{}
-    main div.contenedor-img img{}
-
-    main div.contenedor-descrip{
-        
-    }
-    main div.second-div p.name-pizza{
-        
-padding-bottom: 10px;
-        
-font-size: 15px;
-        
-font-family: var(--comic);
-        
-font-weight: bold;
-        
-position: relative;
-        
-top: -13px;
-    }
-    main div.second-div p.description{
-        font-size: 12px;
-        font-weight: bold;
-        font-family: var(--comic);
         position: relative;
-        top: -16px;
+
+        top: -20px;
     }
-    main div.second-div p.price{
-               
-background-color: var(--registro-bar);
-               
-width: 60px;
-               
-font-size: 13px;
-               
-padding-left: 6px;
-               
-padding-top: 2px;
-               
-padding-bottom: 1px;
-               
-/* position: relative; */
-               
-top: -9px;
+
+    main div.contenedor-img {}
+
+    main div.contenedor-img img {}
+
+    main div.contenedor-descrip {}
+
+    main div.second-div p.name-pizza {
+
+
+        padding-bottom: 10px;
+
+        font-size: 15px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
+    }
+
+    main div.second-div p.description {
+        font-size: 12px;
+
+        font-weight: bold;
+
+        font-family: var(--comic);
+
+    }
+
+    main div.second-div p.price {
+
+        background-color: var(--registro-bar);
+
+        width: 60px;
+
+        font-size: 14px;
+
+        padding-left: 6px;
+
+        padding-top: 3px;
+
+        padding-bottom: 2px;
+
+        position: relative;
+
+        top: 8px;
     }
 
     /* TERCER DIV */
 
-    main div.third-div{
+    main div.third-div {
 
-/* display: flex; */
+        display: flex;
 
-flex-direction: row-reverse;
+        flex-direction: row-reverse;
 
-background-color: var(--crudo);
+        background-color: var(--crudo);
 
-padding: 10px;
+        padding: 10px;
 
-width: 170px;
+        position: relative;
 
-border-radius: 22px;
+        top: -20px;
 
-/* position: relative; */
-
-top: -8px;
-
-left: -151px;
-
-height: 200px;
-}
-    
-    main div.contenedor-img{
-    /* width: 79px; */
-}
-    main div.contenedor-img img{
-    width: 191px;
-    /* border-radius: 22px; */
-    height: 102px;
-    margin-left: 0px;
-    position: relative;
-    left: -11px;
-    top: -10px;
-    border-top-right-radius: 22px;
-    border-top-left-radius: 22px;
-}
-
-    main div.contenedor-descrip{
-    height: 0;
+        padding: 15px;
     }
-    main div.third-div p.name-pizza{
-               
-padding-bottom: 8px;
-               
-font-size: 15px;
-               
-font-family: var(--comic);
-               
-font-weight: bold;
-               
-position: relative;
-               
-top: -13px;
+
+    main div.contenedor-img {
+        /* width: 79px; */
     }
-    main div.third-div p.description{
+
+    main div.contenedor-img img {
+        width: 126px;
+        border-radius: 22px;
+        height: 103px;
+        margin-left: 0px;
+    }
+
+    main div.contenedor-descrip {}
+
+    main div.third-div p.name-pizza {
+
+        padding-bottom: 10px;
+
+        font-size: 15px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
+
+    }
+
+    main div.third-div p.description {
+        font-size: 12px;
+
+        font-weight: bold;
+
+        font-family: var(--comic);
+
+    }
+
+    main div.third-div p.price {
+
+        background-color: var(--registro-bar);
+
+        width: 60px;
+
+        font-size: 14px;
+
+        padding-left: 6px;
+
+        padding-top: 3px;
+
+        padding-bottom: 2px;
+
+        position: relative;
+
+        top: 17px;
+    }
+
+    /* TÍTULO-DOS */
+
+    main h2.second-h2 {
+
+        background-color: var(--rojo);
+
+        height: 54px;
+
+        position: relative;
+
+        /* left: 30px; */
+
+        text-align: center;
+
+        /* padding-top: 0px; */
+
+        font-family: var(--damion);
+
+        font-size: 50px;
+
+        font-weight: lighter;
+
+        color: var(--blanco);
+
+        /* align-items: stretch; */
+
+        letter-spacing: 18px;
+
+        padding-bottom: 10px;
+
+        display: none;
+
+    }
+
+    main p.caption-dos {
+
+        background-color: var(--registro-bar);
+
+        /* color: #364f5e; */
+
+        height: 30px;
+
+        text-align: center;
+
+        padding-top: 6px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
+
+        color: var(--blanco);
+
+        letter-spacing: 11px;
+
+        font-size: 21px;
+
+        margin-bottom: 0px;
+
+
+        display: none;
+
+    }
+
+    /* CUARTO-DIV */
+    main div.contenedor-div-cuarto {
+        /* display: none; */
+    }
+
+    main div.head {
+        display: none;
+    }
+
+    main div.fourth-div {
+        display: none;
+    }
+
+    main div.fourth-div p.horary {}
+
+    main div.fourth-div p.open {}
+
+    main div.fourth-div p.text {}
+
+    main div.fourth-div i.fa-solid.fa-arrow-pointer {}
+
+    main div.fourth-div a.adress {}
+
+    main div.head img {}
+
+    main div.foot {
+        display: none;
+    }
+
+    main div.foot i.fa-solid.fa-basket-shopping {}
+
+    main div.foot a {}
+
+    main div.fourth-div i.fa-solid.fa-bag-shopping {}
+
+    /* QUINTO-DIV */
+
+    main div.fifth-div {
+
+        /* display: flex; */
+
+        flex-direction: row-reverse;
+
+        background-color: var(--crudo);
+
+        padding: 10px;
+
+        /* position: relative; */
+
+        left: -203px;
+
+        height: 188px;
+
+        width: 155px;
+
+        /* border: solid; */
+
+        /* position: relative; */
+
+        bottom: -109px;
+
+        border-radius: 24px;
+    }
+
+    main div.contenedor-img-fifth {
+        /* width: 79px; */
+    }
+
+    main div.contenedor-img-fifth img {
+        width: 175px;
+
+        /* border-radius: 22px; */
+
+        height: 103px;
+
+        /* margin-left: 0px; */
+
+        border-top-left-radius: 23px;
+
+        border-top-right-radius: 23px;
+
+        left: -10px;
+
+        position: relative;
+
+        top: -10px;
+    }
+
+    main div.contenedor-descrip-fifth {}
+
+    main div.fifth-div p.name-pizza-fifth {
+
+        padding-bottom: 10px;
+
+        font-size: 15px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
+
+        position: relative;
+
+        top: -13px;
+    }
+
+    main div.fifth-div p.description-fifth {
+        font-size: 12px;
+
+        font-weight: bold;
+
+        font-family: var(--comic);
+
+        position: relative;
+
+        top: -17px;
+    }
+
+    main div.fifth-div p.price-fifth {
+
+        background-color: var(--registro-bar);
+
+        width: 60px;
+
+        font-size: 14px;
+
+        padding-left: 6px;
+
+        padding-top: 3px;
+
+        padding-bottom: 2px;
+
+        position: relative;
+
+        top: -11px;
+    }
+
+    /* SEXTO-DIV */
+
+    main div.sixth-div {
+
+        /* display: flex; */
+
+        flex-direction: row-reverse;
+
+        background-color: var(--crudo);
+
+        padding: 10px;
+
+        /* position: relative; */
+
+        left: -213px;
+
+        top: -210px;
+
+        height: 188px;
+
+        width: 156px;
+
+        border-radius: 23px;
+    }
+
+    main div.contenedor-img-sixth {
+        /* width: 95px; */
+    }
+
+    main div.contenedor-img-sixth img {
+        width: 177px;
+
+        /* border-radius: 22px; */
+
+        height: 103px;
+
+        margin-left: -10px;
+
+        position: relative;
+
+        top: -10px;
+
+        border-top-right-radius: 22px;
+
+        border-top-left-radius: 22px;
+    }
+
+    main div.contenedor-descrip-sixth {}
+
+    main div.sixth-div p.name-pizza-sixth {
+
+        padding-bottom: 10px;
+
+        font-size: 15px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
+
+        position: relative;
+
+        top: -13px;
+    }
+
+    main div.fifth-div p.description-sixth {
+        font-size: 12px;
+
+        font-weight: bold;
+
+        font-family: var(--comic);
+
+        position: relative;
+
+        top: -17px;
+    }
+
+    main div.fifth-div p.price-sixth {
+
+        background-color: var(--registro-bar);
+
+        width: 60px;
+
+        font-size: 14px;
+
+        padding-left: 6px;
+
+        padding-top: 3px;
+
+        padding-bottom: 2px;
+
+        position: relative;
+
+        top: -10px;
+    }
+
+    /* ÍCONOS */
+
+    main div.icons-div {
+
+        display: flex;
+
+        justify-content: space-around;
+
+        /* color: var(--negrocla); */
+
+        background-color: var(--barro);
+
+        height: 70px;
+
+        align-items: center;
+
+        padding: 10px;
+
+        position: relative;
+
+        top: -20px;
+    }
+
+    main div.icons-div i.fa-solid.fa-right-from-bracket {
+
+        position: relative;
+
+        top: -18px;
+
+        left: 9px;
+
+        color: var(--green);
+
+
+
+        transform: rotateY(170deg);
+
+        /* transform: rotateY(170deg); No encontré este ícono a la izquierda en font icons,
+ pero sí estaba disponible el mismo, pero a la derecha.
+ Lo importé y se me ocurrió que podría girarlo, 
+ investigué para saber si existía alguna propiedad en CSS, que me permitiera hacerlo. */
+
+        /* border: solid; */
+
+        /* -webkit-text-stroke: wheat; */
+
+        /* -webkit-text-stroke: beige; */
+    }
+
+    main div.icons-div p.out {
+
+        position: relative;
+
+        right: 60px;
+
+        /* border: var(--blanco) solid; */
+
+        /* box-shadow: 0px 0px 10px; */
+
+        /* text-shadow: 0px 0px 24px white; */
+
+    }
+
+    main div.icons-div i.fa-solid.fa-basket-shopping {
+
+        position: relative;
+
+        top: -19px;
+
+        left: 90px;
+
+        color: var(--green);
+    }
+
+    main div.icons-div p.order {}
+
+    /* Footer */
+
+    footer {
+
+        background-color: var(--rojo);
+
+        display: flex;
+
+        height: 80px;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        /* width: 123px; */
+
+        /* padding: 40px; */
+
+        position: relative;
+
+        /* top: -21px; */
+
+        /* padding-bottom: 35px; */
+    }
+
+    footer p.conditions {
+
+        /* font-size: 11px; */
+    }
+
+    footer p.conditions a {
+
+        color: var(--blanco);
+
+        text-decoration: underline;
+
+        font-size: 15px;
+    }
+
+    /* QUINTO-DIV */
+
+    main div.fifth-div {
+
+        display: flex;
+
+        flex-direction: row-reverse;
+
+        background-color: var(--crudo);
+
+        padding: 10px;
+
+        display: none;
+
+    }
+
+    main div.contenedor-img-fifth {
+        /* width: 79px; */
+    }
+
+    main div.contenedor-img-fifth img {
+        width: 126px;
+
+        border-radius: 22px;
+
+        height: 103px;
+
+        margin-left: 0px;
+    }
+
+    main div.contenedor-descrip-fifth {}
+
+    main div.fifth-div p.name-pizza {
+
+        padding-bottom: 10px;
+
+        font-size: 15px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
+
+    }
+
+    main div.fifth-div p.description {
+        font-size: 12px;
+
+        font-weight: bold;
+
+        font-family: var(--comic);
+
+    }
+
+    main div.fifth-div p.price-fifth {
+
+        background-color: var(--registro-bar);
+
+        width: 60px;
+
+        font-size: 14px;
+
+        padding-left: 6px;
+
+        padding-top: 3px;
+
+        padding-bottom: 2px;
+
+        position: relative;
+
+        top: 17px;
+    }
+
+    /* SEXTO-DIV */
+
+    main div.sixth-div {
+
+        display: flex;
+
+        flex-direction: row-reverse;
+
+        background-color: var(--crudo);
+
+        padding: 10px;
+
+    }
+
+    main div.contenedor-img-sixth {
+        /* width: 79px; */
+    }
+
+    main div.contenedor-img-sixth img {
+        width: 126px;
+
+        border-radius: 22px;
+
+        height: 103px;
+
+        margin-left: 0px;
+    }
+
+    main div.contenedor-descrip-sixth {}
+
+    main div.sixth-div p.name-pizza {
+
+        padding-bottom: 10px;
+
+        font-size: 15px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
+
+    }
+
+    main div.fifth-div p.description {
+        font-size: 12px;
+
+        font-weight: bold;
+
+        font-family: var(--comic);
+
+    }
+
+    main div.fifth-div p.price-sixth {
+
+        background-color: var(--registro-bar);
+
+        width: 60px;
+
+        font-size: 14px;
+
+        padding-left: 6px;
+
+        padding-top: 3px;
+
+        padding-bottom: 2px;
+
+        position: relative;
+
+        top: 17px;
+    }
+
+
+
+}
+
+/* TABLET */
+@media (min-width:361px) {
+    main {
+        /* background-color: black; */
+    }
+
+    /* MAIN NAV- */
+    main nav.nav-bar {
+
+        display: flex;
+
+        /* width: 563px; */
+
+        margin-bottom: 10px;
+    }
+
+    main nav.nav-bar ul.list-bar {
+
+        list-style: none;
+
+        display: flex;
+
+        padding: 5px;
+
+        width: 537px;
+
+        background-color: var(--frío);
+
+        /* font-size: 54px; */
+
+        border-radius: 18px;
+
+        border-top-left-radius: 0px;
+
+        border-bottom-left-radius: 0px;
+
+        /* margin-top: 8px; */
+
+        height: 18px;
+
+        justify-content: space-around;
+
+        /* border-bottom: solid; */
+
+        padding-right: 28px;
+    }
+
+    main nav.nav-bar ul.list-bar li {
+
+        /* font-size: 16px; */
+
+
+    }
+
+    main nav.nav-bar ul.list-bar li.list-none {
+
+        /* display: none; */
+
+        /* width: 8px; */
+    }
+
+    main nav.nav-bar ul.list-bar li.drinks {
+        display: none;
+    }
+
+    main nav.nav-bar ul.list-bar li a {
+
+        font-size: 13px;
+
+        color: var(--blanco);
+
+        /* display: flex; */
+
+        position: relative;
+
+        left: -3px;
+
+        font-family: var(--inria);
+
+
+
+        /* font-weight: lighter; */
+
+        letter-spacing: 1px;
+
+        /* display: block; */
+
+        width: 10px;
+    }
+
+    main h2 {
+
+        background-color: var(--rojo);
+
+        height: 54px;
+
+        position: relative;
+
+        /* left: 30px; */
+
+        text-align: center;
+
+        /* padding-top: 0px; */
+
+        font-family: var(--damion);
+
+        font-size: 45px;
+
+        font-weight: lighter;
+
+        color: var(--blanco);
+
+        /* align-items: stretch; */
+
+        letter-spacing: 18px;
+
+        padding-bottom: 16px;
+
+        width: 670px;
+    }
+
+    main p.caption {
+
+        background-color: var(--registro-bar);
+
+        /* color: #364f5e; */
+
+        height: 20px;
+
+        /* text-align: center; */
+
+        padding-top: 2px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
+
+        color: var(--blanco);
+
+        letter-spacing: 11px;
+
+        font-size: 16px;
+
+        width: 670px;
+    }
+
+    /* TÍTULO DOS */
+    main h2.second-h2 {
+
+        background-color: var(--rojo);
+
+        height: 54px;
+
+        /* position: relative; */
+
+        /* left: 30px; */
+
+        text-align: center;
+
+        /* padding-top: 0px; */
+
+        font-family: var(--damion);
+
+        font-size: 50px;
+
+        font-weight: lighter;
+
+        color: var(--blanco);
+
+        /* align-items: stretch; */
+
+        letter-spacing: 18px;
+
+        padding-bottom: 10px;
+
+        /* display: none; */
+
+        margin-top: 14px;
+
+    }
+
+    main p.caption-dos {
+
+        background-color: var(--registro-bar);
+
+        /* color: #364f5e; */
+
+        height: 30px;
+
+        /* text-align: left; */
+
+        padding-top: 6px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
+
+        color: var(--blanco);
+
+        letter-spacing: 11px;
+
+        font-size: 21px;
+
+        margin-bottom: 0px;
+
+        width: 670px;
+    }
+
+    main a.arrow-right {
+
+        position: relative;
+
+        top: -122px;
+
+        /* color: var(--blanco); */
+
+        left: 550px;
+    }
+
+    main i.fa-solid.fa-angle-right {
+
+        color: var(--blanco);
+
+    }
+
+    /* CONTENEDOR DIVS */
+    main div.contenedor-primero {
+        display: flex;
+        /* width: 570px; */
+        /* position: relative; */
+        top: -10px;
+        justify-content: flex-start;
+    }
+
+
+
+    /* CONTENEDOR SEGUNDO */
+
+    main div.contenedor-segundo {
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        top: -286px;
+    }
+
+
+    /* PRIMER DIV*/
+    main div.first-div {
+
+        /* display: flex; */
+
+        flex-direction: row-reverse;
+
+        background-color: var(--crudo);
+
+        padding: 10px;
+
+        width: 170px;
+
+        border-radius: 23px;
+
+        /* position: relative; */
+
+        left: -35px;
+
+        top: -8px;
+
+        height: 200px;
+
+        margin-right: 36px;
+    }
+
+    main div.contenedor-img {}
+
+    main div.contenedor-img img {}
+
+    main div.contenedor-descrip {}
+
+    main div.first-div p.name-pizza {
+
+        /* padding-bottom: 0px; */
+
+        font-size: 15px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
+
+        position: relative;
+
+        top: -13px;
+    }
+
+    main div.first-div p.description {
+
+        font-size: 12px;
+
+        font-weight: bold;
+
+        font-family: var(--comic);
+
+        position: relative;
+
+        top: -8px;
+    }
+
+    main div.first-div p.price {
+
+        background-color: var(--registro-bar);
+
+        width: 57px;
+
+        font-size: 13px;
+
+        padding-left: 6px;
+
+        padding-top: 2px;
+
+        padding-bottom: 1px;
+
+        position: relative;
+
+        top: 7px;
+    }
+
+    /* SEGUNDO DIV */
+
+    main div.second-div {
+
+        /* display: flex; */
+
+        flex-direction: row-reverse;
+
+        background-color: var(--crudo);
+
+        /* border-style: solid; */
+
+        /* border-top-style: solid; */
+
+        /* border-bottom-style: solid; */
+
+        /* border-width: 1px; */
+
+        padding: 10px;
+
+        width: 170px;
+
+        border-radius: 23px;
+
+        /* position: relative; */
+
+        left: -88px;
+
+        top: -8px;
+
+        height: 200px;
+
+        margin-right: 36px;
+    }
+
+    main div.contenedor-img {}
+
+    main div.contenedor-img img {}
+
+    main div.contenedor-descrip {}
+
+    main div.second-div p.name-pizza {
+
+        padding-bottom: 10px;
+
+        font-size: 15px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
+
+        position: relative;
+
+        top: -13px;
+    }
+
+    main div.second-div p.description {
         font-size: 12px;
         font-weight: bold;
         font-family: var(--comic);
         position: relative;
         top: -16px;
     }
-    main div.third-div p.price{
-               
-background-color: var(--registro-bar);
-               
-width: 60px;
-               
-font-size: 13px;
-               
-padding-left: 6px;
-               
-padding-top: 2px;
-               
-padding-bottom: 1px;
-               
-/* position: relative; */
-               
-top: 2px;
+
+    main div.second-div p.price {
+
+        background-color: var(--registro-bar);
+
+        width: 60px;
+
+        font-size: 13px;
+
+        padding-left: 6px;
+
+        padding-top: 2px;
+
+        padding-bottom: 1px;
+
+        /* position: relative; */
+
+        top: -9px;
     }
-      /* CUARTO-DIV */
-      main div.contenedor-div-cuarto{
-    position: relative;
-    top: -357px;
-    left: 784px;
-    width: 191px;
-    /* display: inline; */
-}
-      main div.head{
-    /* position: relative; */
-    /* top: -239px; */
-    background-color: var(--rojo);
-    top: -240px;
-    left: 176px;
-    width: 209px;
-    /* border-radius: 10px; */
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
-      main div.fourth-div{/* background-color: navajowhite; /background-color: var(--crudo);width: 208px;height: 233px;/ position: relative; */top: -240px;left: 176px;}
-      main div.fourth-div i.fa-solid.fa-bag-shopping{
-    color: var(--green);
-    position: relative;
-    bottom: -6px;
-    left: 16px;
-    font-size: 20px;
-}
-main div.fourth-div p.horary{
-    font-size: 7px;
-    background-color: var(--frío);
-    width: 62px;
-    border-radius: 8px;
-}
-      main div.fourth-div p.open{
-    font-size: 8px;
-    background-color: var(--frío);
-    width: 30px;
-    position: relative;
-    left: 143px;
-    top: -9px;
-    border-radius: 4px;
-}
-      main div.fourth-div p.text{
-    font-size: 13px;
-    font-family: var(--inria);
-    color: var(--blanco);
-    padding: 10px;
-    /* text-align: center; */
-}
-main div.fourth-div i.fa-solid.fa-arrow-pointer{
-    color: var(--blanco);
-    font-size: 8px;
-    position: relative;
-    top: 3px;
-    transform: rotateZ(436deg);
-    left: 14px;
-}
-      main div.fourth-div a.adress{
-    font-size: 10px;
-    position: relative;
-    left: 15px;
-    color: var(--blanco);
-    top: 3px;
-    /* font-weight: lighter; */
-}
-      main div.head img{
-    width: 70px;
-    position: relative;
-    left: 48px;
-}
-main div.foot{
-    background-color: var(--rojo);
-    /* position: relative; */
-    top: -240px;
-    left: 176px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    width: 209px;
-    height: 45px;
-}
-main div.foot i.fa-solid.fa-basket-shopping{
-    color: var(--green);
-    position: relative;
-    left: 33px;
-    top: 10px;
-}
-main div.foot a{
-    font-family: var(--comic);
-    position: relative;
-    left: 34px;
-    letter-spacing: 2px;
-    font-size: 14px;
-    color: var(--background-reg);
-    top: 10px;
-}
-     /* QUINTO-DIV */
-     main div.fifth-div{
 
-/* display: flex; */
+    /* TERCER DIV */
 
-flex-direction: row-reverse;
+    main div.third-div {
 
-background-color: var(--crudo);
+        /* display: flex; */
 
-padding: 10px;
+        flex-direction: row-reverse;
 
-/* position: relative; */
+        background-color: var(--crudo);
 
-left: -203px;
+        padding: 10px;
 
-height: 200px;
+        width: 170px;
 
-width: 170px;
+        border-radius: 22px;
 
-/* border: solid; */
+        /* position: relative; */
 
-/* position: relative; */
+        top: -8px;
 
-bottom: -109px;
+        left: -151px;
 
-border-radius: 24px;
+        height: 200px;
+    }
 
-margin-right: 36px;
-}
-            
-            main div.contenedor-img-fifth{
-            /* width: 79px; */
-        }
-            main div.contenedor-img-fifth img{
-            width: 190px;
-            /* border-radius: 22px; */
-            height: 103px;
-            /* margin-left: 0px; */
-            border-top-left-radius: 23px;
-            border-top-right-radius: 23px;
-            left: -10px;
-            position: relative;
-            top: -10px;
-        }
-        
-            main div.contenedor-descrip-fifth{
-            }
-            main div.fifth-div p.name-pizza-fifth{
-                       
-padding-bottom: 10px;
-                       
-font-size: 15px;
-                       
-font-family: var(--comic);
-                       
-font-weight: bold;
-                       
-position: relative;
-                       
-top: -13px;
-            }
-            main div.fifth-div p.description-fifth{
-                font-size: 12px;
-                font-weight: bold;
-                font-family: var(--comic);
-                position: relative;
-                top: -17px;
-            }
-            main div.fifth-div p.price-fifth{
-                       
-background-color: var(--registro-bar);
-                       
-width: 60px;
-                       
-font-size: 14px;
-                       
-padding-left: 6px;
-                       
-padding-top: 3px;
-                       
-padding-bottom: 2px;
-                       
-position: relative;
-                       
-top: 7px;
-            }
-            /* SEXTO-DIV */
-            
-    main div.sixth-div{
+    main div.contenedor-img {
+        /* width: 79px; */
+    }
 
-/* display: flex; */
+    main div.contenedor-img img {
+        width: 191px;
+        /* border-radius: 22px; */
+        height: 102px;
+        margin-left: 0px;
+        position: relative;
+        left: -11px;
+        top: -10px;
+        border-top-right-radius: 22px;
+        border-top-left-radius: 22px;
+    }
 
-flex-direction: row-reverse;
+    main div.contenedor-descrip {
+        height: 0;
+    }
 
-background-color: var(--crudo);
+    main div.third-div p.name-pizza {
 
-padding: 10px;
+        padding-bottom: 8px;
 
-/* position: relative; */
+        font-size: 15px;
 
-left: -213px;
+        font-family: var(--comic);
 
-top: -210px;
+        font-weight: bold;
 
-height: 198px;
+        position: relative;
 
-width: 170px;
+        top: -13px;
+    }
 
-border-radius: 23px;
-}
-            
-            main div.contenedor-img-sixth{
-            /* width: 95px; */
-        }
-            main div.contenedor-img-sixth img{
-            width: 190px;
-            /* border-radius: 22px; */
-            height: 103px;
-            margin-left: -10px;
-            position: relative;
-            top: -10px;
-            border-top-right-radius: 22px;
-            border-top-left-radius: 22px;
-        }
-        
-            main div.contenedor-descrip-sixth{
-            }
-            main div.sixth-div p.name-pizza-sixth{
-                       
-padding-bottom: 10px;
-                       
-font-size: 15px;
-                       
-font-family: var(--comic);
-                       
-font-weight: bold;
-                       
-position: relative;
-                       
-top: -13px;
-            }
-            main div.sixth-div p.description-sixth{
-                font-size: 12px;
-                font-weight: bold;
-                font-family: var(--comic);
-                position: relative;
-                top: -17px;
-            }
-            main div.sixth-div p.price-sixth{
-                       
-background-color: var(--registro-bar);
-                       
-width: 60px;
-                       
-font-size: 14px;
-                       
-padding-left: 6px;
-                       
-padding-top: 3px;
-                       
-padding-bottom: 2px;
-                       
-position: relative;
-                       
-top: -10px;
-            }
+    main div.third-div p.description {
+        font-size: 12px;
+        font-weight: bold;
+        font-family: var(--comic);
+        position: relative;
+        top: -16px;
+    }
+
+    main div.third-div p.price {
+
+        background-color: var(--registro-bar);
+
+        width: 60px;
+
+        font-size: 13px;
+
+        padding-left: 6px;
+
+        padding-top: 2px;
+
+        padding-bottom: 1px;
+
+        /* position: relative; */
+
+        top: 2px;
+    }
+
+    /* CUARTO-DIV */
+    main div.contenedor-div-cuarto {
+        position: relative;
+        top: -357px;
+        left: 784px;
+        width: 191px;
+        /* display: inline; */
+    }
+
+    main div.head {
+        /* position: relative; */
+        /* top: -239px; */
+        background-color: var(--rojo);
+        top: -240px;
+        left: 176px;
+        width: 209px;
+        /* border-radius: 10px; */
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    main div.fourth-div {
+        /* background-color: navajowhite; /background-color: var(--crudo);width: 208px;height: 233px;/ position: relative; */
+        top: -240px;
+        left: 176px;
+    }
+
+    main div.fourth-div i.fa-solid.fa-bag-shopping {
+        color: var(--green);
+        position: relative;
+        bottom: -6px;
+        left: 16px;
+        font-size: 20px;
+    }
+
+    main div.fourth-div p.horary {
+        font-size: 7px;
+        background-color: var(--frío);
+        width: 62px;
+        border-radius: 8px;
+    }
+
+    main div.fourth-div p.open {
+        font-size: 8px;
+        background-color: var(--frío);
+        width: 30px;
+        position: relative;
+        left: 143px;
+        top: -9px;
+        border-radius: 4px;
+    }
+
+    main div.fourth-div p.text {
+        font-size: 13px;
+        font-family: var(--inria);
+        color: var(--blanco);
+        padding: 10px;
+        /* text-align: center; */
+    }
+
+    main div.fourth-div i.fa-solid.fa-arrow-pointer {
+        color: var(--blanco);
+        font-size: 8px;
+        position: relative;
+        top: 3px;
+        transform: rotateZ(436deg);
+        left: 14px;
+    }
+
+    main div.fourth-div a.adress {
+        font-size: 10px;
+        position: relative;
+        left: 15px;
+        color: var(--blanco);
+        top: 3px;
+        /* font-weight: lighter; */
+    }
+
+    main div.head img {
+        width: 70px;
+        position: relative;
+        left: 48px;
+    }
+
+    main div.foot {
+        background-color: var(--rojo);
+        /* position: relative; */
+        top: -240px;
+        left: 176px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 209px;
+        height: 45px;
+    }
+
+    main div.foot i.fa-solid.fa-basket-shopping {
+        color: var(--green);
+        position: relative;
+        left: 33px;
+        top: 10px;
+    }
+
+    main div.foot a {
+        font-family: var(--comic);
+        position: relative;
+        left: 34px;
+        letter-spacing: 2px;
+        font-size: 14px;
+        color: var(--background-reg);
+        top: 10px;
+    }
+
+    /* QUINTO-DIV */
+    main div.fifth-div {
+
+        /* display: flex; */
+
+        flex-direction: row-reverse;
+
+        background-color: var(--crudo);
+
+        padding: 10px;
+
+        /* position: relative; */
+
+        left: -203px;
+
+        height: 200px;
+
+        width: 170px;
+
+        /* border: solid; */
+
+        /* position: relative; */
+
+        bottom: -109px;
+
+        border-radius: 24px;
+
+        margin-right: 36px;
+    }
+
+    main div.contenedor-img-fifth {
+        /* width: 79px; */
+    }
+
+    main div.contenedor-img-fifth img {
+        width: 190px;
+        /* border-radius: 22px; */
+        height: 103px;
+        /* margin-left: 0px; */
+        border-top-left-radius: 23px;
+        border-top-right-radius: 23px;
+        left: -10px;
+        position: relative;
+        top: -10px;
+    }
+
+    main div.contenedor-descrip-fifth {}
+
+    main div.fifth-div p.name-pizza-fifth {
+
+        padding-bottom: 10px;
+
+        font-size: 15px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
+
+        position: relative;
+
+        top: -13px;
+    }
+
+    main div.fifth-div p.description-fifth {
+        font-size: 12px;
+        font-weight: bold;
+        font-family: var(--comic);
+        position: relative;
+        top: -17px;
+    }
+
+    main div.fifth-div p.price-fifth {
+
+        background-color: var(--registro-bar);
+
+        width: 60px;
+
+        font-size: 14px;
+
+        padding-left: 6px;
+
+        padding-top: 3px;
+
+        padding-bottom: 2px;
+
+        position: relative;
+
+        top: 7px;
+    }
+
+    /* SEXTO-DIV */
+
+    main div.sixth-div {
+
+        /* display: flex; */
+
+        flex-direction: row-reverse;
+
+        background-color: var(--crudo);
+
+        padding: 10px;
+
+        /* position: relative; */
+
+        left: -213px;
+
+        top: -210px;
+
+        height: 198px;
+
+        width: 170px;
+
+        border-radius: 23px;
+    }
+
+    main div.contenedor-img-sixth {
+        /* width: 95px; */
+    }
+
+    main div.contenedor-img-sixth img {
+        width: 190px;
+        /* border-radius: 22px; */
+        height: 103px;
+        margin-left: -10px;
+        position: relative;
+        top: -10px;
+        border-top-right-radius: 22px;
+        border-top-left-radius: 22px;
+    }
+
+    main div.contenedor-descrip-sixth {}
+
+    main div.sixth-div p.name-pizza-sixth {
+
+        padding-bottom: 10px;
+
+        font-size: 15px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
+
+        position: relative;
+
+        top: -13px;
+    }
+
+    main div.sixth-div p.description-sixth {
+        font-size: 12px;
+        font-weight: bold;
+        font-family: var(--comic);
+        position: relative;
+        top: -17px;
+    }
+
+    main div.sixth-div p.price-sixth {
+
+        background-color: var(--registro-bar);
+
+        width: 60px;
+
+        font-size: 14px;
+
+        padding-left: 6px;
+
+        padding-top: 3px;
+
+        padding-bottom: 2px;
+
+        position: relative;
+
+        top: -10px;
+    }
 
     /* ÍCONOS */
 
-    main div.icons-div{
+    main div.icons-div {
 
-display: flex;
+        display: flex;
 
-justify-content: space-around;
+        justify-content: space-around;
 
-/* color: var(--negrocla); */
+        /* color: var(--negrocla); */
 
-background-color: var(--barro);
+        background-color: var(--barro);
 
-height: 70px;
+        height: 70px;
 
-align-items: center;
+        align-items: center;
 
-display: none;
-}
-    main div.icons-div i.fa-solid.fa-right-from-bracket{
+        display: none;
+    }
 
-position: relative;
+    main div.icons-div i.fa-solid.fa-right-from-bracket {
 
-top: -18px;
+        position: relative;
 
-left: 9px;
+        top: -18px;
 
-color: var(--green);
+        left: 9px;
+
+        color: var(--green);
 
 
 
-transform: rotateY(170deg);
+        transform: rotateY(170deg);
 
-/* transform: rotateY(170deg); No encontré este ícono a la izquierda en font icons,
+        /* transform: rotateY(170deg); No encontré este ícono a la izquierda en font icons,
  pero sí estaba disponible el mismo, pero a la derecha.
  Lo importé y se me ocurrió que podría girarlo, 
  investigué para saber si existía alguna propiedad en CSS, que me permitiera hacerlo. */
 
 
 
-/* border: solid; */
+        /* border: solid; */
 
-/* -webkit-text-stroke: wheat; */
+        /* -webkit-text-stroke: wheat; */
 
-/* -webkit-text-stroke: beige; */
-}
-    main div.icons-div p.out{
+        /* -webkit-text-stroke: beige; */
+    }
 
-position: relative;
+    main div.icons-div p.out {
 
-right: 60px;
+        position: relative;
 
-/* border: var(--blanco) solid; */
+        right: 60px;
 
-/* box-shadow: 0px 0px 10px; */
+        /* border: var(--blanco) solid; */
 
-/* text-shadow: 0px 0px 24px white; */
+        /* box-shadow: 0px 0px 10px; */
 
-}
-    main div.icons-div i.fa-solid.fa-basket-shopping{
-
-position: relative;
-
-top: -19px;
-
-left: 90px;
-
-
-color: var(--green);
-}
-    main div.icons-div p.order{
+        /* text-shadow: 0px 0px 24px white; */
 
     }
+
+    main div.icons-div i.fa-solid.fa-basket-shopping {
+
+        position: relative;
+
+        top: -19px;
+
+        left: 90px;
+
+
+        color: var(--green);
+    }
+
+    main div.icons-div p.order {}
 
     /* Footer */
-    footer{
-        
-background-color: var(--rojo);
-        
-display: flex;
-        
-/* height: 187px; */
-        
-flex-direction: column;
-        
-align-items: center;
-        
-/* width: 123px; */
-        
-position: relative;
-        
-bottom: -367px;
-    }
-    footer p.conditions{
-        
-/* font-size: 5px; */
-    }
-    footer p.conditions a{
-       
-color: var(--blanco);
-       
-text-decoration: underline;
-       
-font-size: 10px;
-       
-/* font-weight: lighter; */
-    
+    footer {
 
-    
-}
+        background-color: var(--rojo);
+
+        display: flex;
+
+        /* height: 187px; */
+
+        flex-direction: column;
+
+        align-items: center;
+
+        /* width: 123px; */
+
+        position: relative;
+
+        bottom: -367px;
+    }
+
+    footer p.conditions {
+
+        /* font-size: 5px; */
+    }
+
+    footer p.conditions a {
+
+        color: var(--blanco);
+
+        text-decoration: underline;
+
+        font-size: 10px;
+
+        /* font-weight: lighter; */
+
+
+
+    }
 }
 
 
 /* DESKTOP */
-@media (min-width:769px){
-    main{/* background-color: black; */}
+@media (min-width:769px) {
+    main {
+        /* background-color: black; */
+    }
 
     /* MAIN NAV- */
-    main nav.nav-bar{
+    main nav.nav-bar {
 
-/* display: flex; */
+        /* display: flex; */
 
-}
-    main nav.nav-bar ul.list-bar{
+    }
 
-list-style: none;
+    main nav.nav-bar ul.list-bar {
 
-display: flex;
+        list-style: none;
 
-padding: 4px;
+        display: flex;
 
-width: 640px;
+        padding: 4px;
 
-background-color: var(--frío);
+        width: 640px;
 
-/* font-size: 54px; */
+        background-color: var(--frío);
 
-border-radius: 18px;
+        /* font-size: 54px; */
 
-border-top-left-radius: 0px;
+        border-radius: 18px;
 
-border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
 
-margin-top: 12px;
+        border-bottom-left-radius: 0px;
 
-height: 20px;
+        margin-top: 12px;
 
-justify-content: space-around;
+        height: 20px;
 
-/* border-bottom: solid; */
+        justify-content: space-around;
 
-padding-right: 28px;
-}
-    main nav.nav-bar ul.list-bar li{
+        /* border-bottom: solid; */
 
-/* font-size: 114px; */
+        padding-right: 28px;
+    }
 
-}
-    main nav.nav-bar ul.list-bar li.list-none{
+    main nav.nav-bar ul.list-bar li {
 
-/* display: none; */
-}
-    main nav.nav-bar ul.list-bar li a{
+        /* font-size: 114px; */
 
-font-size: 16px;
+    }
 
-color: var(--blanco);
+    main nav.nav-bar ul.list-bar li.list-none {
 
-/* display: flex; */
+        /* display: none; */
+    }
 
-position: relative;
+    main nav.nav-bar ul.list-bar li a {
 
-left: -3px;
+        font-size: 16px;
 
-font-family: var(--inria);
+        color: var(--blanco);
 
-/* font-weight: lighter; */
+        /* display: flex; */
 
-letter-spacing: 3px;
-}
+        position: relative;
 
-    main h2{
+        left: -3px;
 
-background-color: var(--rojo);
+        font-family: var(--inria);
 
-height: 54px;
+        /* font-weight: lighter; */
 
-position: relative;
+        letter-spacing: 3px;
+    }
 
-/* left: 30px; */
+    main h2 {
 
-text-align: center;
+        background-color: var(--rojo);
 
-/* padding-top: 0px; */
+        height: 54px;
 
-font-family: var(--damion);
+        position: relative;
 
-font-size: 50px;
+        /* left: 30px; */
 
-font-weight: lighter;
+        text-align: center;
 
-color: var(--blanco);
+        /* padding-top: 0px; */
 
-/* align-items: stretch; */
+        font-family: var(--damion);
 
-letter-spacing: 18px;
+        font-size: 50px;
 
-padding-bottom: 10px;
-}
-    main p.caption{
+        font-weight: lighter;
 
-background-color: var(--registro-bar);
+        color: var(--blanco);
 
-/* color: #364f5e; */
+        /* align-items: stretch; */
 
-height: 30px;
+        letter-spacing: 18px;
 
-text-align: center;
+        padding-bottom: 10px;
+    }
 
-padding-top: 6px;
+    main p.caption {
 
-font-family: var(--comic);
+        background-color: var(--registro-bar);
 
-font-weight: bold;
+        /* color: #364f5e; */
 
-color: var(--blanco);
+        height: 30px;
 
-letter-spacing: 11px;
+        text-align: center;
 
-font-size: 21px;
-}
+        padding-top: 6px;
 
-/* TÍTULO DOS */
-main h2.second-h2{
+        font-family: var(--comic);
 
-  background-color: var(--rojo);
-  
-  height: 54px;
-  
-  position: relative;
-  
-  /* left: 30px; */
-  
-  text-align: center;
-  
-  /* padding-top: 0px; */
-  
-  font-family: var(--damion);
-  
-  font-size: 50px;
-  
-  font-weight: lighter;
-  
-  color: var(--blanco);
-  
-  /* align-items: stretch; */
-  
-  letter-spacing: 18px;
-  
-  padding-bottom: 10px;
-  
-  /* display: none; */
-  }
-      main p.caption-dos{
-  
-  background-color: var(--registro-bar);
-  
-  /* color: #364f5e; */
-  
-  height: 30px;
-  
-  text-align: center;
-  
-  padding-top: 6px;
-  
-  font-family: var(--comic);
-  
-  font-weight: bold;
-  
-  color: var(--blanco);
-  
-  letter-spacing: 11px;
-  
-  font-size: 21px;
-  
-  margin-bottom: 0px;
-      }
+        font-weight: bold;
 
-main a.arrow-right{
-    
-position: relative;
-    
-top: -126px;
-    
-left: 290px;
-    
-/* color: var(--blanco); */
-}
-    main i.fa-solid.fa-angle-right{
+        color: var(--blanco);
 
-color: var(--blanco);
+        letter-spacing: 11px;
 
-position: relative;
+        font-size: 21px;
+    }
 
-left: 367px;
+    /* TÍTULO DOS */
+    main h2.second-h2 {
 
-top: -4px;
-}
-/* CONTENEDOR DIVS */
+        background-color: var(--rojo);
 
-main div.contenedor-primero{}
+        height: 54px;
 
-/* CONTENEDOR SEGUNDO */
+        position: relative;
 
-main div.contenedor-segundo{
-    position: relative;
-    top: -285px;
-}
+        /* left: 30px; */
+
+        text-align: center;
+
+        /* padding-top: 0px; */
+
+        font-family: var(--damion);
+
+        font-size: 50px;
+
+        font-weight: lighter;
+
+        color: var(--blanco);
+
+        /* align-items: stretch; */
+
+        letter-spacing: 18px;
+
+        padding-bottom: 10px;
+
+        /* display: none; */
+    }
+
+    main p.caption-dos {
+
+        background-color: var(--registro-bar);
+
+        /* color: #364f5e; */
+
+        height: 30px;
+
+        text-align: center;
+
+        padding-top: 6px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
+
+        color: var(--blanco);
+
+        letter-spacing: 11px;
+
+        font-size: 21px;
+
+        margin-bottom: 0px;
+    }
+
+    main a.arrow-right {
+
+        position: relative;
+
+        top: -126px;
+
+        left: 290px;
+
+        /* color: var(--blanco); */
+    }
+
+    main i.fa-solid.fa-angle-right {
+
+        color: var(--blanco);
+
+        position: relative;
+
+        left: 367px;
+
+        top: -4px;
+    }
+
+    /* CONTENEDOR DIVS */
+
+    main div.contenedor-primero {}
+
+    /* CONTENEDOR SEGUNDO */
+
+    main div.contenedor-segundo {
+        position: relative;
+        top: -285px;
+    }
 
 
     /* PRIMER DIV*/
-    main div.first-div{
+    main div.first-div {
 
-/* display: flex; */
+        /* display: flex; */
 
-flex-direction: row-reverse;
+        flex-direction: row-reverse;
 
-background-color: var(--crudo);
+        background-color: var(--crudo);
 
-padding: 10px;
+        padding: 10px;
 
-height: 210px;
+        height: 210px;
 
-width: 200px;
-}
-    main div.contenedor-img{}
-    main div.contenedor-img img{}
-
-    main div.contenedor-descrip{
-        
+        width: 200px;
     }
-    main div.first-div p.name-pizza{
-        
-padding-bottom: 10px;
-        
-font-size: 15px;
-        
-font-family: var(--comic);
-        
-font-weight: bold;
+
+    main div.contenedor-img {}
+
+    main div.contenedor-img img {}
+
+    main div.contenedor-descrip {}
+
+    main div.first-div p.name-pizza {
+
+        padding-bottom: 10px;
+
+        font-size: 15px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
     }
-    main div.first-div p.description{
-        
-font-size: 12px;
-        
-font-weight: bold;
-        
-font-family: var(--comic);
-        
+
+    main div.first-div p.description {
+
+        font-size: 12px;
+
+        font-weight: bold;
+
+        font-family: var(--comic);
+
 
     }
-    main div.first-div p.price{
-        
-background-color: var(--registro-bar);
-        
-width: 60px;
-        
-font-size: 14px;
-        
-padding-left: 6px;
-        
-padding-top: 3px;
-        
-padding-bottom: 2px;
-        
-/* position: relative; */
-        
-ve; */
-        
-top: 27px;
+
+    main div.first-div p.price {
+
+        background-color: var(--registro-bar);
+
+        width: 60px;
+
+        font-size: 14px;
+
+        padding-left: 6px;
+
+        padding-top: 3px;
+
+        padding-bottom: 2px;
+
+        /* position: relative; */
+
+        ve;
+        */ top: 27px;
     }
-    
+
     /* SEGUNDO DIV */
 
-    main div.second-div{
+    main div.second-div {
 
-/* display: flex; */
+        /* display: flex; */
 
-flex-direction: row-reverse;
+        flex-direction: row-reverse;
 
-background-color: var(--crudo);
+        background-color: var(--crudo);
 
-/* border-style: solid; */
+        /* border-style: solid; */
 
-/* border-top-style: solid; */
+        /* border-top-style: solid; */
 
-/* border-bottom-style: solid; */
+        /* border-bottom-style: solid; */
 
-/* border-width: 1px; */
+        /* border-width: 1px; */
 
-padding: 10px;
+        padding: 10px;
 
-height: 210px;
+        height: 210px;
 
-width: 199px;
-}
-    
-    main div.contenedor-img{}
-    main div.contenedor-img img{}
-
-    main div.contenedor-descrip{
-        
+        width: 199px;
     }
-    main div.second-div p.name-pizza{
-        
-               
-padding-bottom: 10px;
-        
-font-size: 15px;
-        
-font-family: var(--comic);
-        
-font-weight: bold;
+
+    main div.contenedor-img {}
+
+    main div.contenedor-img img {}
+
+    main div.contenedor-descrip {}
+
+    main div.second-div p.name-pizza {
+
+
+        padding-bottom: 10px;
+
+        font-size: 15px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
     }
-    main div.second-div p.description{
+
+    main div.second-div p.description {
         font-size: 12px;
-        
-font-weight: bold;
-        
-font-family: var(--comic);
-        
+
+        font-weight: bold;
+
+        font-family: var(--comic);
+
     }
-    main div.second-div p.price{
-               
-background-color: var(--registro-bar);
-               
-width: 60px;
-               
-font-size: 14px;
-               
-padding-left: 6px;
-               
-padding-top: 3px;
-               
-padding-bottom: 2px;
-               
-position: relative;
-               
-top: -6px;
-    }
-   /* TERCER-DIV */
-  
-    main div.third-div{
 
-/* display: flex; */
+    main div.second-div p.price {
 
-flex-direction: row-reverse;
-
-background-color: var(--crudo);
-
-padding: 10px;
-
-width: 200px;
-
-height: 212px;
-
-}
-            
-            main div.contenedor-img{
-            /* width: 79px; */
-        }
-            main div.contenedor-img img{
-            width: 220px;
-            /* border-radius: 22px; */
-            height: 103px;
-            margin-left: 0px;
-        }
-        
-            main div.contenedor-descrip{
-            }
-            main div.third-div p.name-pizza{
-                       
-        padding-bottom: 10px;
-                
-        font-size: 15px;
-                
-        font-family: var(--comic);
-                
-        font-weight: bold;
-                
-            }
-            main div.third-div p.description{
-                font-size: 12px;
-                
-        font-weight: bold;
-                
-        font-family: var(--comic);
-                
-            }
-            main div.third-div p.price{
-                       
-background-color: var(--registro-bar);
-                       
-width: 60px;
-                       
-font-size: 14px;
-                       
-padding-left: 6px;
-                       
-padding-top: 3px;
-                       
-padding-bottom: 2px;
-                       
-position: relative;
-                       
-top: -9px;
-            }
-      /* CUARTO-DIV */
-      main div.contenedor-div-cuarto{
-    position: relative;
-    top: -371px;
-}
-      main div.head{}
-      main div.fourth-div{}
-      main div.fourth-div p.horary{
-    width: 115px;
-}
-      main div.fourth-div p.open{
-    width: 47px;
-    position: relative;
-    top: -15px;
-    left: 161px;
-}
-      main div.fourth-div p.text{}
-      main div.fourth-div i.fa-solid.fa-bag-shopping{}
-      main div.fourth-div i.fa-solid.fa-arrow-pointer{}
-            
-      main div.fourth-div a.adress{}
-      main div.head img{
-    position: relative;
-    left: 68px;
-}
-      main div.foot{}
-      main div.foot i.fa-solid.fa-basket-shopping{}
-      main div.foot a{}
-  
-          /* QUINTO-DIV */
-      main div.fifth-div{
-
-/* display: flex; */
-
-flex-direction: row-reverse;
-
-background-color: var(--crudo);
-
-padding: 10px;
-
-width: 201px;
-
-height: 210px;
-
-}
-            
-            main div.contenedor-img-fifth{
-            /* width: 79px; */
-        }
-            main div.contenedor-img-fifth img{
-            width: 221px;
-            /* border-radius: 22px; */
-            height: 103px;
-            margin-left: 0px;
-        }
-        
-            main div.contenedor-descrip-fifth{
-            }
-            main div.fifth-div p.name-pizza-fifth{
-                       
-        padding-bottom: 10px;
-                
-        font-size: 15px;
-                
-        font-family: var(--comic);
-                
-        font-weight: bold;
-                
-            }
-            main div.fifth-div p.description-fifth{
-                font-size: 12px;
-                
-        font-weight: bold;
-                
-        font-family: var(--comic);
-                
-            }
-            main div.fifth-div p.price-fifth{
-                       
-background-color: var(--registro-bar);
-                       
-width: 60px;
-                       
-font-size: 14px;
-                       
-padding-left: 6px;
-                       
-padding-top: 3px;
-                       
-padding-bottom: 2px;
-                       
-/* position: relative; */
-                       
-/* top: 17px; */
-            }
-            /* SEXTO-DIV */
-            
-    main div.sixth-div{
-
-/* display: flex; */
-
-flex-direction: row-reverse;
-
-background-color: var(--crudo);
-
-padding: 10px;
-
-width: 200px;
-
-height: 210px;
-
-}
-            
-            main div.contenedor-img-sixth{
-            /* width: 79px; */
-        }
-            main div.contenedor-img-sixth img{
-            width: 220px;
-            /* border-radius: 22px; */
-            height: 103px;
-            /* margin-left: 0px; */
-        }
-        
-            main div.contenedor-descrip-sixth{
-            }
-            main div.sixth-div p.name-pizza-sixth{
-                       
-        padding-bottom: 10px;
-                
-        font-size: 15px;
-                
-        font-family: var(--comic);
-                
-        font-weight: bold;
-                
-            }
-            main div.fifth-div p.description-sixth{
-                font-size: 12px;
-                
-        font-weight: bold;
-                
-        font-family: var(--comic);
-                
-            }
-            main div.fifth-div p.price-sixth{
-                       
         background-color: var(--registro-bar);
-                       
+
         width: 60px;
-                       
+
         font-size: 14px;
-                       
+
         padding-left: 6px;
-                       
+
         padding-top: 3px;
-                       
+
         padding-bottom: 2px;
-                       
+
         position: relative;
-                       
+
+        top: -6px;
+    }
+
+    /* TERCER-DIV */
+
+    main div.third-div {
+
+        /* display: flex; */
+
+        flex-direction: row-reverse;
+
+        background-color: var(--crudo);
+
+        padding: 10px;
+
+        width: 200px;
+
+        height: 212px;
+
+    }
+
+    main div.contenedor-img {
+        /* width: 79px; */
+    }
+
+    main div.contenedor-img img {
+        width: 220px;
+        /* border-radius: 22px; */
+        height: 103px;
+        margin-left: 0px;
+    }
+
+    main div.contenedor-descrip {}
+
+    main div.third-div p.name-pizza {
+
+        padding-bottom: 10px;
+
+        font-size: 15px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
+
+    }
+
+    main div.third-div p.description {
+        font-size: 12px;
+
+        font-weight: bold;
+
+        font-family: var(--comic);
+
+    }
+
+    main div.third-div p.price {
+
+        background-color: var(--registro-bar);
+
+        width: 60px;
+
+        font-size: 14px;
+
+        padding-left: 6px;
+
+        padding-top: 3px;
+
+        padding-bottom: 2px;
+
+        position: relative;
+
+        top: -9px;
+    }
+
+    /* CUARTO-DIV */
+    main div.contenedor-div-cuarto {
+        position: relative;
+        top: -371px;
+    }
+
+    main div.head {}
+
+    main div.fourth-div {}
+
+    main div.fourth-div p.horary {
+        width: 115px;
+    }
+
+    main div.fourth-div p.open {
+        width: 47px;
+        position: relative;
+        top: -15px;
+        left: 161px;
+    }
+
+    main div.fourth-div p.text {}
+
+    main div.fourth-div i.fa-solid.fa-bag-shopping {}
+
+    main div.fourth-div i.fa-solid.fa-arrow-pointer {}
+
+    main div.fourth-div a.adress {}
+
+    main div.head img {
+        position: relative;
+        left: 68px;
+    }
+
+    main div.foot {}
+
+    main div.foot i.fa-solid.fa-basket-shopping {}
+
+    main div.foot a {}
+
+    /* QUINTO-DIV */
+    main div.fifth-div {
+
+        /* display: flex; */
+
+        flex-direction: row-reverse;
+
+        background-color: var(--crudo);
+
+        padding: 10px;
+
+        width: 201px;
+
+        height: 210px;
+
+    }
+
+    main div.contenedor-img-fifth {
+        /* width: 79px; */
+    }
+
+    main div.contenedor-img-fifth img {
+        width: 221px;
+        /* border-radius: 22px; */
+        height: 103px;
+        margin-left: 0px;
+    }
+
+    main div.contenedor-descrip-fifth {}
+
+    main div.fifth-div p.name-pizza-fifth {
+
+        padding-bottom: 10px;
+
+        font-size: 15px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
+
+    }
+
+    main div.fifth-div p.description-fifth {
+        font-size: 12px;
+
+        font-weight: bold;
+
+        font-family: var(--comic);
+
+    }
+
+    main div.fifth-div p.price-fifth {
+
+        background-color: var(--registro-bar);
+
+        width: 60px;
+
+        font-size: 14px;
+
+        padding-left: 6px;
+
+        padding-top: 3px;
+
+        padding-bottom: 2px;
+
+        /* position: relative; */
+
+        /* top: 17px; */
+    }
+
+    /* SEXTO-DIV */
+
+    main div.sixth-div {
+
+        /* display: flex; */
+
+        flex-direction: row-reverse;
+
+        background-color: var(--crudo);
+
+        padding: 10px;
+
+        width: 200px;
+
+        height: 210px;
+
+    }
+
+    main div.contenedor-img-sixth {
+        /* width: 79px; */
+    }
+
+    main div.contenedor-img-sixth img {
+        width: 220px;
+        /* border-radius: 22px; */
+        height: 103px;
+        /* margin-left: 0px; */
+    }
+
+    main div.contenedor-descrip-sixth {}
+
+    main div.sixth-div p.name-pizza-sixth {
+
+        padding-bottom: 10px;
+
+        font-size: 15px;
+
+        font-family: var(--comic);
+
+        font-weight: bold;
+
+    }
+
+    main div.fifth-div p.description-sixth {
+        font-size: 12px;
+
+        font-weight: bold;
+
+        font-family: var(--comic);
+
+    }
+
+    main div.fifth-div p.price-sixth {
+
+        background-color: var(--registro-bar);
+
+        width: 60px;
+
+        font-size: 14px;
+
+        padding-left: 6px;
+
+        padding-top: 3px;
+
+        padding-bottom: 2px;
+
+        position: relative;
+
         top: 17px;
-            }
+    }
+
     /* ÍCONOS */
 
-    main div.icons-div{
+    main div.icons-div {
 
-display: flex;
+        display: flex;
 
-justify-content: space-around;
+        justify-content: space-around;
 
-/* color: var(--negrocla); */
+        /* color: var(--negrocla); */
 
-background-color: var(--barro);
+        background-color: var(--barro);
 
-height: 70px;
+        height: 70px;
 
-align-items: center;
+        align-items: center;
 
-display: none;
-}
-    main div.icons-div i.fa-solid.fa-right-from-bracket{
+        display: none;
+    }
 
-position: relative;
+    main div.icons-div i.fa-solid.fa-right-from-bracket {
 
-top: -18px;
+        position: relative;
 
-left: 9px;
+        top: -18px;
 
-color: var(--green);
+        left: 9px;
+
+        color: var(--green);
 
 
 
-transform: rotateY(170deg);
+        transform: rotateY(170deg);
 
-/* transform: rotateY(170deg); No encontré este ícono a la izquierda en font icons,
+        /* transform: rotateY(170deg); No encontré este ícono a la izquierda en font icons,
  pero sí estaba disponible el mismo, pero a la derecha.
  Lo importé y se me ocurrió que podría girarlo, 
  investigué para saber si existía alguna propiedad en CSS, que me permitiera hacerlo. */
 
 
 
-/* border: solid; */
+        /* border: solid; */
 
-/* -webkit-text-stroke: wheat; */
+        /* -webkit-text-stroke: wheat; */
 
-/* -webkit-text-stroke: beige; */
-}
-    main div.icons-div p.out{
+        /* -webkit-text-stroke: beige; */
+    }
 
-position: relative;
+    main div.icons-div p.out {
 
-right: 60px;
+        position: relative;
 
-/* border: var(--blanco) solid; */
+        right: 60px;
 
-/* box-shadow: 0px 0px 10px; */
+        /* border: var(--blanco) solid; */
 
-/* text-shadow: 0px 0px 24px white; */
+        /* box-shadow: 0px 0px 10px; */
 
-}
-    main div.icons-div i.fa-solid.fa-basket-shopping{
-
-position: relative;
-
-top: -19px;
-
-left: 90px;
-
-color: var(--green);
-}
-    main div.icons-div p.order{
+        /* text-shadow: 0px 0px 24px white; */
 
     }
+
+    main div.icons-div i.fa-solid.fa-basket-shopping {
+
+        position: relative;
+
+        top: -19px;
+
+        left: 90px;
+
+        color: var(--green);
+    }
+
+    main div.icons-div p.order {}
 
     /* Footer */
-    footer{
-        
-background-color: var(--rojo);
-        
-display: flex;
-        
-height: 40px;
-        
-flex-direction: column;
-        
-align-items: center;
-        
-/* width: 123px; */
+    footer {
+
+        background-color: var(--rojo);
+
+        display: flex;
+
+        height: 40px;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        /* width: 123px; */
     }
-    footer p.conditions{
-        
-/* font-size: 11px; */
+
+    footer p.conditions {
+
+        /* font-size: 11px; */
     }
-    footer p.conditions a{
-       
-color: var(--blanco);
-       
-text-decoration: underline;
-       
-font-size: 15px;
-    }
+
+    footer p.conditions a {
+
+        color: var(--blanco);
+
+        text-decoration: underline;
+
+        font-size: 15px;
+    }
 
 }

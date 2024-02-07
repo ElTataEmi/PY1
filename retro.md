@@ -4,3 +4,6 @@ Creo que debí ponerle más empeño al diseño de mi wireframe. La estética no 
 Nada más que añadir.
 Aldana Nuñez
 
+La retrospectiva del proyecto revela una discrepancia significativa en la distribución de responsabilidades entre los miembros del equipo. A pesar de ser un equipo de cinco personas, solo dos demostraron un compromiso adecuado y asumieron la mayoría de las tareas. Esta falta de responsabilidad por parte de los otros miembros afectó negativamente la eficiencia y calidad del proyecto. En el futuro, es crucial abordar esta desigualdad en la carga de trabajo y fomentar una cultura de colaboración y compromiso equitativo dentro del equipo para garantizar el éxito de los proyectos.
+Andres Flores
+
