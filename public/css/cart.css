@@ -645,24 +645,15 @@ top: -10px;
     /* ÍCONOS */
       
 main div.icons-div{
-
-display: flex;
-      
-justify-content: space-around;
-      
-/* color: var(--negrocla); */
-      
-background-color: var(--barro);
-      
-height: 70px;
-      
-align-items: center;
-      
-padding: 10px;
-      
-position: relative;
-      
-top: -20px;
+display: flex;
+justify-content: space-around;
+/* color: var(--negrocla); */
+background-color: var(--barro);
+height: 70px;
+align-items: center;
+padding: 10px;
+position: relative;
+top: -20px;
 }
       
 main div.icons-div i.fa-solid.fa-right-from-bracket{
