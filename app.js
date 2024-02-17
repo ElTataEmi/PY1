@@ -29,6 +29,9 @@ app.get("/cart", (req, res) => {
 app.get("/product", (req, res) => {
     res.sendFile(path.join(__dirname,'./views/productDetail.html'))
 })
+app.get("/edit", (req, res) => {
+    res.sendFile(path.join(__dirname,'./views/edit-product.html'))
+})
 
 app.listen(port, () => console.log(`http://localhost:${port}`))
 

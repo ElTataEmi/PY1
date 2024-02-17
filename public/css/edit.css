@@ -1,0 +1,23 @@
+.body-edit {
+    background-color: var(--gris);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.body-edit h1 {
+    font-size: 33px;
+}
+.body-edit form{
+    flex-flow: column;
+    display: flex;
+    align-items: center;
+}
+.form-edit div {
+    /* display: inline; */
+    text-align: center;
+    margin-top: 14%;
+}
+.form-edit div  label{}
+.form-edit div  input{}
+.form-edit div  textarea{}
+.form-edit div  button{}
