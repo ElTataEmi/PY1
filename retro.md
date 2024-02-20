@@ -4,3 +4,45 @@ Creo que debí ponerle más empeño al diseño de mi wireframe. La estética no 
 Nada más que añadir.
 Aldana Nuñez
 
+La retrospectiva del proyecto revela una discrepancia significativa en la distribución de responsabilidades entre los miembros del equipo. A pesar de ser un equipo de cinco personas, solo dos demostraron un compromiso adecuado y asumieron la mayoría de las tareas. Esta falta de responsabilidad por parte de los otros miembros afectó negativamente la eficiencia y calidad del proyecto. En el futuro, es crucial abordar esta desigualdad en la carga de trabajo y fomentar una cultura de colaboración y compromiso equitativo dentro del equipo para garantizar el éxito de los proyectos.
+Andres Flores
+
+
+Con respecto a mi retrospectiva, voy a hacer incapie en la falta de comunicacion, falta de seguimiento, y aclarar que por mi parte fomente el seguimiento, fomente la comunicacion e inicio del segundo Sprint, estuve toda la primer semana intentado juntar a todo el equipo y no obtuve respuesta, recien encontre interes en el proyecto por parte del equipo la segunda semana.
+Un usuario se bajo del proyecto a mediados de la segunda semana sin dar el correspondiente aviso. 
+Recien el jueves de la segunda semana encontre que el equipo intento comunicarse, reorganizamos la distribucion de tareas. Tampoco se respetaron las mismas.
+Terminamos la madrugada del lunes mergeando y corrigiendo los conflictos, que se puediron haber evitado con el seguimiento correspondiente. 
+Espero que en el proximo Spint, se aplique mas el sentido comun, la cooperatividad, la empatia en los tiempos de los colegas y por sobre todo la VALORACION DEL TIEMPO DE TRABAJO SOBRE EL PROYECTO.
+Emiliano Barrios
+ 
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Sprint 3
+
+
+Me falto un poco mas de participacion. 
+Me falto darle cariño al Home
+Me comprometo a estar estar un poco mas activo con mi equipo
+
+Jose Rodriguez
+
+
+Para mi falto colaboracion de parte de algunos compañeros
+Siento que se pudo haber mejorado el desempeño de los mismos
+
+Andres Flores
+
+
+Mala organizacion de mis tiempos.
+Deberia comunicarme mas con mi grupo de Whatsapp, sobre mis inconvenientes y como voy con el avance del proyecto.
+Deberia deterneme con la Procastinacion, ya que deje para ultimo momento mis tareas.
+
+Aldana nuñez
+
+
+Siento que tome muy personal el proyecto.
+Deberia dedicarme solamente a mi Issues.
+
+Emiliano Barrios

@@ -71,7 +71,8 @@
 
     .headerPrincipal {
     background: var(--rojo);
-    height: 124px;
+    height: 100%;
+    width: 100%;
     position: relative;
     /* width: auto; */
 }

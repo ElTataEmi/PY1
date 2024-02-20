@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- Head -->
+<%- include('./partials/head') %>
+
+<body>
+
+
+   <!-- Header -->
+   <%- include('./partials/header') %>
+
+    <main class="main-register">
+
+        <form class="form-register">
+            <div class="conteiner-x">
+                <a href="/"><i class="fa-solid fa-xmark"></i></a>
+            </div>
+            <div class="conteiner-t-r">
+                <h4>CREA TU CUENTA</h4>
+            </div>
+            <div class="conteiner-form">
+                <div>
+                
+                    <input type="text" placeholder="Name" id="nombre">
+                </div>
+                <div>
+                    
+                    <input type="text" placeholder="Email" id="email">
+                </div>
+                
+                <div>
+                    
+                    <input type="password" placeholder="password" id="password">
+                </div>
+
+                <div>
+                    
+                    <input type="password" placeholder="confirm your password" id="confirm">
+                </div>
+                <div>
+                    
+                    <input type="number" placeholder="Numero de Tel." id="num">
+                </div>
+                <div>
+                    
+                    <input type="text" placeholder="direction" id="direction">
+                </div>
+            </div>
+            <div class="container-butons">
+                <button type="submit">Crear Cuenta</button>
+                
+            </div>
+            <div class="c-register">
+                <h3>¿ya tienes una cuenta?/</h3><a href="/login">Ingresa</a>
+            </div>
+        </form>
+
+           
+
+    </main>
+
+
+    <!-- Footer -->
+<%- include('./partials/footer') %>
+</body>
+
+</html>

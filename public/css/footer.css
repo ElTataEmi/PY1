@@ -143,19 +143,19 @@
 
     .footer {
 
-        background: var(--rojo);
+background: var(--rojo);
 
-        height: 189px;
+height: 120px;
 
-        display: flex;
+display: flex;
 
-        flex-direction: column;
+flex-direction: column;
 
-        justify-content: center;
+justify-content: center;
 
-        align-items: center;
+align-items: center;
 
-    }
+}
 
     .footer .info-footer {}
 
@@ -164,6 +164,7 @@
     .footer .info-footer .conteiner-phone {
         display: flex;
         justify-content: center;
+        display: none;
     }
 
     .conteiner-phone i {
@@ -174,20 +175,35 @@
 
     .conteiner-phone a {
 
-        padding-top: 21px;
+padding-top: 21px;
 
-        margin-right: 52px;
-    }
+margin-right: 52px;
+
+position: absolute;
+
+}
 
 
     .direction-f {
-        display: none;
+    /* position: relative; */
+    /* margin-block-start: 0px; */
+    position: absolute;
+    left: 8%;
+    padding: 13px;
+    border: solid var(--blanco);
+    border-radius: 13px;
+    font-size: 15px;
+    color: var(--blanco);
+    top: 9px;
     }
 
     .conteiner-location {
         display: flex;
-        justify-content: center;
-        padding-bottom: 22px;
+        padding-bottom: 21px;
+        position: absolute;
+        left: 24px;
+        top: 55px;
+        font-size: 17px;
     }
 
     .conteiner-location i {
@@ -200,16 +216,29 @@
         display: inline-block;
         padding-top: 21px;
         margin-right: 48px;
+        font-size: 17px;
+        font-family: var(--poppins);
     }
 
     .conteiner-location h2 {}
 
     .Redes {
-        display: none;
+    position: absolute;
+    left: 83%;
+    padding: 13px;
+    border: solid var(--blanco);
+    border-radius: 13px;
+    font-size: 15px;
+    color: var(--blanco);
+    top: 9px;
     }
 
     .conteiner-iconos {
         padding-bottom: 11px;
+        display: flex;
+        position: absolute;
+        left: 80%;
+        margin-top: 17px;
     }
 
     .conteiner-iconos a {}
@@ -217,13 +246,27 @@
 
 
     .contenedor-copy h2 {
-        display: none;
+    position: absolute;
+    /* justify-content: center; */
+    display: flex;
+    /* top: 25px; */
+    position: absolute;
+    left: 46%;
+    padding: 13px;
+    border: solid var(--blanco);
+    border-radius: 13px;
+    font-size: 15px;
+    color: var(--blanco);
+    top: 9px;
     }
 
     .contenedor-copy p {
-        display: flex;
         font-size: 10px;
-        margin-left: -40px;
+        position: absolute;
+        top: 95px;
+        left: 36%;
+        font-family: var(--poppins);
+        font-size: 9px;
     }
 
 }
