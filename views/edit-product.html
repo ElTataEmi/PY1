@@ -8,28 +8,103 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 
-<body class="body-edit">
-    <h1>Editar producto</h1>
+<body>
 
-    <form action="" class="form-edit">
-        <div>
-            <label for="new-p">Nombre De La Pizza:</label>
-            <input type="text" id="new-p" name="new-p" placeholder="Ingrese Nuevo Producto" required> 
-        </div>
-        <div>
-            <label for="Price">Precio De La Pizza:</label>
-            <input type="number" id="Price" name="Price" placeholder="Precio De su Producto">
+
+    <header class="headerPrincipal">
+
+
+        <a href="/"> <img src="./design/icons/logo.png" alt="logo pizza"></a>
+        <h5>LA PIZZA QUE TE GUSTA</h5>
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
         </div>
 
-        <div>
-            <label for="Description-P">Descripcion De La Pizza:</label>
-            <textarea name="Description-P" id="Description-P" ></textarea>
+        <nav class="opcionPrincipal">
+            <ul>
+                <li class="opcion"><a href="">Inicio</a></li>
+                <li class="opcion1"><a href="">Menu</a></li>
+                <li class="opcion2"><a href="">Sucursales</a></li>
+                <li class="opcion3"><a href="">Registrate</a></li>
+            </ul>
+        </nav>
+
+
+
+    </header>
+
+    <main class="main-form">
+        <div class="div-padre">
+            <div>
+                <h1 class="titulo">Editar producto</h1>
+            </div>
+            <form class="form">
+                <div class="edit-title">
+                    <input type="text" id="title" name="titulo" placeholder="Editar titulo">
+                </div>
+                <div class="edit-price">
+                    <input type="text" id="price" name="precio" placeholder="Editar precio">
+                </div>
+                <div class="edit-category">
+                    <input type="text" id="category" name="categoria" placeholder="Editar categoria">
+                </div>
+                <div class="edit-description">
+                    <input type="text" id="description" name="descripcion" placeholder="Editar descripcion">
+                </div>
+                <div class="edit-image">
+                    <label class="label-titulo" for="image">Editar imagen del producto</label>
+                    <br>
+                    <input type="file" id="image" name="imagen" >
+                </div>
+                <div class="button">
+                    <button type="submit" id="button" name="boton">Guardar cambios</button>
+                </div>
+            </form>
         </div>
-        <div>
-            <button type="reset">Borrar Todo</button>
-            <button type="submit">Guardar Cambios</button>
-        </div>
-    </form>
+    </main>
+   
+    <footer class="footer">
+
+        <nav class="info-footer">
+
+            <ul>
+
+                <div class="conteiner-phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel">+54 9 388 4636451</a>
+                </div>
+
+                <h2 class="direction-f">Direccion</h2>
+
+                <div class="conteiner-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>AV. Cabildo 230 (c.a.b.a)</h3>
+                </div>
+
+                <h2 class="Redes">Nuestras Redes</h2>
+
+                <div class="conteiner-iconos">
+                    <a href="http://www.facebook.com.ar"><img src="/design/icons/face.png" alt="Facebook"></a>
+                    <a href="http://www.instagram.com.ar"><img src="/design/icons/insta.png" alt="Instagram"></a>
+                    <a href="http://www.pinteres.com.ar"><img src="/design/icons/pint.png" alt="Pinteres"></a>
+                    <a href="http://www.youtube.com.ar"><img src="/design/icons/youtu.png" alt="Youtube"></a>
+                    <a href="http://www.whatsapp.com.ar"><img src="/design/icons/what.png" alt="whatsapp"></a>
+
+
+
+                </div>
+
+                <div class="contenedor-copy">
+                    <h2 class="sobre-nos">Sobre Nosotros</h2>
+                    <p>copyrigth 2023 |Todos los Derechos Reservados |Desarrollado por grupo 10</p>
+                </div>
+
+            </ul>
+
+        </nav>
+
+    </footer>
 </body>
+
 
 </html>
