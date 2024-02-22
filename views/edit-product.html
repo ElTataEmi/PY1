@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Formulario De Edicion De Producto</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
@@ -34,35 +35,38 @@
     </header>
 
     <main class="main-form">
-        <div class="div-padre">
+
+        <form class="form-edit">
+            <div class="conteiner-x-edit">
+                <a href="/"><i class="fa-solid fa-xmark"></i></a>
+            </div>
             <div>
                 <h1 class="titulo">Editar producto</h1>
             </div>
-            <form class="form">
-                <div class="edit-title">
-                    <input type="text" id="title" name="titulo" placeholder="Editar titulo">
-                </div>
-                <div class="edit-price">
-                    <input type="text" id="price" name="precio" placeholder="Editar precio">
-                </div>
-                <div class="edit-category">
-                    <input type="text" id="category" name="categoria" placeholder="Editar categoria">
-                </div>
-                <div class="edit-description">
-                    <input type="text" id="description" name="descripcion" placeholder="Editar descripcion">
-                </div>
-                <div class="edit-image">
-                    <label class="label-titulo" for="image">Editar imagen del producto</label>
-                    <br>
-                    <input type="file" id="image" name="imagen" >
-                </div>
-                <div class="button">
-                    <button type="submit" id="button" name="boton">Guardar cambios</button>
-                </div>
-            </form>
-        </div>
+            <div class="edit-title">
+                <input type="text" id="title" name="titulo" placeholder="Editar titulo">
+            </div>
+            <div class="edit-price">
+                <input type="text" id="price" name="precio" placeholder="Editar precio">
+            </div>
+            <div class="edit-category">
+                <input type="text" id="category" name="categoria" placeholder="Editar categoria">
+            </div>
+            <div class="edit-description">
+                <input type="text" id="description" name="descripcion" placeholder="Editar descripcion">
+            </div>
+            <div class="edit-image">
+                <label class="label-titulo" for="image">Editar imagen del producto</label>
+                <br>
+                <input type="file" id="image" name="imagen">
+            </div>
+            <div class="button">
+                <button type="submit" id="button" name="boton">Guardar cambios</button>
+            </div>
+        </form>
+
     </main>
-   
+
     <footer class="footer">
 
         <nav class="info-footer">
