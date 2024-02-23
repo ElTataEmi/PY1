@@ -14,6 +14,4 @@ router.get('/registro', authController.register);
 
 
 
-
-
 module.exports = router;
