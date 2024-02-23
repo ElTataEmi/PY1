@@ -123,17 +123,20 @@
         padding: 5px 10px;
         display: block;
         margin-top: 13px;
-        
+
     }
+
     .main-register .c-register {
-    display: flex;
+        display: flex;
+    }
+
+    .main-register .c-register h3 {}
+
+    .main-register .c-register a {
+        color: var(--blanco);
+    }
 }
-.main-register .c-register  h3{}
-.main-register .c-register a {
-    color: var(--blanco);
-}
-}
-    
+
 
 
 @media screen and (min-width: 361px) {
@@ -154,28 +157,28 @@
 
     .main-register .form-register {
 
-align-items: center;
+        align-items: center;
 
-flex-direction: column;
+        flex-direction: column;
 
-display: flex;
+        display: flex;
 
-border: solid 5px #364f5d;
+        border: solid 5px #364f5d;
 
-border-radius: 10px;
+        border-radius: 10px;
 
-/* border-right: inset; */
+        /* border-right: inset; */
 
-background-color: #364f5d;
+        background-color: #364f5d;
 
-margin: 0 auto;
+        margin: 0 auto;
 
-padding: 10px;
+        padding: 10px;
 
-position: relative;
+        position: relative;
 
-width: 691.22px;
-}
+        width: 691.22px;
+    }
 
     .conteiner-t-r {
         /* padding-bottom: 0px; */
@@ -195,16 +198,16 @@ width: 691.22px;
 
     .main-register .form-register div {
 
-margin: 10px;
+        margin: 10px;
 
-padding-bottom: 13px;
+        padding-bottom: 13px;
 
-display: flex;
+        display: flex;
 
-flex-wrap: wrap;
+        flex-wrap: wrap;
 
-justify-content: space-evenly;
-}
+        justify-content: space-evenly;
+    }
 
     .main-register .conteiner-form {
         /* display: flex; */
@@ -216,14 +219,12 @@ justify-content: space-evenly;
 
 
 
-.main-register .form-register .form-register div {}
+    .main-register .form-register .form-register div {}
 
-.main-register .form-register .form-register div h4 {
-    color: #dfceb6;
+    .main-register .form-register .form-register div h4 {
+        color: #dfceb6;
 
-}
-
-
+    }
 
 
 
@@ -231,45 +232,50 @@ justify-content: space-evenly;
 
 
 
-.main-register .form-register input {
-
-    border-radius: 10px;
-
-    border: none;
-
-    padding: 10px;
-}
-
-.form-register .conteiner-x {
-    right: 7px;
-    display: inline-block;
-    position: absolute;
-    top: 0px;
-}
-
-.form-register .conteiner-x i {
-    color: black;
-}
 
 
+    .main-register .form-register input {
 
-.container-butons {
-    display: flex;
-    flex-direction: column;
-}
+        border-radius: 10px;
 
-.container-butons button {
-    background-color: var(--verde);
-    border-radius: 35px;
-    /* border: dashed; */
-    padding: 5px 10px;
-    display: block;
-    margin-top: 13px;
-    
-}
-.main-register .c-register {}
-.main-register .c-register  h3{}
-.main-register .c-register a {
-    color: var(--blanco);
-}
+        border: none;
+
+        padding: 10px;
+    }
+
+    .form-register .conteiner-x {
+        right: 7px;
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+    }
+
+    .form-register .conteiner-x i {
+        color: black;
+    }
+
+
+
+    .container-butons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-butons button {
+        background-color: var(--verde);
+        border-radius: 35px;
+        /* border: dashed; */
+        padding: 5px 10px;
+        display: block;
+        margin-top: 13px;
+
+    }
+
+    .main-register .c-register {}
+
+    .main-register .c-register h3 {}
+
+    .main-register .c-register a {
+        color: var(--blanco);
+    }
 }
