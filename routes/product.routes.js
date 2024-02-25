@@ -4,6 +4,11 @@ const prodController = require('../controllers/product')
 
 router.get('/', prodController.product);
 
+// Redirección desde '/product' a '/'
+router.get('/product',(req,res) => res.redirect('http://localhost:3030/producto'))
+
+
+
 
 
 

@@ -23,7 +23,7 @@ const prodRoutes = require('./routes/product.routes');
 
 // ROUTERS
 app.use('/', otherRoutes);
-app.use('/autenticacion', authRoutes);
+app.use('/aut', authRoutes);
 app.use('/producto', prodRoutes);
 app.use('/carrito', cartRoutes);
 
