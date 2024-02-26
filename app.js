@@ -26,6 +26,7 @@ app.use('/', otherRoutes);
 app.use('/aut', authRoutes);
 app.use('/producto', prodRoutes);
 app.use('/carrito', cartRoutes);
+app.use ("/edit-Product",otherRoutes);
 
 
 app.listen(port, () => console.log(`http://localhost:${port}`))
