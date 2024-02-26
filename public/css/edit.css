@@ -115,7 +115,7 @@
 @media  (min-width: 361px){
     .main-form {
         background-color: var(--gris);
-        padding: 12%;
+        padding: 9%;
     }
     
     .main-form form {}
