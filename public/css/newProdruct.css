@@ -75,7 +75,6 @@
 
  .new-description input {}
 
-/imagen/
 .form-new .new-image {
     /* background-color: var(--azul); */
 }
@@ -95,7 +94,6 @@
 
 
 
-/boton/
 
 
 .form-new .button {
@@ -113,14 +111,14 @@
 /dispositivos superiores/
 
 @media  (min-width: 361px){
-    .main-form {
+    .main-form-n {
         background-color: var(--gris);
         padding: 12%;
     }
 
-    .main-form-n {}
+    .main-form- .form-n {}
 
-    .main-form-n .form-new {
+    .main-form .form- {
         justify-content: center;
         display: flex;
         flex-direction: column;
@@ -131,19 +129,19 @@
         box-shadow: 0px 0px 8px black;
     }
 
-    .form-new div {
+    .form-edit div {
         text-align: center;
         margin: 9px;
         width: 60%;
         /* border-bottom: var(--grisBoton) solid; */
     }
-    .form-new div input{
+    .form-edit div input{
         border-radius: 6px;
         width: 102%;
         padding: 4px;
         background-color: var(--gris);
     }
-    .form-new .conteiner-x-edit{
+    .form-edit .conteiner-x-edit{
         right: 0px;
         display: inline-block;
         position: absolute;
@@ -154,8 +152,8 @@
      position: relative;
      left: 47%;
      }
-    /titulo/
-    .form-new .titulo {
+    /*titulo*/
+    .form-edit .titulo {
         margin: 8px;
         border-bottom: solid;
         color: var(--gris);
@@ -164,54 +162,54 @@
 
 
 
-    .form-new .new-title {}
+    .form-edit .edit-title {}
 
 
 
-    /precio/
+    /*precio*/
 
-    .form-new .new-price {}
+    .form-edit .edit-price {}
 
-    .form-new .new-price input {}
+    .form-edit .edit-price input {}
 
 
 
-    /category/
+    /*category*/
 
-    .form-new .new-category {
+    .form-edit .edit-category {
     width: 32%;
     position: absolute;
     bottom: 15%;
     right: 48%;
 }
 
-.new-category label {
+.edit-category label {
     color: var(--gris);
 }
-.new-category option {
+.edit-category option {
 }
 
 
 
-    /descripcion/
+    /*descripcion*/
 
-    .form-new .new-description {}
+    .form-edit .edit-description {}
 
-     .new-description input {}
+     .edit-description input {}
 
-    /imagen/
-    .form-new .new-image {
+    /*imagen*/
+    .form-edit .edit-image {
         /* background-color: var(--azul); */
         width: 38%;
         position: relative;
         left: 20%;
     }
 
-    .form-new .new-image label {
+    .form-edit .edit-image label {
     color: var(--gris);
 }
 
-    .form-new .new-image input {
+    .form-edit .edit-image input {
         width: 161px;
         background-color: var(--gri);
     }
@@ -222,18 +220,19 @@
 
 
 
-    /boton/
+    /*boton*/
 
 
-    .form-new .button {
+    .form-edit .button {
     }
 
-    .form-new .button button {
+    .form-edit .button button {
         background-color: var(--verde);
         border-radius: 9px;
         border: none;
         transition: 0.1s;
     }
-    .form-new .button button:hover{
+    .form-edit .button button:hover{
         box-shadow:0px 0px 8px rgb(18, 16, 16) ; 
     }
+}
