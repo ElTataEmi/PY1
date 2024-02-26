@@ -39,7 +39,7 @@ Mala organizacion de mis tiempos.
 Deberia comunicarme mas con mi grupo de Whatsapp, sobre mis inconvenientes y como voy con el avance del proyecto.
 Deberia deterneme con la Procastinacion, ya que deje para ultimo momento mis tareas.
 
-Aldana nuñez
+Aldana Nuñez
 
 
 Siento que tome muy personal el proyecto.
