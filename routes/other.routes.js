@@ -12,7 +12,7 @@ router.get('/home',(req,res) => res.redirect('/'));
 // Editar y crear producto
 
 router.get ("/edit-Product",admin.edit);
-router.get ("/edit-Product",admin.create);
+router.get ("/new-Product",admin.create);
 
 
 
