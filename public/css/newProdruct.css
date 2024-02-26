@@ -1,0 +1,239 @@
+.main-form-n {
+    background-color: var(--gris);
+    padding: 12%;
+}
+
+.main-form-n .form-new {}
+
+.main-form-n .form-new {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--gri);
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px black;
+}
+
+.form-new div {
+    text-align: center;
+    margin: 9px;
+    /* border-bottom: var(--grisBoton) solid; */
+}
+.form-new div input{
+    border-radius: 6px;
+    padding: 4px;
+    background-color: var(--gris);
+}
+.form-new.conteiner-x-edit{
+    right: 0px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+}
+ .conteiner-x-edit i{
+ color: black;}
+
+.form-new .titulo {
+    margin: 8px;
+    color: var(--gris);
+    border-bottom: solid;
+}
+
+
+
+
+.form-new .new-title {}
+
+
+
+/precio/
+
+.form-new .new-price {}
+
+.form-new .new-price input {}
+
+
+
+/category/
+
+.form-new .new-category {}
+
+.edit-category label {
+    color: var(--gris);
+}
+.new-category option {
+}
+
+
+
+
+/descripcion/
+
+.form-new .new-description {}
+
+ .new-description input {}
+
+/imagen/
+.form-new .new-image {
+    /* background-color: var(--azul); */
+}
+
+.form-new .new-image label {
+    color: var(--gris);
+}
+
+.form-new .new-image input {
+    width: 71%;
+    background-color: var(--gri);
+}
+
+
+
+
+
+
+
+/boton/
+
+
+.form-new .button {
+}
+
+.form-new .button button {
+    background-color: var(--verde);
+    border-radius: 9px;
+    border: none;
+    transition: 0.1s;
+}
+
+
+
+/dispositivos superiores/
+
+@media  (min-width: 361px){
+    .main-form {
+        background-color: var(--gris);
+        padding: 12%;
+    }
+
+    .main-form-n {}
+
+    .main-form-n .form-new {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--gri);
+        position: relative;
+        /* flex-wrap: wrap; */
+        box-shadow: 0px 0px 8px black;
+    }
+
+    .form-new div {
+        text-align: center;
+        margin: 9px;
+        width: 60%;
+        /* border-bottom: var(--grisBoton) solid; */
+    }
+    .form-new div input{
+        border-radius: 6px;
+        width: 102%;
+        padding: 4px;
+        background-color: var(--gris);
+    }
+    .form-new .conteiner-x-edit{
+        right: 0px;
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+    }
+     .conteiner-x-edit i{
+     color: black;
+     position: relative;
+     left: 47%;
+     }
+    /titulo/
+    .form-new .titulo {
+        margin: 8px;
+        border-bottom: solid;
+        color: var(--gris);
+    }
+
+
+
+
+    .form-new .new-title {}
+
+
+
+    /precio/
+
+    .form-new .new-price {}
+
+    .form-new .new-price input {}
+
+
+
+    /category/
+
+    .form-new .new-category {
+    width: 32%;
+    position: absolute;
+    bottom: 15%;
+    right: 48%;
+}
+
+.new-category label {
+    color: var(--gris);
+}
+.new-category option {
+}
+
+
+
+    /descripcion/
+
+    .form-new .new-description {}
+
+     .new-description input {}
+
+    /imagen/
+    .form-new .new-image {
+        /* background-color: var(--azul); */
+        width: 38%;
+        position: relative;
+        left: 20%;
+    }
+
+    .form-new .new-image label {
+    color: var(--gris);
+}
+
+    .form-new .new-image input {
+        width: 161px;
+        background-color: var(--gri);
+    }
+
+
+
+
+
+
+
+    /boton/
+
+
+    .form-new .button {
+    }
+
+    .form-new .button button {
+        background-color: var(--verde);
+        border-radius: 9px;
+        border: none;
+        transition: 0.1s;
+    }
+    .form-new .button button:hover{
+        box-shadow:0px 0px 8px rgb(18, 16, 16) ; 
+    }
