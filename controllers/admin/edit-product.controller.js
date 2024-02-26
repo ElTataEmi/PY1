@@ -1,3 +1,3 @@
-moduke.exports = (req,res)=>{
+module.exports = (req,res)=>{
 res.render("edit-product")
 }
